@@ -1,0 +1,613 @@
+{
+  "config": {
+    "configFile": "/Users/apekshafule/AI-Agent/playwright.config.ts",
+    "rootDir": "/Users/apekshafule/AI-Agent",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/apekshafule/AI-Agent/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/apekshafule/AI-Agent",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.2",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "output/tests/java-tutorial.spec.ts",
+      "file": "output/tests/java-tutorial.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Java Tutorial - AI Generated Tests",
+          "file": "output/tests/java-tutorial.spec.ts",
+          "line": 11,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC001: Verify page load and title",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6749,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-09T03:57:29.958Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f86095459c64605a2395-7f7d8cf0aa95d640b288",
+              "file": "output/tests/java-tutorial.spec.ts",
+              "line": 17,
+              "column": 7
+            },
+            {
+              "title": "TC002: Verify main navigation links",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 35492,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/Users/apekshafule/AI-Agent/output/tests/java-tutorial.spec.ts",
+                            "column": 16,
+                            "line": 29
+                          },
+                          "message": "TimeoutError: page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.tutorialspoint.com/java/index.htm\", waiting until \"load\"\u001b[22m\n\n\n  27 |   test('TC002: Verify main navigation links', async ({ page }) => {\n  28 |     // Tests that primary navigation links are clickable and functional\n> 29 |     await page.goto('https://www.tutorialspoint.com/java/index.htm');\n     |                ^\n  30 |     // Navigate to the Java tutorial page\n  31 |     // Locate the Home link\n  32 |     // Click on the Home link\n    at /Users/apekshafule/AI-Agent/output/tests/java-tutorial.spec.ts:29:16"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-09T03:57:37.444Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/apekshafule/AI-Agent/test-results/output-tests-java-tutorial-bc437-erify-main-navigation-links-chromium/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f86095459c64605a2395-8e627f3b10ae8dd10b53",
+              "file": "output/tests/java-tutorial.spec.ts",
+              "line": 27,
+              "column": 7
+            },
+            {
+              "title": "TC003: Test Categories button functionality",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6768,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-09T03:58:13.547Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f86095459c64605a2395-e3210017086d5f7dbb61",
+              "file": "output/tests/java-tutorial.spec.ts",
+              "line": 42,
+              "column": 7
+            },
+            {
+              "title": "TC004: Verify social media links",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 31048,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/Users/apekshafule/AI-Agent/output/tests/java-tutorial.spec.ts",
+                            "column": 18,
+                            "line": 63
+                          },
+                          "message": "Error: page.waitForLoadState: Test timeout of 30000ms exceeded.\n\n  61 |     if (await link.isVisible()) {\n  62 |       await link.click();\n> 63 |       await page.waitForLoadState('networkidle');\n     |                  ^\n  64 |       await expect(page).toHaveURL(/.+/);\n  65 |     }\n  66 |   });\n    at /Users/apekshafule/AI-Agent/output/tests/java-tutorial.spec.ts:63:18"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-09T03:58:20.724Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/apekshafule/AI-Agent/test-results/output-tests-java-tutorial-1217b-4-Verify-social-media-links-chromium/test-failed-2.png"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/apekshafule/AI-Agent/test-results/output-tests-java-tutorial-1217b-4-Verify-social-media-links-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/apekshafule/AI-Agent/test-results/output-tests-java-tutorial-1217b-4-Verify-social-media-links-chromium/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f86095459c64605a2395-a4b68efa60a873d439fb",
+              "file": "output/tests/java-tutorial.spec.ts",
+              "line": 53,
+              "column": 7
+            },
+            {
+              "title": "TC005: Test job search form submission",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 30598,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/Users/apekshafule/AI-Agent/output/tests/java-tutorial.spec.ts",
+                            "column": 20,
+                            "line": 91
+                          },
+                          "message": "Error: page.waitForLoadState: Test timeout of 30000ms exceeded.\n\n  89 |       if (await submitBtn.isVisible()) {\n  90 |         await submitBtn.click();\n> 91 |         await page.waitForLoadState('networkidle');\n     |                    ^\n  92 |       }\n  93 |     }\n  94 |   });\n    at /Users/apekshafule/AI-Agent/output/tests/java-tutorial.spec.ts:91:20"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-09T03:58:52.378Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/apekshafule/AI-Agent/test-results/output-tests-java-tutorial-39ce2--job-search-form-submission-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/apekshafule/AI-Agent/test-results/output-tests-java-tutorial-39ce2--job-search-form-submission-chromium/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f86095459c64605a2395-8f32c6e5a5165b82b546",
+              "file": "output/tests/java-tutorial.spec.ts",
+              "line": 68,
+              "column": 7
+            },
+            {
+              "title": "TC006: Verify all headings are visible",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 35739,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/Users/apekshafule/AI-Agent/output/tests/java-tutorial.spec.ts",
+                            "column": 16,
+                            "line": 98
+                          },
+                          "message": "TimeoutError: page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.tutorialspoint.com/java/index.htm\", waiting until \"load\"\u001b[22m\n\n\n   96 |   test('TC006: Verify all headings are visible', async ({ page }) => {\n   97 |     // Checks that key section headings are displayed correctly on the page\n>  98 |     await page.goto('https://www.tutorialspoint.com/java/index.htm');\n      |                ^\n   99 |     // Load the Java tutorial page\n  100 |     // Scroll through the page\n  101 |     // Verify 'Java Operators' heading is visible\n    at /Users/apekshafule/AI-Agent/output/tests/java-tutorial.spec.ts:98:16"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-09T03:59:24.044Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/apekshafule/AI-Agent/test-results/output-tests-java-tutorial-cd901-fy-all-headings-are-visible-chromium/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f86095459c64605a2395-43be1318087dc4a56ddb",
+              "file": "output/tests/java-tutorial.spec.ts",
+              "line": 96,
+              "column": 7
+            },
+            {
+              "title": "TC007: Test Show Answer button functionality",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 35693,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/Users/apekshafule/AI-Agent/output/tests/java-tutorial.spec.ts",
+                            "column": 16,
+                            "line": 109
+                          },
+                          "message": "TimeoutError: page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.tutorialspoint.com/java/index.htm\", waiting until \"load\"\u001b[22m\n\n\n  107 |   test('TC007: Test Show Answer button functionality', async ({ page }) => {\n  108 |     // Verifies that Show Answer button reveals quiz answer content\n> 109 |     await page.goto('https://www.tutorialspoint.com/java/index.htm');\n      |                ^\n  110 |     await expect(page).toHaveTitle(/.+/);\n  111 |     // Navigate to the quiz section\n  112 |     // Locate the Show Answer button\n    at /Users/apekshafule/AI-Agent/output/tests/java-tutorial.spec.ts:109:16"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-09T04:00:00.922Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/apekshafule/AI-Agent/test-results/output-tests-java-tutorial-c2897-Answer-button-functionality-chromium/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f86095459c64605a2395-4858bb877d9409b3a654",
+              "file": "output/tests/java-tutorial.spec.ts",
+              "line": 107,
+              "column": 7
+            },
+            {
+              "title": "TC008: Test Print Page functionality",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 35696,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/Users/apekshafule/AI-Agent/output/tests/java-tutorial.spec.ts",
+                            "column": 16,
+                            "line": 120
+                          },
+                          "message": "TimeoutError: page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.tutorialspoint.com/java/index.htm\", waiting until \"load\"\u001b[22m\n\n\n  118 |   test('TC008: Test Print Page functionality', async ({ page }) => {\n  119 |     // Validates that Print Page button triggers browser print dialog\n> 120 |     await page.goto('https://www.tutorialspoint.com/java/index.htm');\n      |                ^\n  121 |     await expect(page).toHaveTitle(/.+/);\n  122 |     // Load the Java tutorial page\n  123 |     // Locate Print Page button\n    at /Users/apekshafule/AI-Agent/output/tests/java-tutorial.spec.ts:120:16"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-09T04:00:37.806Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/apekshafule/AI-Agent/test-results/output-tests-java-tutorial-2f58e-st-Print-Page-functionality-chromium/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f86095459c64605a2395-c83fde1a9234634cd967",
+              "file": "output/tests/java-tutorial.spec.ts",
+              "line": 118,
+              "column": 7
+            },
+            {
+              "title": "TC009: Test invalid form submission",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 35709,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/Users/apekshafule/AI-Agent/output/tests/java-tutorial.spec.ts",
+                            "column": 16,
+                            "line": 131
+                          },
+                          "message": "TimeoutError: page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.tutorialspoint.com/java/index.htm\", waiting until \"load\"\u001b[22m\n\n\n  129 |   test('TC009: Test invalid form submission', async ({ page }) => {\n  130 |     // Tests form behavior with missing or invalid data\n> 131 |     await page.goto('https://www.tutorialspoint.com/java/index.htm');\n      |                ^\n  132 |     // Navigate to job search form\n  133 |     // Attempt to submit form without filling required fields\n  134 |     // Verify error handling\n    at /Users/apekshafule/AI-Agent/output/tests/java-tutorial.spec.ts:131:16"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-09T04:01:14.607Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/apekshafule/AI-Agent/test-results/output-tests-java-tutorial-7e831-est-invalid-form-submission-chromium/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f86095459c64605a2395-9df6b27a5e8af863235e",
+              "file": "output/tests/java-tutorial.spec.ts",
+              "line": 129,
+              "column": 7
+            },
+            {
+              "title": "TC010: Test external tool links",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 35765,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/Users/apekshafule/AI-Agent/output/tests/java-tutorial.spec.ts",
+                            "column": 16,
+                            "line": 146
+                          },
+                          "message": "TimeoutError: page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.tutorialspoint.com/java/index.htm\", waiting until \"load\"\u001b[22m\n\n\n  144 |   test('TC010: Test external tool links', async ({ page }) => {\n  145 |     // Verifies that external tool links like Online Compilers work correctly\n> 146 |     await page.goto('https://www.tutorialspoint.com/java/index.htm');\n      |                ^\n  147 |     // Navigate to the page\n  148 |     // Locate Online Compilers link\n  149 |     // Click the link\n    at /Users/apekshafule/AI-Agent/output/tests/java-tutorial.spec.ts:146:16"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-09T04:01:51.367Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/apekshafule/AI-Agent/test-results/output-tests-java-tutorial-7fa37-10-Test-external-tool-links-chromium/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f86095459c64605a2395-9429541deec101b83533",
+              "file": "output/tests/java-tutorial.spec.ts",
+              "line": 144,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-03-09T03:57:29.496Z",
+    "duration": 298241.64499999996,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 8,
+    "flaky": 0
+  }
+}

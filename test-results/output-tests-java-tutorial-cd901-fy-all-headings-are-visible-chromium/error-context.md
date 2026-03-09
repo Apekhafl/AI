@@ -1,0 +1,1601 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - link "Home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e8]: Home
+      - link "Whiteboard" [ref=e9] [cursor=pointer]:
+        - /url: /whiteboard.htm
+        - img [ref=e10]
+        - generic [ref=e12]: Whiteboard
+      - link "Graphing Calculator" [ref=e13] [cursor=pointer]:
+        - /url: /online_graphing_calculator.htm
+        - img [ref=e14]
+        - generic [ref=e16]: Graphing Calculator
+      - link "Online Compilers" [ref=e17] [cursor=pointer]:
+        - /url: /codingground.htm
+        - img [ref=e18]
+        - generic [ref=e20]: Online Compilers
+      - link "Articles" [ref=e21] [cursor=pointer]:
+        - /url: /articles/index.php
+        - img [ref=e22]
+        - generic [ref=e24]: Articles
+      - link "Tools" [ref=e25] [cursor=pointer]:
+        - /url: /online_dev_tools.htm
+        - img [ref=e26]
+        - generic [ref=e28]: Tools
+    - generic [ref=e29]:
+      - link "Facebook" [ref=e30] [cursor=pointer]:
+        - /url: https://www.facebook.com/tutorialspointindia
+        - img [ref=e31]
+      - link "X" [ref=e33] [cursor=pointer]:
+        - /url: https://x.com/tutorialspoint
+        - img [ref=e34]
+      - link "YouTube" [ref=e36] [cursor=pointer]:
+        - /url: https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg
+        - img [ref=e37]
+      - link "LinkedIn" [ref=e39] [cursor=pointer]:
+        - /url: https://www.linkedin.com/company/tutorialspoint/
+        - img [ref=e40]
+      - link "Instagram" [ref=e42] [cursor=pointer]:
+        - /url: https://www.instagram.com/tutorialspoint_/
+        - img [ref=e43]
+  - banner [ref=e45]:
+    - generic [ref=e46]:
+      - generic [ref=e47]:
+        - link "Tutorials point" [ref=e48] [cursor=pointer]:
+          - /url: https://www.tutorialspoint.com
+          - img [ref=e49]
+        - button "Categories" [ref=e68] [cursor=pointer]:
+          - img [ref=e69]
+          - generic [ref=e71]: Categories
+          - img [ref=e72]
+      - generic [ref=e74]:
+        - link "Tutorials" [ref=e75] [cursor=pointer]:
+          - /url: /tutorialslibrary.htm
+          - img [ref=e76]
+          - text: Tutorials
+        - link "Courses" [ref=e78] [cursor=pointer]:
+          - /url: https://market.tutorialspoint.com/index.asp
+          - img [ref=e79]
+          - text: Courses
+        - link "Jobs" [ref=e81] [cursor=pointer]:
+          - /url: /jobs/index.htm
+          - img [ref=e82]
+          - text: Jobs
+        - link "Login" [ref=e84] [cursor=pointer]:
+          - /url: https://market.tutorialspoint.com/login.jsp
+  - main [ref=e85]:
+    - generic [ref=e87]:
+      - generic [ref=e88]:
+        - img "Java Tutorial" [ref=e91]
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Java - Home" [ref=e94] [cursor=pointer]:
+              - /url: /java/index.htm
+          - listitem [ref=e95]:
+            - link "Java - Overview" [ref=e96] [cursor=pointer]:
+              - /url: /java/java_overview.htm
+          - listitem [ref=e97]:
+            - link "Java - History" [ref=e98] [cursor=pointer]:
+              - /url: /java/java-history.htm
+          - listitem [ref=e99]:
+            - link "Java - Features" [ref=e100] [cursor=pointer]:
+              - /url: /java/java-features.htm
+          - listitem [ref=e101]:
+            - link "Java Vs. C++" [ref=e102] [cursor=pointer]:
+              - /url: /java/java-vs-cpp.htm
+          - listitem [ref=e103]:
+            - link "JVM - Java Virtual Machine" [ref=e104] [cursor=pointer]:
+              - /url: /java/java_jvm.htm
+          - listitem [ref=e105]:
+            - link "Java - JDK vs JRE vs JVM" [ref=e106] [cursor=pointer]:
+              - /url: /java/java-jdk-jre-jvm.htm
+          - listitem [ref=e107]:
+            - link "Java - Environment Setup" [ref=e108] [cursor=pointer]:
+              - /url: /java/java_environment_setup.htm
+          - listitem [ref=e109]:
+            - link "Java - Hello World Program" [ref=e110] [cursor=pointer]:
+              - /url: /java/java_hello_world.htm
+          - listitem [ref=e111]:
+            - link "Java - Comments" [ref=e112] [cursor=pointer]:
+              - /url: /java/java_comments.htm
+          - listitem [ref=e113]:
+            - link "Java - Basic Syntax" [ref=e114] [cursor=pointer]:
+              - /url: /java/java_basic_syntax.htm
+          - listitem [ref=e115]:
+            - link "Java - Variables" [ref=e116] [cursor=pointer]:
+              - /url: /java/java_variable_types.htm
+          - listitem [ref=e117]:
+            - link "Java - Data Types" [ref=e118] [cursor=pointer]:
+              - /url: /java/java_basic_datatypes.htm
+          - listitem [ref=e119]:
+            - link "Java - Type Casting" [ref=e120] [cursor=pointer]:
+              - /url: /java/java_type_casting.htm
+          - listitem [ref=e121]:
+            - link "Java - Unicode System" [ref=e122] [cursor=pointer]:
+              - /url: /java/java_unicode_system.htm
+          - listitem [ref=e123]:
+            - link "Java - User Input" [ref=e124] [cursor=pointer]:
+              - /url: /java/java_user_input.htm
+          - listitem [ref=e125]:
+            - link "Java - Date & Time" [ref=e126] [cursor=pointer]:
+              - /url: /java/java_date_time.htm
+        - heading "Java Operators" [level=2] [ref=e127]
+        - list [ref=e128]:
+          - listitem [ref=e129]:
+            - link "Java - Operators" [ref=e130] [cursor=pointer]:
+              - /url: /java/java_basic_operators.htm
+          - listitem [ref=e131]:
+            - link "Java - Arithmetic Operators" [ref=e132] [cursor=pointer]:
+              - /url: /java/java_arithmatic_operators_examples.htm
+          - listitem [ref=e133]:
+            - link "Java - Assignment Operators" [ref=e134] [cursor=pointer]:
+              - /url: /java/java_assignment_operators_examples.htm
+          - listitem [ref=e135]:
+            - link "Java - Relational Operators" [ref=e136] [cursor=pointer]:
+              - /url: /java/java_relational_operators_examples.htm
+          - listitem [ref=e137]:
+            - link "Java - Logical Operators" [ref=e138] [cursor=pointer]:
+              - /url: /java/java_logical_operators_examples.htm
+          - listitem [ref=e139]:
+            - link "Java - Bitwise Operators" [ref=e140] [cursor=pointer]:
+              - /url: /java/java_bitwise_operators_examples.htm
+          - listitem [ref=e141]:
+            - link "Java Operator Precedence & Associativity" [ref=e142] [cursor=pointer]:
+              - /url: /java/java_operator_precedence_and_associativity.htm
+          - listitem [ref=e143]:
+            - link "Java - Unary Operators" [ref=e144] [cursor=pointer]:
+              - /url: /java/java_unary_operators.htm
+        - heading "Java Control Statements" [level=2] [ref=e145]
+        - list [ref=e146]:
+          - listitem [ref=e147]:
+            - link "Java - Decision Making" [ref=e148] [cursor=pointer]:
+              - /url: /java/java_decision_making.htm
+          - listitem [ref=e149]:
+            - link "Java - If Else Statement" [ref=e150] [cursor=pointer]:
+              - /url: /java/if_else_statement_in_java.htm
+          - listitem [ref=e151]:
+            - link "Java - Switch Statement" [ref=e152] [cursor=pointer]:
+              - /url: /java/switch_statement_in_java.htm
+          - listitem [ref=e153]:
+            - link "Java - Loop Control" [ref=e154] [cursor=pointer]:
+              - /url: /java/java_loop_control.htm
+          - listitem [ref=e155]:
+            - link "Java - For Loop" [ref=e156] [cursor=pointer]:
+              - /url: /java/java_for_loop.htm
+          - listitem [ref=e157]:
+            - link "Java - For-Each Loop" [ref=e158] [cursor=pointer]:
+              - /url: /java/java_foreach_loop.htm
+          - listitem [ref=e159]:
+            - link "Java - While Loop" [ref=e160] [cursor=pointer]:
+              - /url: /java/java_while_loop.htm
+          - listitem [ref=e161]:
+            - link "Java - Do While Loop" [ref=e162] [cursor=pointer]:
+              - /url: /java/java_do_while_loop.htm
+          - listitem [ref=e163]:
+            - link "Java - Break Statement" [ref=e164] [cursor=pointer]:
+              - /url: /java/java_break_statement.htm
+          - listitem [ref=e165]:
+            - link "Java - Continue Statement" [ref=e166] [cursor=pointer]:
+              - /url: /java/java_continue_statement.htm
+        - heading "Object Oriented Programming" [level=2] [ref=e167]
+        - list [ref=e168]:
+          - listitem [ref=e169]:
+            - link "Java - OOPs Concepts" [ref=e170] [cursor=pointer]:
+              - /url: /java/java_oops_concepts.htm
+          - listitem [ref=e171]:
+            - link "Java - Object & Classes" [ref=e172] [cursor=pointer]:
+              - /url: /java/java_object_classes.htm
+          - listitem [ref=e173]:
+            - link "Java - Class Attributes" [ref=e174] [cursor=pointer]:
+              - /url: /java/java_class_attributes.htm
+          - listitem [ref=e175]:
+            - link "Java - Class Methods" [ref=e176] [cursor=pointer]:
+              - /url: /java/java_class_methods.htm
+          - listitem [ref=e177]:
+            - link "Java - Methods" [ref=e178] [cursor=pointer]:
+              - /url: /java/java_methods.htm
+          - listitem [ref=e179]:
+            - link "Java - Variables Scope" [ref=e180] [cursor=pointer]:
+              - /url: /java/java_variable_scope.htm
+          - listitem [ref=e181]:
+            - link "Java - Constructors" [ref=e182] [cursor=pointer]:
+              - /url: /java/java_constructors.htm
+          - listitem [ref=e183]:
+            - link "Java - Access Modifiers" [ref=e184] [cursor=pointer]:
+              - /url: /java/java_access_modifiers.htm
+          - listitem [ref=e185]:
+            - link "Java - Inheritance" [ref=e186] [cursor=pointer]:
+              - /url: /java/java_inheritance.htm
+          - listitem [ref=e187]:
+            - link "Java - Aggregation" [ref=e188] [cursor=pointer]:
+              - /url: /java/java_aggregation.htm
+          - listitem [ref=e189]:
+            - link "Java - Polymorphism" [ref=e190] [cursor=pointer]:
+              - /url: /java/java_polymorphism.htm
+          - listitem [ref=e191]:
+            - link "Java - Overriding" [ref=e192] [cursor=pointer]:
+              - /url: /java/java_overriding.htm
+          - listitem [ref=e193]:
+            - link "Java - Method Overloading" [ref=e194] [cursor=pointer]:
+              - /url: /java/java_method_overloading.htm
+          - listitem [ref=e195]:
+            - link "Java - Dynamic Binding" [ref=e196] [cursor=pointer]:
+              - /url: /java/java_dynamic_binding.htm
+          - listitem [ref=e197]:
+            - link "Java - Static Binding" [ref=e198] [cursor=pointer]:
+              - /url: /java/java_static_binding.htm
+          - listitem [ref=e199]:
+            - link "Java - Instance Initializer Block" [ref=e200] [cursor=pointer]:
+              - /url: /java/java_initializer_block.htm
+          - listitem [ref=e201]:
+            - link "Java - Abstraction" [ref=e202] [cursor=pointer]:
+              - /url: /java/java_abstraction.htm
+          - listitem [ref=e203]:
+            - link "Java - Encapsulation" [ref=e204] [cursor=pointer]:
+              - /url: /java/java_encapsulation.htm
+          - listitem [ref=e205]:
+            - link "Java - Interfaces" [ref=e206] [cursor=pointer]:
+              - /url: /java/java_interfaces.htm
+          - listitem [ref=e207]:
+            - link "Java - Packages" [ref=e208] [cursor=pointer]:
+              - /url: /java/java_packages.htm
+          - listitem [ref=e209]:
+            - link "Java - Inner Classes" [ref=e210] [cursor=pointer]:
+              - /url: /java/java_innerclasses.htm
+          - listitem [ref=e211]:
+            - link "Java - Static Class" [ref=e212] [cursor=pointer]:
+              - /url: /java/java_static_class.htm
+          - listitem [ref=e213]:
+            - link "Java - Anonymous Class" [ref=e214] [cursor=pointer]:
+              - /url: /java/java_anonymous_class.htm
+          - listitem [ref=e215]:
+            - link "Java - Singleton Class" [ref=e216] [cursor=pointer]:
+              - /url: /java/java_singleton_class.htm
+          - listitem [ref=e217]:
+            - link "Java - Wrapper Classes" [ref=e218] [cursor=pointer]:
+              - /url: /java/java_wrapper_classes.htm
+          - listitem [ref=e219]:
+            - link "Java - Enums" [ref=e220] [cursor=pointer]:
+              - /url: /java/java_lang_enum.htm
+          - listitem [ref=e221]:
+            - link "Java - Enum Constructor" [ref=e222] [cursor=pointer]:
+              - /url: /java/java_enum_constructor.htm
+          - listitem [ref=e223]:
+            - link "Java - Enum Strings" [ref=e224] [cursor=pointer]:
+              - /url: /java/java_enum_string.htm
+        - heading "Java Built-in Classes" [level=2] [ref=e225]
+        - list [ref=e226]:
+          - listitem [ref=e227]:
+            - link "Java - Number" [ref=e228] [cursor=pointer]:
+              - /url: /java/java_lang_number.htm
+          - listitem [ref=e229]:
+            - link "Java - Boolean" [ref=e230] [cursor=pointer]:
+              - /url: /java/java_lang_boolean.htm
+          - listitem [ref=e231]:
+            - link "Java - Characters" [ref=e232] [cursor=pointer]:
+              - /url: /java/java_characters.htm
+          - listitem [ref=e233]:
+            - link "Java - Arrays" [ref=e234] [cursor=pointer]:
+              - /url: /java/java_arrays.htm
+          - listitem [ref=e235]:
+            - link "Java - Multi-Dimensional Arrays" [ref=e236] [cursor=pointer]:
+              - /url: /java/java_multi_dimensional_arrays.htm
+          - listitem [ref=e237]:
+            - link "Java - Final Arrays" [ref=e238] [cursor=pointer]:
+              - /url: /java/java_final_arrays.htm
+          - listitem [ref=e239]:
+            - link "Java - Math Class" [ref=e240] [cursor=pointer]:
+              - /url: /java/java_lang_math.htm
+        - heading "Java File Handling" [level=2] [ref=e241]
+        - list [ref=e242]:
+          - listitem [ref=e243]:
+            - link "Java - Files" [ref=e244] [cursor=pointer]:
+              - /url: /java/java_file_class.htm
+          - listitem [ref=e245]:
+            - link "Java - Create a File" [ref=e246] [cursor=pointer]:
+              - /url: /java/java_create_file.htm
+          - listitem [ref=e247]:
+            - link "Java - Write to File" [ref=e248] [cursor=pointer]:
+              - /url: /java/java_write_file.htm
+          - listitem [ref=e249]:
+            - link "Java - Read Files" [ref=e250] [cursor=pointer]:
+              - /url: /java/java_read_file.htm
+          - listitem [ref=e251]:
+            - link "Java - Delete Files" [ref=e252] [cursor=pointer]:
+              - /url: /java/java_delete_file.htm
+          - listitem [ref=e253]:
+            - link "Java - Directories" [ref=e254] [cursor=pointer]:
+              - /url: /java/java_directories.htm
+          - listitem [ref=e255]:
+            - link "Java - I/O Streams" [ref=e256] [cursor=pointer]:
+              - /url: /java/java_files_io.htm
+        - heading "Java Error & Exceptions" [level=2] [ref=e257]
+        - list [ref=e258]:
+          - listitem [ref=e259]:
+            - link "Java - Exceptions" [ref=e260] [cursor=pointer]:
+              - /url: /java/java_exceptions.htm
+          - listitem [ref=e261]:
+            - link "Java - try-catch Block" [ref=e262] [cursor=pointer]:
+              - /url: /java/java_try_catch_block.htm
+          - listitem [ref=e263]:
+            - link "Java - try-with-resources" [ref=e264] [cursor=pointer]:
+              - /url: /java/java_try_with_resources.htm
+          - listitem [ref=e265]:
+            - link "Java - Multi-catch Block" [ref=e266] [cursor=pointer]:
+              - /url: /java/java_multi_catch_block.htm
+          - listitem [ref=e267]:
+            - link "Java - Nested try Block" [ref=e268] [cursor=pointer]:
+              - /url: /java/java_nested_try_block.htm
+          - listitem [ref=e269]:
+            - link "Java - Finally Block" [ref=e270] [cursor=pointer]:
+              - /url: /java/java_finally_block.htm
+          - listitem [ref=e271]:
+            - link "Java - throw Exception" [ref=e272] [cursor=pointer]:
+              - /url: /java/java_throw_exception.htm
+          - listitem [ref=e273]:
+            - link "Java - Exception Propagation" [ref=e274] [cursor=pointer]:
+              - /url: /java/java_exception_propagation.htm
+          - listitem [ref=e275]:
+            - link "Java - Built-in Exceptions" [ref=e276] [cursor=pointer]:
+              - /url: /java/java_builtin_exceptions.htm
+          - listitem [ref=e277]:
+            - link "Java - Custom Exception" [ref=e278] [cursor=pointer]:
+              - /url: /java/java_custom_exception.htm
+          - listitem [ref=e279]:
+            - link "Java - Chained Exception" [ref=e280] [cursor=pointer]:
+              - /url: /java/java_chained_exceptions.htm
+        - heading "Java Multithreading" [level=2] [ref=e281]
+        - list [ref=e282]:
+          - listitem [ref=e283]:
+            - link "Java - Multithreading" [ref=e284] [cursor=pointer]:
+              - /url: /java/java_multithreading.htm
+          - listitem [ref=e285]:
+            - link "Java - Thread Life Cycle" [ref=e286] [cursor=pointer]:
+              - /url: /java/java_thread_life_cycle.htm
+          - listitem [ref=e287]:
+            - link "Java - Creating a Thread" [ref=e288] [cursor=pointer]:
+              - /url: /java/java_create_thread.htm
+          - listitem [ref=e289]:
+            - link "Java - Starting a Thread" [ref=e290] [cursor=pointer]:
+              - /url: /java/java_start_thread.htm
+          - listitem [ref=e291]:
+            - link "Java - Joining Threads" [ref=e292] [cursor=pointer]:
+              - /url: /java/java_join_thread.htm
+          - listitem [ref=e293]:
+            - link "Java - Naming Thread" [ref=e294] [cursor=pointer]:
+              - /url: /java/java_naming_thread.htm
+          - listitem [ref=e295]:
+            - link "Java - Thread Scheduler" [ref=e296] [cursor=pointer]:
+              - /url: /java/java_thread_scheduler.htm
+          - listitem [ref=e297]:
+            - link "Java - Thread Pools" [ref=e298] [cursor=pointer]:
+              - /url: /java/java_thread_pool.htm
+          - listitem [ref=e299]:
+            - link "Java - Main Thread" [ref=e300] [cursor=pointer]:
+              - /url: /java/java_main_thread.htm
+          - listitem [ref=e301]:
+            - link "Java - Thread Priority" [ref=e302] [cursor=pointer]:
+              - /url: /java/java_thread_priority.htm
+          - listitem [ref=e303]:
+            - link "Java - Daemon Threads" [ref=e304] [cursor=pointer]:
+              - /url: /java/java_daemon_thread.htm
+          - listitem [ref=e305]:
+            - link "Java - Thread Group" [ref=e306] [cursor=pointer]:
+              - /url: /java/java_lang_threadgroup.htm
+          - listitem [ref=e307]:
+            - link "Java - Shutdown Hook" [ref=e308] [cursor=pointer]:
+              - /url: /java/java_shutdown_hook.htm
+        - heading "Java Synchronization" [level=2] [ref=e309]
+        - list [ref=e310]:
+          - listitem [ref=e311]:
+            - link "Java - Synchronization" [ref=e312] [cursor=pointer]:
+              - /url: /java/java_thread_synchronization.htm
+          - listitem [ref=e313]:
+            - link "Java - Block Synchronization" [ref=e314] [cursor=pointer]:
+              - /url: /java/java_block_synchronization.htm
+          - listitem [ref=e315]:
+            - link "Java - Static Synchronization" [ref=e316] [cursor=pointer]:
+              - /url: /java/java_static_synchronization.htm
+          - listitem [ref=e317]:
+            - link "Java - Inter-thread Communication" [ref=e318] [cursor=pointer]:
+              - /url: /java/java_thread_communication.htm
+          - listitem [ref=e319]:
+            - link "Java - Thread Deadlock" [ref=e320] [cursor=pointer]:
+              - /url: /java/java_thread_deadlock.htm
+          - listitem [ref=e321]:
+            - link "Java - Interrupting a Thread" [ref=e322] [cursor=pointer]:
+              - /url: /java/java_interrupting_thread.htm
+          - listitem [ref=e323]:
+            - link "Java - Thread Control" [ref=e324] [cursor=pointer]:
+              - /url: /java/java_thread_control.htm
+          - listitem [ref=e325]:
+            - link "Java - Reentrant Monitor" [ref=e326] [cursor=pointer]:
+              - /url: /java/java_reentrant_monitor.htm
+        - heading "Java Networking" [level=2] [ref=e327]
+        - list [ref=e328]:
+          - listitem [ref=e329]:
+            - link "Java - Networking" [ref=e330] [cursor=pointer]:
+              - /url: /java/java_networking.htm
+          - listitem [ref=e331]:
+            - link "Java - Socket Programming" [ref=e332] [cursor=pointer]:
+              - /url: /java/java_socket_programming.htm
+          - listitem [ref=e333]:
+            - link "Java - URL Processing" [ref=e334] [cursor=pointer]:
+              - /url: /java/java_url_processing.htm
+          - listitem [ref=e335]:
+            - link "Java - URL Class" [ref=e336] [cursor=pointer]:
+              - /url: /java/java_url.htm
+          - listitem [ref=e337]:
+            - link "Java - URLConnection Class" [ref=e338] [cursor=pointer]:
+              - /url: /java/java_urlconnection.htm
+          - listitem [ref=e339]:
+            - link "Java - HttpURLConnection Class" [ref=e340] [cursor=pointer]:
+              - /url: /java/java_httpurlconnection.htm
+          - listitem [ref=e341]:
+            - link "Java - Socket Class" [ref=e342] [cursor=pointer]:
+              - /url: /java/java-socket.htm
+          - listitem [ref=e343]:
+            - link "Java - Generics" [ref=e344] [cursor=pointer]:
+              - /url: /java/java_generics.htm
+        - heading "Java Collections" [level=2] [ref=e345]
+        - list [ref=e346]:
+          - listitem [ref=e347]:
+            - link "Java - Collections" [ref=e348] [cursor=pointer]:
+              - /url: /java/java_collections.htm
+          - listitem [ref=e349]:
+            - link "Java - Collection Interface" [ref=e350] [cursor=pointer]:
+              - /url: /java/java_collection_interface.htm
+        - heading "Java Interfaces" [level=2] [ref=e351]
+        - list [ref=e352]:
+          - listitem [ref=e353]:
+            - link "Java - List Interface" [ref=e354] [cursor=pointer]:
+              - /url: /java/java_list_interface.htm
+          - listitem [ref=e355]:
+            - link "Java - Queue Interface" [ref=e356] [cursor=pointer]:
+              - /url: /java/java_util_queue.htm
+          - listitem [ref=e357]:
+            - link "Java - Map Interface" [ref=e358] [cursor=pointer]:
+              - /url: /java/java_map_interface.htm
+          - listitem [ref=e359]:
+            - link "Java - SortedMap Interface" [ref=e360] [cursor=pointer]:
+              - /url: /java/java_sortedmap_interface.htm
+          - listitem [ref=e361]:
+            - link "Java - Set Interface" [ref=e362] [cursor=pointer]:
+              - /url: /java/java_set_interface.htm
+          - listitem [ref=e363]:
+            - link "Java - SortedSet Interface" [ref=e364] [cursor=pointer]:
+              - /url: /java/java_sortedset_interface.htm
+        - heading "Java Data Structures" [level=2] [ref=e365]
+        - list [ref=e366]:
+          - listitem [ref=e367]:
+            - link "Java - Data Structures" [ref=e368] [cursor=pointer]:
+              - /url: /java/java_data_structures.htm
+          - listitem [ref=e369]:
+            - link "Java - Enumeration" [ref=e370] [cursor=pointer]:
+              - /url: /java/java_enumeration_interface.htm
+        - heading "Java Collections Algorithms" [level=2] [ref=e371]
+        - list [ref=e372]:
+          - listitem [ref=e373]:
+            - link "Java - Iterators" [ref=e374] [cursor=pointer]:
+              - /url: /java/java_using_iterator.htm
+          - listitem [ref=e375]:
+            - link "Java - Comparators" [ref=e376] [cursor=pointer]:
+              - /url: /java/java_using_comparator.htm
+          - listitem [ref=e377]:
+            - link "Java - Comparable Interface in Java" [ref=e378] [cursor=pointer]:
+              - /url: /java/java-using-comparable.htm
+        - heading "Advanced Java" [level=2] [ref=e379]
+        - list [ref=e380]:
+          - listitem [ref=e381]:
+            - link "Java - Command-Line Arguments" [ref=e382] [cursor=pointer]:
+              - /url: /java/java-command-line-args.htm
+          - listitem [ref=e383]:
+            - link "Java - Lambda Expressions" [ref=e384] [cursor=pointer]:
+              - /url: /java/java-lambda-expressions.htm
+          - listitem [ref=e385]:
+            - link "Java - Sending Email" [ref=e386] [cursor=pointer]:
+              - /url: /java/java_sending_email.htm
+          - listitem [ref=e387]:
+            - link "Java - Applet Basics" [ref=e388] [cursor=pointer]:
+              - /url: /java/java_applet_basics.htm
+          - listitem [ref=e389]:
+            - link "Java - Javadoc Comments" [ref=e390] [cursor=pointer]:
+              - /url: /java/java_documentation.htm
+          - listitem [ref=e391]:
+            - link "Java - Autoboxing and Unboxing" [ref=e392] [cursor=pointer]:
+              - /url: /java/java-autoboxing-unboxing.htm
+          - listitem [ref=e393]:
+            - link "Java - File Mismatch Method" [ref=e394] [cursor=pointer]:
+              - /url: /java/java-file-mismatch-method.htm
+          - listitem [ref=e395]:
+            - link "Java - REPL (JShell)" [ref=e396] [cursor=pointer]:
+              - /url: /java/java-repl.htm
+          - listitem [ref=e397]:
+            - link "Java - Multi-Release Jar Files" [ref=e398] [cursor=pointer]:
+              - /url: /java/java_multirelease_jar.htm
+          - listitem [ref=e399]:
+            - link "Java - Private Interface Methods" [ref=e400] [cursor=pointer]:
+              - /url: /java/java_private_interface_methods.htm
+          - listitem [ref=e401]:
+            - link "Java - Inner Class Diamond Operator" [ref=e402] [cursor=pointer]:
+              - /url: /java/java_inner_class_diamond_operator.htm
+          - listitem [ref=e403]:
+            - link "Java - Multiresolution Image API" [ref=e404] [cursor=pointer]:
+              - /url: /java/java_multiresolution_image_api.htm
+          - listitem [ref=e405]:
+            - link "Java - Collection Factory Methods" [ref=e406] [cursor=pointer]:
+              - /url: /java/java_collection_factory_methods.htm
+          - listitem [ref=e407]:
+            - link "Java - Module System" [ref=e408] [cursor=pointer]:
+              - /url: /java/java_module_system.htm
+          - listitem [ref=e409]:
+            - link "Java - Nashorn JavaScript" [ref=e410] [cursor=pointer]:
+              - /url: /java/java_nashorn_java_script.htm
+          - listitem [ref=e411]:
+            - link "Java - Optional Class" [ref=e412] [cursor=pointer]:
+              - /url: /java/java_optional_class.htm
+          - listitem [ref=e413]:
+            - link "Java - Method References" [ref=e414] [cursor=pointer]:
+              - /url: /java/java_method_references.htm
+          - listitem [ref=e415]:
+            - link "Java - Functional Interfaces" [ref=e416] [cursor=pointer]:
+              - /url: /java/java_functional_interfaces.htm
+          - listitem [ref=e417]:
+            - link "Java - Default Methods" [ref=e418] [cursor=pointer]:
+              - /url: /java/java_default_methods.htm
+          - listitem [ref=e419]:
+            - link "Java - Base64 Encode Decode" [ref=e420] [cursor=pointer]:
+              - /url: /java/java_base64.htm
+          - listitem [ref=e421]:
+            - link "Java - Switch Expressions" [ref=e422] [cursor=pointer]:
+              - /url: /java/java_switch_expression.htm
+          - listitem [ref=e423]:
+            - link "Java - Teeing Collectors" [ref=e424] [cursor=pointer]:
+              - /url: /java/java_teeing_collectors.htm
+          - listitem [ref=e425]:
+            - link "Java - Microbenchmark" [ref=e426] [cursor=pointer]:
+              - /url: /java/java_micro_benchmark.htm
+          - listitem [ref=e427]:
+            - link "Java - Text Blocks" [ref=e428] [cursor=pointer]:
+              - /url: /java/java_text_blocks.htm
+          - listitem [ref=e429]:
+            - link "Java - Dynamic CDS archive" [ref=e430] [cursor=pointer]:
+              - /url: /java/java_dynamic_cds.htm
+          - listitem [ref=e431]:
+            - link "Java - Z Garbage Collector (ZGC)" [ref=e432] [cursor=pointer]:
+              - /url: /java/java_z_garbage_collectors.htm
+          - listitem [ref=e433]:
+            - link "Java - Null Pointer Exception" [ref=e434] [cursor=pointer]:
+              - /url: /java/java_nullpointerexception.htm
+          - listitem [ref=e435]:
+            - link "Java - Packaging Tools" [ref=e436] [cursor=pointer]:
+              - /url: /java/java_packaging_tools.htm
+          - listitem [ref=e437]:
+            - link "Java - Sealed Classes" [ref=e438] [cursor=pointer]:
+              - /url: /java/java_sealed_classes.htm
+          - listitem [ref=e439]:
+            - link "Java - Record Classes" [ref=e440] [cursor=pointer]:
+              - /url: /java/java_record.htm
+          - listitem [ref=e441]:
+            - link "Java - Hidden Classes" [ref=e442] [cursor=pointer]:
+              - /url: /java/java_hidden_classes.htm
+          - listitem [ref=e443]:
+            - link "Java - Pattern Matching" [ref=e444] [cursor=pointer]:
+              - /url: /java/java_instanceof_pattern_matching.htm
+          - listitem [ref=e445]:
+            - link "Java - Compact Number Formatting" [ref=e446] [cursor=pointer]:
+              - /url: /java/java_compact_number_formatting.htm
+          - listitem [ref=e447]:
+            - link "Java - Garbage Collection" [ref=e448] [cursor=pointer]:
+              - /url: /java/java_garbage_collection.htm
+          - listitem [ref=e449]:
+            - link "Java - JIT Compiler" [ref=e450] [cursor=pointer]:
+              - /url: /java/java_just_in_time_jit_compiler.htm
+        - heading "Java Miscellaneous" [level=2] [ref=e451]
+        - list [ref=e452]:
+          - listitem [ref=e453]:
+            - link "Java - Recursion" [ref=e454] [cursor=pointer]:
+              - /url: /java/java-recursion.htm
+          - listitem [ref=e455]:
+            - link "Java - Regular Expressions" [ref=e456] [cursor=pointer]:
+              - /url: /java/java_regular_expressions.htm
+          - listitem [ref=e457]:
+            - link "Java - Serialization" [ref=e458] [cursor=pointer]:
+              - /url: /java/java_serialization.htm
+          - listitem [ref=e459]:
+            - link "Java - Strings" [ref=e460] [cursor=pointer]:
+              - /url: /java/java_strings.htm
+          - listitem [ref=e461]:
+            - link "Java - Process API Improvements" [ref=e462] [cursor=pointer]:
+              - /url: /java/java_process_api_improvements.htm
+          - listitem [ref=e463]:
+            - link "Java - Stream API Improvements" [ref=e464] [cursor=pointer]:
+              - /url: /java/java_stream_api_improvements.htm
+          - listitem [ref=e465]:
+            - link "Java - Enhanced @Deprecated Annotation" [ref=e466] [cursor=pointer]:
+              - /url: /java/java_enhanced_deprecated_annotation.htm
+          - listitem [ref=e467]:
+            - link "Java - CompletableFuture API Improvements" [ref=e468] [cursor=pointer]:
+              - /url: /java/java_completablefuture_api_improvements.htm
+          - listitem [ref=e469]:
+            - link "Java - Marker Interface" [ref=e470] [cursor=pointer]:
+              - /url: /java/java_marker_interface.htm
+          - listitem [ref=e471]:
+            - link "Java - Streams" [ref=e472] [cursor=pointer]:
+              - /url: /java/java_streams.htm
+          - listitem [ref=e473]:
+            - link "Java - Datetime Api" [ref=e474] [cursor=pointer]:
+              - /url: /java/java_datetime_api.htm
+          - listitem [ref=e475]:
+            - link "Java 8 - New Features" [ref=e476] [cursor=pointer]:
+              - /url: /java/java8_new_features.htm
+          - listitem [ref=e477]:
+            - link "Java 9 - New Features" [ref=e478] [cursor=pointer]:
+              - /url: /java/java9_new_features.htm
+          - listitem [ref=e479]:
+            - link "Java 10 - New Features" [ref=e480] [cursor=pointer]:
+              - /url: /java/java10_new_features.htm
+          - listitem [ref=e481]:
+            - link "Java 11 - New Features" [ref=e482] [cursor=pointer]:
+              - /url: /java/java11_new_features.htm
+          - listitem [ref=e483]:
+            - link "Java 12 - New Features" [ref=e484] [cursor=pointer]:
+              - /url: /java/java12_new_features.htm
+          - listitem [ref=e485]:
+            - link "Java 13 - New Features" [ref=e486] [cursor=pointer]:
+              - /url: /java/java13_new_features.htm
+          - listitem [ref=e487]:
+            - link "Java 14 - New Features" [ref=e488] [cursor=pointer]:
+              - /url: /java/java14_new_features.htm
+          - listitem [ref=e489]:
+            - link "Java 15 - New Features" [ref=e490] [cursor=pointer]:
+              - /url: /java/java15_new_features.htm
+          - listitem [ref=e491]:
+            - link "Java 16 - New Features" [ref=e492] [cursor=pointer]:
+              - /url: /java/java16_new_features.htm
+        - heading "Java APIs & Frameworks" [level=2] [ref=e493]
+        - list [ref=e494]:
+          - listitem [ref=e495]:
+            - link "JDBC Tutorial" [ref=e496] [cursor=pointer]:
+              - /url: /jdbc/index.htm
+          - listitem [ref=e497]:
+            - link "SWING Tutorial" [ref=e498] [cursor=pointer]:
+              - /url: /swing/index.htm
+          - listitem [ref=e499]:
+            - link "AWT Tutorial" [ref=e500] [cursor=pointer]:
+              - /url: /awt/index.htm
+          - listitem [ref=e501]:
+            - link "Servlets Tutorial" [ref=e502] [cursor=pointer]:
+              - /url: /servlets/index.htm
+          - listitem [ref=e503]:
+            - link "JSP Tutorial" [ref=e504] [cursor=pointer]:
+              - /url: /jsp/index.htm
+        - heading "Java Class References" [level=2] [ref=e505]
+        - list [ref=e506]:
+          - listitem [ref=e507]:
+            - link "Java - Scanner" [ref=e508] [cursor=pointer]:
+              - /url: /java/util/java_util_scanner.htm
+          - listitem [ref=e509]:
+            - link "Java - Arrays" [ref=e510] [cursor=pointer]:
+              - /url: /java/util/java_util_arrays.htm
+          - listitem [ref=e511]:
+            - link "Java - Strings" [ref=e512] [cursor=pointer]:
+              - /url: /java/lang/java_lang_string.htm
+          - listitem [ref=e513]:
+            - link "Java - Date" [ref=e514] [cursor=pointer]:
+              - /url: /java/util/java_util_date.htm
+          - listitem [ref=e515]:
+            - link "Java - ArrayList" [ref=e516] [cursor=pointer]:
+              - /url: /java/util/java_util_arraylist.htm
+          - listitem [ref=e517]:
+            - link "Java - Vector" [ref=e518] [cursor=pointer]:
+              - /url: /java/util/java_util_vector.htm
+          - listitem [ref=e519]:
+            - link "Java - Stack" [ref=e520] [cursor=pointer]:
+              - /url: /java/util/java_util_stack.htm
+          - listitem [ref=e521]:
+            - link "Java - PriorityQueue" [ref=e522] [cursor=pointer]:
+              - /url: /java/util/java_util_priorityqueue.htm
+          - listitem [ref=e523]:
+            - link "Java - LinkedList" [ref=e524] [cursor=pointer]:
+              - /url: /java/util/java_util_linkedlist.htm
+          - listitem [ref=e525]:
+            - link "Java - ArrayDeque" [ref=e526] [cursor=pointer]:
+              - /url: /java/util/java_util_arraydeque.htm
+          - listitem [ref=e527]:
+            - link "Java - HashMap" [ref=e528] [cursor=pointer]:
+              - /url: /java/util/java_util_hashmap.htm
+          - listitem [ref=e529]:
+            - link "Java - LinkedHashMap" [ref=e530] [cursor=pointer]:
+              - /url: /java/util/java_util_linkedhashmap.htm
+          - listitem [ref=e531]:
+            - link "Java - WeakHashMap" [ref=e532] [cursor=pointer]:
+              - /url: /java/util/java_util_weakhashmap.htm
+          - listitem [ref=e533]:
+            - link "Java - EnumMap" [ref=e534] [cursor=pointer]:
+              - /url: /java/util/java_util_enummap.htm
+          - listitem [ref=e535]:
+            - link "Java - TreeMap" [ref=e536] [cursor=pointer]:
+              - /url: /java/util/java_util_treemap.htm
+          - listitem [ref=e537]:
+            - link "Java - IdentityHashMap" [ref=e538] [cursor=pointer]:
+              - /url: /java/util/java_util_identityhashmap.htm
+          - listitem [ref=e539]:
+            - link "Java - HashSet" [ref=e540] [cursor=pointer]:
+              - /url: /java/util/java_util_hashset.htm
+          - listitem [ref=e541]:
+            - link "Java - EnumSet" [ref=e542] [cursor=pointer]:
+              - /url: /java/util/java_util_enumset.htm
+          - listitem [ref=e543]:
+            - link "Java - LinkedHashSet" [ref=e544] [cursor=pointer]:
+              - /url: /java/util/java_util_linkedhashset.htm
+          - listitem [ref=e545]:
+            - link "Java - TreeSet" [ref=e546] [cursor=pointer]:
+              - /url: /java/util/java_util_treeset.htm
+          - listitem [ref=e547]:
+            - link "Java - BitSet" [ref=e548] [cursor=pointer]:
+              - /url: /java/util/java_util_bitset.htm
+          - listitem [ref=e549]:
+            - link "Java - Dictionary" [ref=e550] [cursor=pointer]:
+              - /url: /java/util/java_util_dictionary.htm
+          - listitem [ref=e551]:
+            - link "Java - Hashtable" [ref=e552] [cursor=pointer]:
+              - /url: /java/util/java_util_hashtable.htm
+          - listitem [ref=e553]:
+            - link "Java - Properties" [ref=e554] [cursor=pointer]:
+              - /url: /java/util/java_util_properties.htm
+          - listitem [ref=e555]:
+            - link "Java - Collection" [ref=e556] [cursor=pointer]:
+              - /url: /java/util/java_util_collections.htm
+          - listitem [ref=e557]:
+            - link "Java - Array" [ref=e558] [cursor=pointer]:
+              - /url: /java/util/java_util_arrays.htm
+        - heading "Java Useful Resources" [level=2] [ref=e559]
+        - list [ref=e560]:
+          - listitem [ref=e561]:
+            - link "Java - Cheatsheet" [ref=e562] [cursor=pointer]:
+              - /url: /java/java_cheatsheet.htm
+          - listitem [ref=e563]:
+            - link "Java - Questions and Answers" [ref=e564] [cursor=pointer]:
+              - /url: /java/java_questions_answers.htm
+          - listitem [ref=e565]:
+            - link "Java 8 - Questions and Answers" [ref=e566] [cursor=pointer]:
+              - /url: /java/java8_questions_answers.htm
+          - listitem [ref=e567]:
+            - link "Java - Quick Guide" [ref=e568] [cursor=pointer]:
+              - /url: /java/java_quick_guide.htm
+          - listitem [ref=e569]:
+            - link "Java - Useful Resources" [ref=e570] [cursor=pointer]:
+              - /url: /java/java_useful_resources.htm
+          - listitem [ref=e571]:
+            - link "Java - Discussion" [ref=e572] [cursor=pointer]:
+              - /url: /java/java_discussion.htm
+          - listitem [ref=e573]:
+            - link "Java - Online Compiler" [ref=e574] [cursor=pointer]:
+              - /url: /compilers/online-java-compiler.htm
+          - listitem [ref=e575]:
+            - link "Java - Examples" [ref=e576] [cursor=pointer]:
+              - /url: /javaexamples/index.htm
+        - generic [ref=e577]:
+          - img [ref=e578]
+          - text: Selected Reading
+        - list [ref=e582]:
+          - listitem [ref=e583]:
+            - link "UPSC IAS Exams Notes" [ref=e584] [cursor=pointer]:
+              - /url: /upsc_ias_exams.htm
+          - listitem [ref=e585]:
+            - link "Developer's Best Practices" [ref=e586] [cursor=pointer]:
+              - /url: /developers_best_practices/index.htm
+          - listitem [ref=e587]:
+            - link "Questions and Answers" [ref=e588] [cursor=pointer]:
+              - /url: /questions_and_answers.htm
+          - listitem [ref=e589]:
+            - link "Online Resume Builder" [ref=e590] [cursor=pointer]:
+              - /url: /online-resume-builder.htm
+          - listitem [ref=e591]:
+            - link "HR Interview Questions" [ref=e592] [cursor=pointer]:
+              - /url: /hr_interview_questions/index.htm
+          - listitem [ref=e593]:
+            - link "Computer Glossary" [ref=e594] [cursor=pointer]:
+              - /url: /computer_glossary.htm
+          - listitem [ref=e595]:
+            - link "Who is Who" [ref=e596] [cursor=pointer]:
+              - /url: /computer_whoiswho.htm
+      - generic [ref=e598]:
+        - navigation "Breadcrumb" [ref=e599]:
+          - link "Home" [ref=e600] [cursor=pointer]:
+            - /url: /
+          - img [ref=e601]
+          - text: Java
+        - generic [ref=e603]:
+          - img "Java Tutorial TutorialsPoint" [ref=e605]
+          - heading "Java Tutorial" [level=1] [ref=e606]
+          - generic [ref=e608]:
+            - button "Job Search" [ref=e609] [cursor=pointer]: Job Search
+            - link "PDF Version" [ref=e610] [cursor=pointer]:
+              - /url: /java/java_pdf_version.htm
+              - text: PDF Version
+            - link "Quick Guide" [ref=e611] [cursor=pointer]:
+              - /url: /java/java_quick_guide.htm
+              - text: Quick Guide
+            - link "Resources" [ref=e612] [cursor=pointer]:
+              - /url: /java/java_useful_resources.htm
+              - text: Resources
+            - link "Discussion" [ref=e613] [cursor=pointer]:
+              - /url: /java/java_discussion.htm
+              - text: Discussion
+          - paragraph [ref=e614]:
+            - text: This
+            - strong [ref=e615]: Java tutorial
+            - text: has been written for beginners to advanced programmers who are striving to learn Java programming. We have provided numerous practical examples to explain the concepts in simple and easy steps. This tutorial has been prepared and reviewed by experienced Java programmers at Tutorials Point, and the best effort has been put into making it useful for the students and Java developers.
+          - paragraph [ref=e616]: After completing this tutorial, you will find yourself at a moderate level of expertise in Java programming, from where you can elevate yourself to the next levels.
+          - heading "What is Java?" [level=2] [ref=e617]
+          - paragraph [ref=e618]:
+            - text: Java is a popular high-level,
+            - link "object-oriented programming" [ref=e619] [cursor=pointer]:
+              - /url: /java/java_oops_concepts.htm
+            - text: language that was originally developed by Sun Microsystems and released in 1995. Currently, Java is owned by Oracle, and more than 3 billion devices run Java. Java runs on a variety of platforms, such as
+            - link "Windows" [ref=e620] [cursor=pointer]:
+              - /url: /windows10/index.htm
+            - text: ", Mac OS, and the various versions ofUNIX. Today Java is being used to develop numerous types of software applications, including desktop apps, mobile apps, web apps, games, and much more."
+          - blockquote [ref=e621]: Java is a general-purpose programming language intended to let programmers Write Once, Run Anywhere (WORA). This means that compiled Java code can run on all platforms that support Java without the need to recompile.
+          - paragraph [ref=e622]: In this tutorial, you will learn everything about Java, starting from basics to advanced concepts such as overview, history, installations, basic input/output, conditional & control statements, arrays, classes, inheritances, method overloading & overriding, exception handling, and many more.
+          - generic [ref=e627]:
+            - img [ref=e629] [cursor=pointer]
+            - generic [ref=e632]: Advertisement
+          - heading "Java First Example" [level=2] [ref=e641]
+          - paragraph [ref=e642]:
+            - text: The first example in Java is to
+            - link "print \"Hello, World!\"" [ref=e643] [cursor=pointer]:
+              - /url: /java/java_hello_world.htm
+            - text: "on the screen. Let's have a quick look at the first examples in Java programming:"
+          - generic [ref=e653]: "public class MyFirstJavaProgram { /* This is my first java program. * This will print 'Hello, World!' as the output */ public static void main(String []args) { System.out.println(\"Hello, World!\"); // prints Hello, World! } }"
+          - heading "Getting Started with Java" [level=2] [ref=e654]
+          - paragraph [ref=e655]: "Explore the following chapters to get started learning Java programming:"
+          - list [ref=e656]:
+            - listitem [ref=e657]:
+              - link "Java - Home" [ref=e658] [cursor=pointer]:
+                - /url: /java/index.htm
+            - listitem [ref=e659]:
+              - link "Java - Overview" [ref=e660] [cursor=pointer]:
+                - /url: /java/java_overview.htm
+            - listitem [ref=e661]:
+              - link "Java - History" [ref=e662] [cursor=pointer]:
+                - /url: /java/java-history.htm
+            - listitem [ref=e663]:
+              - link "Java - Features" [ref=e664] [cursor=pointer]:
+                - /url: /java/java-features.htm
+            - listitem [ref=e665]:
+              - link "Java Vs. C++" [ref=e666] [cursor=pointer]:
+                - /url: /java/java-vs-cpp.htm
+            - listitem [ref=e667]:
+              - link "JVM - Java Virtual Machine" [ref=e668] [cursor=pointer]:
+                - /url: /java/java_jvm.htm
+            - listitem [ref=e669]:
+              - link "Java - JDK vs JRE vs JVM" [ref=e670] [cursor=pointer]:
+                - /url: /java/java-jdk-jre-jvm.htm
+            - listitem [ref=e671]:
+              - link "Java - Hello World Program" [ref=e672] [cursor=pointer]:
+                - /url: /java/java_hello_world.htm
+            - listitem [ref=e673]:
+              - link "Java - Environment Setup" [ref=e674] [cursor=pointer]:
+                - /url: /java/java_environment_setup.htm
+            - listitem [ref=e675]:
+              - link "Java - Basic Syntax" [ref=e676] [cursor=pointer]:
+                - /url: /java/java_basic_syntax.htm
+          - heading "Java Basics" [level=2] [ref=e677]
+          - paragraph [ref=e678]: "Explore the basic topics such as data types, operators, user input, etc.:"
+          - list [ref=e679]:
+            - listitem [ref=e680]:
+              - link "Java - Variable Types" [ref=e681] [cursor=pointer]:
+                - /url: /java/java_variable_types.htm
+            - listitem [ref=e682]:
+              - link "Java - Data Types" [ref=e683] [cursor=pointer]:
+                - /url: /java/java_basic_datatypes.htm
+            - listitem [ref=e684]:
+              - link "Java - Type Casting" [ref=e685] [cursor=pointer]:
+                - /url: /java/java_type_casting.htm
+            - listitem [ref=e686]:
+              - link "Java - Unicode System" [ref=e687] [cursor=pointer]:
+                - /url: /java/java_unicode_system.htm
+            - listitem [ref=e688]:
+              - link "Java - Basic Operators" [ref=e689] [cursor=pointer]:
+                - /url: /java/java_basic_operators.htm
+            - listitem [ref=e690]:
+              - link "Java - Comments" [ref=e691] [cursor=pointer]:
+                - /url: /java/java_comments.htm
+            - listitem [ref=e692]:
+              - link "Java - User Input" [ref=e693] [cursor=pointer]:
+                - /url: /java/java_user_input.htm
+            - listitem [ref=e694]:
+              - link "Java - Date & Time" [ref=e695] [cursor=pointer]:
+                - /url: /java/java_date_time.htm
+          - heading "Java Conditional Statements" [level=2] [ref=e696]
+          - paragraph [ref=e697]: "Furthermore, in Java, explore the conditional statements to implement the logic and to make decisions based on the conditions:"
+          - list [ref=e698]:
+            - listitem [ref=e699]:
+              - link "Java - Decision Making" [ref=e700] [cursor=pointer]:
+                - /url: /java/java_decision_making.htm
+            - listitem [ref=e701]:
+              - link "Java - If-else" [ref=e702] [cursor=pointer]:
+                - /url: /java/if_else_statement_in_java.htm
+            - listitem [ref=e703]:
+              - link "Java - Switch" [ref=e704] [cursor=pointer]:
+                - /url: /java/switch_statement_in_java.htm
+          - heading "Java Loops and Control Statements" [level=2] [ref=e705]
+          - paragraph [ref=e706]: "Explore the loops and control statements to learn how to control the execution of the programming logics:"
+          - list [ref=e707]:
+            - listitem [ref=e708]:
+              - link "Java - Loop Control" [ref=e709] [cursor=pointer]:
+                - /url: /java/java_loop_control.htm
+            - listitem [ref=e710]:
+              - link "Java - For Loops" [ref=e711] [cursor=pointer]:
+                - /url: /java/java_for_loop.htm
+            - listitem [ref=e712]:
+              - link "Java - For-Each Loops" [ref=e713] [cursor=pointer]:
+                - /url: /java/java_foreach_loop.htm
+            - listitem [ref=e714]:
+              - link "Java - While Loops" [ref=e715] [cursor=pointer]:
+                - /url: /java/java_while_loop.htm
+            - listitem [ref=e716]:
+              - link "Java - do-while Loops" [ref=e717] [cursor=pointer]:
+                - /url: /java/java_do_while_loop.htm
+            - listitem [ref=e718]:
+              - link "Java - Break" [ref=e719] [cursor=pointer]:
+                - /url: /java/java_break_statement.htm
+            - listitem [ref=e720]:
+              - link "Java - Continue" [ref=e721] [cursor=pointer]:
+                - /url: /java/java_continue_statement.htm
+          - paragraph [ref=e722]
+          - heading "Java String and Arrays" [level=2] [ref=e723]
+          - paragraph [ref=e724]: "Explore the following strings and array-related chapters:"
+          - list [ref=e725]:
+            - listitem [ref=e726]:
+              - link "Java Strings and String Class" [ref=e727] [cursor=pointer]:
+                - /url: /java/lang/java_lang_string.htm
+            - listitem [ref=e728]:
+              - link "Java - Strings" [ref=e729] [cursor=pointer]:
+                - /url: /java/java_strings.htm
+          - heading "Java OOPs" [level=2] [ref=e730]
+          - paragraph [ref=e731]: "Explore the following chapters to learn the object-oriented programming approach in Java:"
+          - list [ref=e732]:
+            - listitem [ref=e733]:
+              - link "Java - OOPs Concepts" [ref=e734] [cursor=pointer]:
+                - /url: /java/java_oops_concepts.htm
+            - listitem [ref=e735]:
+              - link "Java - Object & Classes" [ref=e736] [cursor=pointer]:
+                - /url: /java/java_object_classes.htm
+            - listitem [ref=e737]:
+              - link "Java - Class Attributes" [ref=e738] [cursor=pointer]:
+                - /url: /java/java_class_attributes.htm
+            - listitem [ref=e739]:
+              - link "Java - Class Methods" [ref=e740] [cursor=pointer]:
+                - /url: /java/java_class_methods.htm
+            - listitem [ref=e741]:
+              - link "Java - Methods" [ref=e742] [cursor=pointer]:
+                - /url: /java/java_methods.htm
+            - listitem [ref=e743]:
+              - link "Java - Variables Scope" [ref=e744] [cursor=pointer]:
+                - /url: /java/java_variable_scope.htm
+            - listitem [ref=e745]:
+              - link "Java - Constructors" [ref=e746] [cursor=pointer]:
+                - /url: /java/java_constructors.htm
+            - listitem [ref=e747]:
+              - link "Java - Access Modifiers" [ref=e748] [cursor=pointer]:
+                - /url: /java/java_access_modifiers.htm
+            - listitem [ref=e749]:
+              - link "Java - Inheritance" [ref=e750] [cursor=pointer]:
+                - /url: /java/java_inheritance.htm
+            - listitem [ref=e751]:
+              - link "Java - Aggregation" [ref=e752] [cursor=pointer]:
+                - /url: /java/java_aggregation.htm
+            - listitem [ref=e753]:
+              - link "Java - Polymorphism" [ref=e754] [cursor=pointer]:
+                - /url: /java/java_polymorphism.htm
+            - listitem [ref=e755]:
+              - link "Java - Overriding" [ref=e756] [cursor=pointer]:
+                - /url: /java/java_overriding.htm
+            - listitem [ref=e757]:
+              - link "Java - Method Overloading" [ref=e758] [cursor=pointer]:
+                - /url: /java/java_method_overloading.htm
+            - listitem [ref=e759]:
+              - link "Java - Dynamic Binding" [ref=e760] [cursor=pointer]:
+                - /url: /java/java_dynamic_binding.htm
+            - listitem [ref=e761]:
+              - link "Java - Static Binding" [ref=e762] [cursor=pointer]:
+                - /url: /java/java_static_binding.htm
+            - listitem [ref=e763]:
+              - link "Java - Instance Initializer Block" [ref=e764] [cursor=pointer]:
+                - /url: /java/java_initializer_block.htm
+            - listitem [ref=e765]:
+              - link "Java - Abstraction" [ref=e766] [cursor=pointer]:
+                - /url: /java/java_abstraction.htm
+            - listitem [ref=e767]:
+              - link "Java - Encapsulation" [ref=e768] [cursor=pointer]:
+                - /url: /java/java_encapsulation.htm
+          - heading "Java Collections and Interfaces" [level=2] [ref=e769]
+          - paragraph [ref=e770]: "Explore Java interfaces and collections-related chapters:"
+          - list [ref=e771]:
+            - listitem [ref=e772]:
+              - link "Java - Interfaces" [ref=e773] [cursor=pointer]:
+                - /url: /java/java_interfaces.htm
+            - listitem [ref=e774]:
+              - link "Java - List Interface" [ref=e775] [cursor=pointer]:
+                - /url: /java/java_list_interface.htm
+            - listitem [ref=e776]:
+              - link "Java - Queue Interface" [ref=e777] [cursor=pointer]:
+                - /url: /java/java_util_queue.htm
+            - listitem [ref=e778]:
+              - link "Java - Map Interface" [ref=e779] [cursor=pointer]:
+                - /url: /java/java_map_interface.htm
+            - listitem [ref=e780]:
+              - link "Java - SortedMap Interface" [ref=e781] [cursor=pointer]:
+                - /url: /java/java_sortedmap_interface.htm
+            - listitem [ref=e782]:
+              - link "Java - Set Interface" [ref=e783] [cursor=pointer]:
+                - /url: /java/java_set_interface.htm
+            - listitem [ref=e784]:
+              - link "Java - SortedSet Interface" [ref=e785] [cursor=pointer]:
+                - /url: /java/java_sortedset_interface.htm
+            - listitem [ref=e786]:
+              - link "Java - Iterators" [ref=e787] [cursor=pointer]:
+                - /url: /java/java_using_iterator.htm
+            - listitem [ref=e788]:
+              - link "Java - Comparators" [ref=e789] [cursor=pointer]:
+                - /url: /java/java_using_comparator.htm
+            - listitem [ref=e790]:
+              - link "Java - Comparable Interface in Java" [ref=e791] [cursor=pointer]:
+                - /url: /java/java-using-comparable.htm
+            - listitem [ref=e792]:
+              - link "Java - Collections" [ref=e793] [cursor=pointer]:
+                - /url: /java/java_collections.htm
+            - listitem [ref=e794]:
+              - link "Java - Collection Interface" [ref=e795] [cursor=pointer]:
+                - /url: /java/java_collection_interface.htm
+          - heading "Java Exceptional Handling" [level=2] [ref=e796]
+          - paragraph [ref=e797]: "Explore the file handling chapters to learn how to create, write, read, and manipulate the files and directories:"
+          - list [ref=e798]:
+            - listitem [ref=e799]:
+              - link "Java - Files" [ref=e800] [cursor=pointer]:
+                - /url: /java/java_file_class.htm
+            - listitem [ref=e801]:
+              - link "Java - Create a File" [ref=e802] [cursor=pointer]:
+                - /url: /java/java_create_file.htm
+            - listitem [ref=e803]:
+              - link "Java - Write to File" [ref=e804] [cursor=pointer]:
+                - /url: /java/java_write_file.htm
+            - listitem [ref=e805]:
+              - link "Java - Read Files" [ref=e806] [cursor=pointer]:
+                - /url: /java/java_read_file.htm
+            - listitem [ref=e807]:
+              - link "Java - Delete Files" [ref=e808] [cursor=pointer]:
+                - /url: /java/java_delete_file.htm
+            - listitem [ref=e809]:
+              - link "Java - Directories" [ref=e810] [cursor=pointer]:
+                - /url: /java/java_directories.htm
+            - listitem [ref=e811]:
+              - link "Java - I/O Streams" [ref=e812] [cursor=pointer]:
+                - /url: /java/java_files_io.htm
+          - heading "Java Multithreading" [level=2] [ref=e813]
+          - paragraph [ref=e814]: "Explore the threading-related chapters to learn to manage multiple threads in Java:"
+          - list [ref=e815]:
+            - listitem [ref=e816]:
+              - link "Java - Multithreading" [ref=e817] [cursor=pointer]:
+                - /url: /java/java_multithreading.htm
+            - listitem [ref=e818]:
+              - link "Java - Thread Life Cycle" [ref=e819] [cursor=pointer]:
+                - /url: /java/java_thread_life_cycle.htm
+            - listitem [ref=e820]:
+              - link "Java - Creating a Thread" [ref=e821] [cursor=pointer]:
+                - /url: /java/java_create_thread.htm
+            - listitem [ref=e822]:
+              - link "Java - Starting a Thread" [ref=e823] [cursor=pointer]:
+                - /url: /java/java_start_thread.htm
+            - listitem [ref=e824]:
+              - link "Java - Joining Threads" [ref=e825] [cursor=pointer]:
+                - /url: /java/java_join_thread.htm
+            - listitem [ref=e826]:
+              - link "Java - Naming Thread" [ref=e827] [cursor=pointer]:
+                - /url: /java/java_naming_thread.htm
+            - listitem [ref=e828]:
+              - link "Java - Thread Scheduler" [ref=e829] [cursor=pointer]:
+                - /url: /java/java_thread_scheduler.htm
+            - listitem [ref=e830]:
+              - link "Java - Thread Pools" [ref=e831] [cursor=pointer]:
+                - /url: /java/java_thread_pool.htm
+            - listitem [ref=e832]:
+              - link "Java - Main Thread" [ref=e833] [cursor=pointer]:
+                - /url: /java/java_main_thread.htm
+            - listitem [ref=e834]:
+              - link "Java - Thread Priority" [ref=e835] [cursor=pointer]:
+                - /url: /java/java_thread_priority.htm
+            - listitem [ref=e836]:
+              - link "Java - Daemon Threads" [ref=e837] [cursor=pointer]:
+                - /url: /java/java_daemon_thread.htm
+            - listitem [ref=e838]:
+              - link "Java - Thread Group" [ref=e839] [cursor=pointer]:
+                - /url: /java/java_lang_threadgroup.htm
+            - listitem [ref=e840]:
+              - link "Java - Shutdown Hook" [ref=e841] [cursor=pointer]:
+                - /url: /java/java_shutdown_hook.htm
+          - heading "Java Practices" [level=2] [ref=e842]
+          - list [ref=e843]:
+            - listitem [ref=e844]:
+              - link "Java Quick Guide" [ref=e845] [cursor=pointer]:
+                - /url: /java/java_quick_guide.htm
+            - listitem [ref=e846]:
+              - link "Java Interview Questions" [ref=e847] [cursor=pointer]:
+                - /url: /java/java_interview_questions.htm
+            - listitem [ref=e848]:
+              - link "Java 8 Interview Questions" [ref=e849] [cursor=pointer]:
+                - /url: /java/java8_interview_questions.htm
+            - listitem [ref=e850]:
+              - link "Java Online Test" [ref=e851] [cursor=pointer]:
+                - /url: /java/java_online_test.htm
+            - listitem [ref=e852]:
+              - link "Java Mock Test" [ref=e853] [cursor=pointer]:
+                - /url: /java/java_mock_test.htm
+          - heading "Java References" [level=2] [ref=e854]
+          - paragraph [ref=e855]: Here, you can find the package, class, and method references −
+          - list [ref=e856]:
+            - listitem [ref=e857]:
+              - link "Java Scanner Class" [ref=e858] [cursor=pointer]:
+                - /url: /java/util/java_util_scanner.htm
+            - listitem [ref=e859]:
+              - link "Java Arrays Class" [ref=e860] [cursor=pointer]:
+                - /url: /java/util/java_util_arrays.htm
+            - listitem [ref=e861]:
+              - link "Java Strings Class" [ref=e862] [cursor=pointer]:
+                - /url: /java/lang/java_lang_string.htm
+            - listitem [ref=e863]:
+              - link "Java Date Class" [ref=e864] [cursor=pointer]:
+                - /url: /java/util/java_util_date.htm
+            - listitem [ref=e865]:
+              - link "Java ArrayList Class" [ref=e866] [cursor=pointer]:
+                - /url: /java/util/java_util_arraylist.htm
+            - listitem [ref=e867]:
+              - link "Java Vector Class" [ref=e868] [cursor=pointer]:
+                - /url: /java/util/java_util_vector.htm
+            - listitem [ref=e869]:
+              - link "Java Stack Class" [ref=e870] [cursor=pointer]:
+                - /url: /java/util/java_util_stack.htm
+            - listitem [ref=e871]:
+              - link "Java PriorityQueue Class" [ref=e872] [cursor=pointer]:
+                - /url: /java/util/java_util_priorityqueue.htm
+            - listitem [ref=e873]:
+              - link "Java LinkedList Class" [ref=e874] [cursor=pointer]:
+                - /url: /java/util/java_util_linkedlist.htm
+            - listitem [ref=e875]:
+              - link "Java ArrayDeque Class" [ref=e876] [cursor=pointer]:
+                - /url: /java/util/java_util_arraydeque.htm
+            - listitem [ref=e877]:
+              - link "Java HashMap Class" [ref=e878] [cursor=pointer]:
+                - /url: /java/util/java_util_hashmap.htm
+            - listitem [ref=e879]:
+              - link "Java LinkedHashMap Class" [ref=e880] [cursor=pointer]:
+                - /url: /java/util/java_util_linkedhashmap.htm
+            - listitem [ref=e881]:
+              - link "Java WeakHashMap Class" [ref=e882] [cursor=pointer]:
+                - /url: /java/util/java_util_weakhashmap.htm
+            - listitem [ref=e883]:
+              - link "Java EnumMap Class" [ref=e884] [cursor=pointer]:
+                - /url: /java/util/java_util_enummap.htm
+            - listitem [ref=e885]:
+              - link "Java TreeMap Class" [ref=e886] [cursor=pointer]:
+                - /url: /java/util/java_util_treemap.htm
+            - listitem [ref=e887]:
+              - link "Java IdentityHashMap Class" [ref=e888] [cursor=pointer]:
+                - /url: /java/util/java_util_identityhashmap.htm
+            - listitem [ref=e889]:
+              - link "Java HashSet Class" [ref=e890] [cursor=pointer]:
+                - /url: /java/util/java_util_hashset.htm
+            - listitem [ref=e891]:
+              - link "Java EnumSet Class" [ref=e892] [cursor=pointer]:
+                - /url: /java/util/java_util_enumset.htm
+            - listitem [ref=e893]:
+              - link "Java LinkedHashSet Class" [ref=e894] [cursor=pointer]:
+                - /url: /java/util/java_util_linkedhashset.htm
+            - listitem [ref=e895]:
+              - link "Java TreeSet Class" [ref=e896] [cursor=pointer]:
+                - /url: /java/util/java_util_treeset.htm
+            - listitem [ref=e897]:
+              - link "Java BitSet Class" [ref=e898] [cursor=pointer]:
+                - /url: /java/util/java_util_bitset.htm
+            - listitem [ref=e899]:
+              - link "Java Dictionary Class" [ref=e900] [cursor=pointer]:
+                - /url: /java/util/java_util_dictionary.htm
+            - listitem [ref=e901]:
+              - link "Java Hashtable Class" [ref=e902] [cursor=pointer]:
+                - /url: /java/util/java_util_hashtable.htm
+            - listitem [ref=e903]:
+              - link "Java Properties Class" [ref=e904] [cursor=pointer]:
+                - /url: /java/util/java_util_properties.htm
+            - listitem [ref=e905]:
+              - link "Java Collection Class" [ref=e906] [cursor=pointer]:
+                - /url: /java/util/java_util_collections.htm
+            - listitem [ref=e907]:
+              - link "Java Array Class" [ref=e908] [cursor=pointer]:
+                - /url: /java/util/java_util_arrays.htm
+          - heading "Online Java Compiler" [level=2] [ref=e909]
+          - paragraph [ref=e910]:
+            - text: Our Java programming tutorial provides various examples to explain the concepts. To compile and execute the given Java programming examples in your browser itself, we have provided
+            - link "Online Java Compiler" [ref=e911] [cursor=pointer]:
+              - /url: /compilers/online-java-compiler.htm
+            - text: . You can edit and run almost all the examples directly from your browser without the need to set up your development environment.
+          - paragraph [ref=e912]:
+            - text: Try to click the icon
+            - img "run button" [ref=e913]
+            - text: to run the following Java code to print conventional "Hello, World!" using Java Programming.
+          - paragraph [ref=e914]: Below code box allows you to change the value of the code. So, please try to change the value inside println() and run it again to verify the result.
+          - generic [ref=e924]: "public class MyFirstJavaProgram { /* This is my first java program. * This will print 'Hello, World!' as the output */ public static void main(String []args) { System.out.println(\"Hello, World!\"); // prints Hello, World! } }"
+          - heading "Java Features" [level=2] [ref=e925]
+          - paragraph [ref=e926]: "Java is a feature-rich language. Java is evolving continuously with every update, and updates are coming every six months. Following are some of the main features of the Java language:"
+          - list [ref=e927]:
+            - listitem [ref=e928]:
+              - link "Object Oriented" [ref=e929] [cursor=pointer]:
+                - /url: /java/java_oops_concepts.htm
+              - text: ": Java is a pure object-oriented language, and everything in Java is an object. Java supports OOPS principles like"
+              - link "Inheritance" [ref=e930] [cursor=pointer]:
+                - /url: /java/java_inheritance.htm
+              - text: ","
+              - link "Encapsulation" [ref=e931] [cursor=pointer]:
+                - /url: /java/java_encapsulation.htm
+              - text: ","
+              - link "Polymorphism" [ref=e932] [cursor=pointer]:
+                - /url: /java/java_polymorphism.htm
+              - text: ", Classes , and so on. Java itself can be extended as well, being based on an object model."
+            - listitem [ref=e933]:
+              - text: "Platform Independent: Java code is platform independent. A Java code is not compiled into machine-specific code; it is compiled into a platform-neutral byte code. This byte code is executed by"
+              - link "JVM" [ref=e934] [cursor=pointer]:
+                - /url: /java/java_jvm.htm
+              - text: which runs the code on the underlying platform. This capability makes Java a Write Once Run Anywhere language.
+            - listitem [ref=e935]: "Easy To Learn: Java inherits features from C and C++, and developers can easily learn Java if they know any of the C or C++ languages. Even for someone new to computer languages, Java is very easy to learn from scratch."
+            - listitem [ref=e936]: "Secure: Java is secure by architecture. A developer is not required to directly interact with the underlying memory or operating system. Java provides automatic garbage collection, so developers are not required to worry about memory leaks, management, etc."
+            - listitem [ref=e937]: "Architectural-Neutral: Java byte code can be executed on any kind of processor. JRE automatically handles the code execution on different types of processors."
+            - listitem [ref=e938]: "Portable: A Java code written on a Windows machine can be executed without any code change on MacOS and vice versa. There is no need to make any operating system-specific code changes."
+            - listitem [ref=e939]: "Robust: Java is a very robust language with very strong compile-time error checks, strict type checking, and runtime exception handling."
+            - listitem [ref=e940]:
+              - link "Multithreading" [ref=e941] [cursor=pointer]:
+                - /url: /java/java_multithreading.htm
+              - text: ": Java provides inbuilt support for multiprocessing and multithreading. Java provides thread handling, monitors, deadlock handling, racing conditions, etc."
+            - listitem [ref=e942]:
+              - text: "High Performance: Java, although being interpreted, is still very performant. The"
+              - link "JIT(Just In Time) compiler" [ref=e943] [cursor=pointer]:
+                - /url: /java/java_just_in_time_jit_compiler.htm
+              - text: helps in improving performance.
+            - listitem [ref=e944]: "Distributed: Java is designed for distributed systems and is the most popular language for developing internet-based applications as the internet is a distributed environment."
+          - heading "Java Applications" [level=2] [ref=e945]
+          - paragraph [ref=e946]: Since Java supports object-oriented features and is platform-independent, it is extensively used in various fields. Listed below are a few areas where Java is used -
+          - list [ref=e947]:
+            - listitem [ref=e948]: Enterprise solutions
+            - listitem [ref=e949]: Game development
+            - listitem [ref=e950]: Secured web development
+            - listitem [ref=e951]: Embedded systems
+            - listitem [ref=e952]: Mobile application development
+            - listitem [ref=e953]: Big Data Applications, and many more.
+          - heading "Java Platforms (Editions)" [level=2] [ref=e954]
+          - paragraph [ref=e955]: Platforms of Java are divided into four Java editions, which are −
+          - list [ref=e956]:
+            - listitem [ref=e957]:
+              - strong [ref=e958]: Java SE (Java Standard Edition)
+              - text: ": It is a standard edition that is used to develop and deploy portable code for desktop and server environments."
+            - listitem [ref=e959]:
+              - strong [ref=e960]: Java EE (Java Enterprise Edition)
+              - text: ": It is an enterprise edition that is used to develop web applications."
+            - listitem [ref=e961]:
+              - strong [ref=e962]: Java ME (Java Micro Edition)
+              - text: ": J2ME is used to develop mobile applications; it is a micro edition of Java."
+            - listitem [ref=e963]:
+              - strong [ref=e964]: "JavaFx:"
+              - text: It is used to develop lightweight user interfaces for rich internet applications.
+          - heading "Java Jobs & Opportunities" [level=2] [ref=e965]
+          - paragraph [ref=e966]: Java is very in demand, and all the major companies are recruiting Java programmers to develop their desktop, web, and mobile applications.
+          - paragraph [ref=e967]: "Today, a Java programmer with 3-5 years of experience is asking for around $120,000 in an in an annual package, and this is the most demanding programming language in America. Though it can vary depending on the location of the job. Following are the great companies that are using Java and they need good Java programmers:"
+          - list [ref=e968]:
+            - listitem [ref=e969]: Google
+            - listitem [ref=e970]: Microsoft
+            - listitem [ref=e971]: Facebook
+            - listitem [ref=e972]: IBM
+            - listitem [ref=e973]: Amazon
+            - listitem [ref=e974]: Netflix
+            - listitem [ref=e975]: Pinterest
+            - listitem [ref=e976]: Uber
+            - listitem [ref=e977]: JetBrains
+            - listitem [ref=e978]: Many more...
+          - paragraph [ref=e979]: So, you could be the next potential employee for any of these major companies. We have developed great learning material for Java that will help you prepare for the technical interviews and certification exams based on Java. So, start learning Java using this simple and effective tutorial from anywhere and anytime, absolutely at your pace.
+          - heading "Why to Learn Java?" [level=2] [ref=e980]
+          - paragraph [ref=e981]: Java is a MUST to learn programming language for students and working professionals to become a great software engineer, especially when they are working in the software development domain. If you will conduct a survey about the best programming language around, Java is sure to come up.
+          - paragraph [ref=e982]: "Java is a fairly easy programming language to learn, so if you are starting to learn any programming language, then Java could be your great choice. There's also plenty of Java tools that make it easy for developers and beginners to use. There are many other good reasons that make Java the first choice of any programmer:"
+          - list [ref=e983]:
+            - listitem [ref=e984]: Java is open source, which means it's available free of cost.
+            - listitem [ref=e985]: Java is simple and so easy to learn.
+            - listitem [ref=e986]: Java is much in demand and ensures a high salary.
+            - listitem [ref=e987]: Java has a large, vibrant community.
+            - listitem [ref=e988]: Java has powerful development tools.
+            - listitem [ref=e989]: Java is platform-independent.
+          - heading "Who should Learn Java" [level=2] [ref=e990]
+          - paragraph [ref=e991]:
+            - text: This
+            - strong [ref=e992]: Java tutorial
+            - text: will help both students as well as working professionals who want to develop applications using Java technologies like banking systems, support systems, information systems, websites, mobile apps, personal blogs, etc. We recommend reading this tutorial in the sequence listed in the left-side menu.
+          - paragraph [ref=e993]: Today, Java is one of the most demanding programming languages, and so it has become an essential language to learn for anyone involved in the software application development process, including software developers, software designers, project managers, etc.
+          - heading "Prerequisites to Learn Java" [level=2] [ref=e994]
+          - paragraph [ref=e995]: Though we have tried our best to present the Core Java concepts in a simple and easy way, still, before you start learning Java, it is assumed that the readers have a reasonable exposure to any programming environment and knowledge of basic concepts such as variables, commands, syntax, etc.
+          - heading "Learn Java by Examples" [level=2] [ref=e996]
+          - paragraph [ref=e997]:
+            - text: "This tutorial provides a set of Java examples. Practice these examples to learn the Java concepts better:"
+            - link "Java Examples" [ref=e998] [cursor=pointer]:
+              - /url: /javaexamples/index.htm
+              - strong [ref=e999]: Java Examples
+          - heading "Java Online Quizzes" [level=2] [ref=e1000]
+          - paragraph [ref=e1001]: This Java tutorial helps you prepare for technical interviews and certification exams. We have provided various quizzes and assignments to check your learning level. Given quizzes have multiple-choice types of questions and their answers with short explanations.
+          - paragraph [ref=e1002]: "Following is a sample quiz; try to attempt any of the given answers:"
+          - generic [ref=e1004]:
+            - button "Show Answer" [ref=e1005] [cursor=pointer]: Show Answer
+            - generic [ref=e1006]:
+              - paragraph [ref=e1007]: "Q 1 - The Java programming language was developed by which of the following :"
+              - paragraph [ref=e1008]:
+                - link "A - Google in 1990s" [ref=e1009] [cursor=pointer]:
+                  - /url: javascript:void(0);
+              - paragraph [ref=e1010]:
+                - link "B - Micorsoft in 1980s" [ref=e1011] [cursor=pointer]:
+                  - /url: javascript:void(0);
+              - paragraph [ref=e1012]:
+                - link "C - Sun Microsystems in 1995" [ref=e1013] [cursor=pointer]:
+                  - /url: javascript:void(0);
+              - paragraph [ref=e1014]:
+                - link "D - None of the Above" [ref=e1015] [cursor=pointer]:
+                  - /url: javascript:void(0);
+          - paragraph [ref=e1016]:
+            - text: Start your online quiz
+            - link "Start Java Quiz" [ref=e1017] [cursor=pointer]:
+              - /url: /java/java_online_quiz.htm
+            - text: .
+          - heading "Download Java" [level=2] [ref=e1018]
+          - paragraph [ref=e1019]:
+            - text: "Java's latest version can be downloaded from Oracle's official website:"
+            - link "Java Downloads" [ref=e1020] [cursor=pointer]:
+              - /url: https://www.oracle.com/in/java/technologies/downloads/
+          - heading "Java Certification" [level=2] [ref=e1021]
+          - paragraph [ref=e1022]:
+            - text: Get certified in Java to boost your skills and career
+            - link "Get certified" [ref=e1023] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/certification/java-prime-pack/index.asp
+              - button "Get certified" [ref=e1024]
+          - heading "Frequently Asked Questions about Java Tutorial" [level=2] [ref=e1025]
+          - paragraph [ref=e1026]: There are some important frequently asked questions (FAQs) about Java Programming tutorial, this section lists them down along with their answers briefly - −
+          - heading "1. What are the 4 important concepts in Java?" [level=3] [ref=e1027]
+          - blockquote [ref=e1028]: "Java supports abstraction, encapsulation, polymorphism, and inheritance. These are 4 major theoretical principles of object-oriented programming. But Java also works with three further OOP concepts: association, aggregation, and composition."
+          - heading "2. What are the benefits of Java?" [level=3] [ref=e1029]
+          - blockquote [ref=e1030]:
+            - list [ref=e1031]:
+              - listitem [ref=e1032]: Java is free and open source
+              - listitem [ref=e1033]: Java is community driven and has expert leadership
+              - listitem [ref=e1034]: Java is fast and high-performance
+              - listitem [ref=e1035]: Java is easy to learn
+              - listitem [ref=e1036]: Java is statically typed
+              - listitem [ref=e1037]: Java is object-oriented
+              - listitem [ref=e1038]: Java supports functional programming
+          - heading "3. How much time will it take to learn Java?" [level=3] [ref=e1039]
+          - blockquote [ref=e1040]: Learning style and dedication to the amount of time you can spend each day affect a lot. However, on average, it takes around 6 to 12 months to learn Java programming.
+          - heading "4. Why is Java a so popular programming language?" [level=3] [ref=e1041]
+          - blockquote [ref=e1042]: The Java language is easily extensible because it is based on an object model. Platform-dependent. Unlike many other programming languages, Java is compiled, not into a platform-dependent machine but into platform-independent byte code.
+          - heading "5. What are the advantages of Java over Python?" [level=3] [ref=e1043]
+          - blockquote [ref=e1044]: Python and Java are two of the most popular programming languages among software programmers. Java is generally faster and more efficient than Python because it is a compiled language, whereas Python is an interpreted language and has simpler, more concise syntax than Java.
+          - heading "6. How do I start learning Java?" [level=3] [ref=e1045]
+          - blockquote [ref=e1046]:
+            - paragraph [ref=e1047]: "Here is the summarized list of tips that you can follow to start learning Java:"
+            - list [ref=e1048]:
+              - listitem [ref=e1049]: First and most important is to make your mind to learn Java.
+              - listitem [ref=e1050]: Install Java Virtual Machine and Java Compilers on your computer system.
+              - listitem [ref=e1051]: Follow our tutorial step by step, starting from the very beginning.
+              - listitem [ref=e1052]: Read more articles, watch online courses, or buy a book on Java to enhance your knowledge in Java.
+              - listitem [ref=e1053]: Try to develop small software using Java and other technologies like MySQL if you want to make use of a database.
+          - heading "7. What are Java Technologies for Web Applications?" [level=3] [ref=e1054]
+          - blockquote [ref=e1055]:
+            - paragraph [ref=e1056]: "Java provides the following technologies to help web development:"
+            - list [ref=e1057]:
+              - listitem [ref=e1058]: Java Servlet API.
+              - listitem [ref=e1059]: JavaServer Pages Standard Tag Library.
+              - listitem [ref=e1060]: JavaServer Faces Technology.
+              - listitem [ref=e1061]: Java Message Service API.
+              - listitem [ref=e1062]: JDBC API.
+              - listitem [ref=e1063]: Java Persistence API.
+              - listitem [ref=e1064]: Java Naming and Directory Interface.
+              - listitem [ref=e1065]: NetBeans IDE.
+          - heading "8. Which is the best place to learn Java?" [level=3] [ref=e1066]
+          - blockquote [ref=e1067]:
+            - text: You can use our simple and the best Java tutorial to learn Java and Advanced Java. We have removed all the unnecessary complexity while teaching you Java concepts. You can start learning it now
+            - link "Start Learning Java" [ref=e1068] [cursor=pointer]:
+              - /url: /java/index.htm
+            - text: .
+        - generic [ref=e1069]:
+          - button "Print Page" [ref=e1070] [cursor=pointer]:
+            - img [ref=e1071]
+            - text: Print Page
+          - generic [ref=e1073]:
+            - link "Previous" [ref=e1074] [cursor=pointer]:
+              - /url: /java/index.htm
+              - img [ref=e1075]
+              - text: Previous
+            - link "Next" [ref=e1077] [cursor=pointer]:
+              - /url: /java/java_overview.htm
+              - text: Next
+              - img [ref=e1078]
+        - generic [ref=e1081]:
+          - generic [ref=e1082]: Advertisements
+          - iframe [ref=e1087]:
+            - iframe [ref=f51e11]:
+              - generic [active] [ref=f67e1]:
+                - generic:
+                  - generic [ref=f67e3]:
+                    - generic [ref=f67e4]:
+                      - generic:
+                        - img [ref=f67e8] [cursor=pointer]
+                        - button [ref=f67e11] [cursor=pointer]:
+                          - img [ref=f67e12]
+                    - generic [ref=f67e20]:
+                      - generic "Advertisement" [ref=f67e21]
+                      - iframe [ref=f67e23]:
+                        - generic [active] [ref=f83e1]:
+                          - button [ref=f83e4] [cursor=pointer]:
+                            - img [ref=f83e5]
+                          - iframe [ref=f83e7]:
+                            - generic [ref=f477e4] [cursor=pointer]:
+                              - generic:
+                                - generic:
+                                  - generic [ref=f477e7]: Learn more
+                                  - img [ref=f477e10]
+                                  - generic "Skip Ad" [ref=f477e13]:
+                                    - generic [ref=f477e14]: Skip Ad
+                                    - img [ref=f477e16]
+                  - iframe
+                  - iframe
+      - generic [ref=e1089]:
+        - iframe [ref=e1094]:
+          - generic [ref=f47e4]:
+            - iframe [ref=f47e15]:
+              - iframe [ref=f71e2]:
+                
+            - iframe [ref=f47e17]:
+              - generic [ref=f140e3]:
+                - generic [ref=f140e4]:
+                  - generic:
+                    - img [ref=f140e8] [cursor=pointer]
+                    - button [ref=f140e11] [cursor=pointer]:
+                      - img [ref=f140e12]
+                - link "Pregnant waitress runs crying to her boss after a cop does something strange when she gives him a $8.75 check Learn More" [ref=f140e20] [cursor=pointer]:
+                  - /url: https://article.writeswonder.com/pregnant-waitress-runs-crying-to-her-boss-after-a-cop-does-something-strange-when-she-gives-him-a-8-75-check/
+                  - img [ref=f140e21]
+                  - paragraph [ref=f140e22]: Pregnant waitress runs crying to her boss after a cop does something strange when she gives him a $8.75 check
+                  - button "Learn More" [ref=f140e23]
+            - iframe [ref=f47e19]:
+              - generic [active] [ref=f463e1]:
+                - generic:
+                  - generic [ref=f463e3]:
+                    - generic [ref=f463e4]:
+                      - generic:
+                        - img [ref=f463e8] [cursor=pointer]
+                        - button [ref=f463e11] [cursor=pointer]:
+                          - img [ref=f463e12]
+                    - link "Parents are taken aback when they return after a week and see what their 4 daughters had done to their house Learn More" [ref=f463e20] [cursor=pointer]:
+                      - /url: https://article.writeswonder.com/parents-are-taken-aback-when-they-return-after-a-week-and-see-what-their-4-daughters-had-done-to-the-house/
+                      - img [ref=f463e21]
+                      - paragraph [ref=f463e22]: Parents are taken aback when they return after a week and see what their 4 daughters had done to their house
+                      - button "Learn More" [ref=f463e23]
+                  - iframe
+                  - iframe
+            - iframe [ref=f47e21]:
+              - generic [active] [ref=f483e1]:
+                - generic:
+                  - generic [ref=f483e3]:
+                    - generic [ref=f483e4]:
+                      - generic:
+                        - img [ref=f483e8] [cursor=pointer]
+                        - button [ref=f483e11] [cursor=pointer]:
+                          - img [ref=f483e12]
+                    - link "See How This Couple Transformed Their Home To A Safe Haven Beating All The Odds!! Learn More" [ref=f483e20] [cursor=pointer]:
+                      - /url: https://article.writeswonder.com/see-how-this-couple-transformed-their-home-to-a-safe-haven-beating-all-the-odds/
+                      - img [ref=f483e21]
+                      - paragraph [ref=f483e22]: See How This Couple Transformed Their Home To A Safe Haven Beating All The Odds!!
+                      - button "Learn More" [ref=f483e23]
+                  - iframe
+                  - iframe
+        - iframe [ref=e1099]:
+          - generic [ref=f48e3]:
+            - iframe [ref=f48e6]:
+              
+            - generic [ref=f48e7]:
+              - generic:
+                - img [ref=f48e11] [cursor=pointer]
+                - button [ref=f48e14] [cursor=pointer]:
+                  - img [ref=f48e15]
+        - iframe [ref=e1104]:
+          - iframe [ref=f50e5]:
+            - generic [ref=f54e3]:
+              - generic [ref=f54e4]:
+                - generic:
+                  - img [ref=f54e8] [cursor=pointer]
+                  - button [ref=f54e11] [cursor=pointer]:
+                    - img [ref=f54e12]
+              - link "RESCUE CIRCUS LIONS React To Their Toys In The Most Surprising manner Learn More" [ref=f54e20] [cursor=pointer]:
+                - /url: https://article.writeswonder.com/rescue-circus-lions-react-to-their-toys-in-the-most-surprising-manner/
+                - img [ref=f54e21]
+                - paragraph [ref=f54e22]: RESCUE CIRCUS LIONS React To Their Toys In The Most Surprising manner
+                - button "Learn More" [ref=f54e23]
+  - contentinfo [ref=e1105]:
+    - list [ref=e1106]:
+      - listitem [ref=e1107]:
+        - link "ABOUT US" [ref=e1108] [cursor=pointer]:
+          - /url: /about/index.htm
+        - text: "|"
+      - listitem [ref=e1109]:
+        - link "OUR TEAM" [ref=e1110] [cursor=pointer]:
+          - /url: /about/about_team.htm
+        - text: "|"
+      - listitem [ref=e1111]:
+        - link "CAREERS" [ref=e1112] [cursor=pointer]:
+          - /url: /about/about_careers.htm
+        - text: "|"
+      - listitem [ref=e1113]:
+        - link "JOBS" [ref=e1114] [cursor=pointer]:
+          - /url: /job_search.php
+        - text: "|"
+      - listitem [ref=e1115]:
+        - link "CONTACT US" [ref=e1116] [cursor=pointer]:
+          - /url: /about/contact_us.htm
+        - text: "|"
+      - listitem [ref=e1117]:
+        - link "TERMS OF USE" [ref=e1118] [cursor=pointer]:
+          - /url: /about/about_terms_of_use.htm
+        - text: "|"
+      - listitem [ref=e1119]:
+        - link "PRIVACY POLICY" [ref=e1120] [cursor=pointer]:
+          - /url: /about/about_privacy.htm
+        - text: "|"
+      - listitem [ref=e1121]:
+        - link "REFUND POLICY" [ref=e1122] [cursor=pointer]:
+          - /url: /about/return_refund_policy.htm
+        - text: "|"
+      - listitem [ref=e1123]:
+        - link "COOKIES POLICY" [ref=e1124] [cursor=pointer]:
+          - /url: /about/about_cookies.htm
+        - text: "|"
+      - listitem [ref=e1125]:
+        - link "FAQ'S" [ref=e1126] [cursor=pointer]:
+          - /url: /about/faq.htm
+    - generic [ref=e1127]:
+      - img "tutorials point logo" [ref=e1128]
+      - generic [ref=e1129]:
+        - link [ref=e1130] [cursor=pointer]:
+          - /url: https://www.facebook.com/tutorialspointindia
+          - img [ref=e1131]
+        - link [ref=e1133] [cursor=pointer]:
+          - /url: https://x.com/tutorialspoint
+          - img [ref=e1134]
+        - link [ref=e1136] [cursor=pointer]:
+          - /url: https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg
+          - img [ref=e1137]
+        - link [ref=e1139] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/tutorialspoint/
+          - img [ref=e1140]
+        - link [ref=e1142] [cursor=pointer]:
+          - /url: https://www.instagram.com/tutorialspoint_/
+          - img [ref=e1143]
+      - generic [ref=e1145]:
+        - link "Download Android App" [ref=e1146] [cursor=pointer]:
+          - /url: https://play.google.com/store/apps/details?id=com.tutorialspoint.onlineviewer
+          - img "Download Android App" [ref=e1147]
+        - link "Download IOS App" [ref=e1148] [cursor=pointer]:
+          - /url: https://itunes.apple.com/us/app/tutorials-point/id914891263?ls=1&mt=8
+          - img "Download IOS App" [ref=e1149]
+    - generic [ref=e1151]:
+      - paragraph [ref=e1152]: Tutorials Point is a leading Ed Tech company striving to provide the best learning material on technical and non-technical subjects.
+      - paragraph [ref=e1153]: Copyright 2026. All Rights Reserved.
+```

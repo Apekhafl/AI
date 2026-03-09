@@ -1,0 +1,1075 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "Home" [ref=e4] [cursor=pointer]:
+        - /url: /index.htm
+        - img [ref=e5]
+        - text: Home
+      - link "Whiteboard" [ref=e7] [cursor=pointer]:
+        - /url: /whiteboard.htm
+        - img [ref=e8]
+        - text: Whiteboard
+      - link "Graphing Calculator" [ref=e10] [cursor=pointer]:
+        - /url: /online_graphing_calculator.htm
+        - img [ref=e11]
+        - text: Graphing Calculator
+      - link "Online Compilers" [ref=e13] [cursor=pointer]:
+        - /url: /compilers/index.htm
+        - img [ref=e14]
+        - text: Online Compilers
+      - link "Articles" [ref=e16] [cursor=pointer]:
+        - /url: /articles/index.php
+        - img [ref=e17]
+        - text: Articles
+      - link "Tools" [ref=e19] [cursor=pointer]:
+        - /url: /online_dev_tools.htm
+        - img [ref=e20]
+        - text: Tools
+      - generic [ref=e22]:
+        - link "Connect with us on Facebook" [ref=e23] [cursor=pointer]:
+          - /url: https://www.facebook.com/tutorialspointindia
+          - img [ref=e24]
+        - link "Connect with us on X" [ref=e26] [cursor=pointer]:
+          - /url: https://x.com/tutorialspoint
+          - img [ref=e27]
+        - link "Connect with us on Youtube" [ref=e29] [cursor=pointer]:
+          - /url: https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg
+          - img [ref=e30]
+        - link "Connect with us on LinkedIn" [ref=e32] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/tutorialspoint/
+          - img [ref=e33]
+        - link "Connect with us on Instagram" [ref=e35] [cursor=pointer]:
+          - /url: https://www.instagram.com/tutorialspoint_/
+          - img [ref=e36]
+  - navigation [ref=e38]:
+    - generic [ref=e39]:
+      - link "Tutorialspoint" [ref=e40] [cursor=pointer]:
+        - /url: https://www.tutorialspoint.com
+        - img [ref=e41]
+      - link "Categories" [ref=e58] [cursor=pointer]:
+        - /url: /top-categories.htm
+        - img [ref=e59]
+        - generic [ref=e61]: Categories
+      - generic [ref=e62]:
+        - generic [ref=e63]:
+          - textbox "Search tutorials, courses and ebooks..." [ref=e64]
+          - img [ref=e65]
+        - link "Library" [ref=e67] [cursor=pointer]:
+          - /url: /tutorialslibrary.htm
+        - link "Courses" [ref=e68] [cursor=pointer]:
+          - /url: https://market.tutorialspoint.com/index.asp
+        - link "Jobs" [ref=e69] [cursor=pointer]:
+          - /url: https://www.tutorialspoint.com/jobs/index.htm
+        - link "Login" [ref=e70] [cursor=pointer]:
+          - /url: /practice/signin.php?redirect=/job_search.php
+  - main [ref=e71]:
+    - generic [ref=e73]:
+      - generic [ref=e75]:
+        - img "Technical Job Search" [ref=e77]
+        - list [ref=e78]:
+          - listitem [ref=e79]: Job Categories
+          - listitem [ref=e80]:
+            - link "Python Python" [ref=e81] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/python.php
+              - img "Python" [ref=e82]
+              - text: Python
+          - listitem [ref=e83]:
+            - link "Java Java Developer" [ref=e84] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/java-developer.php
+              - img "Java" [ref=e85]
+              - text: Java Developer
+          - listitem [ref=e86]:
+            - link "Fresher Fresher Entry Level" [ref=e87] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/fresher-entry-level.php
+              - img "Fresher" [ref=e88]
+              - text: Fresher Entry Level
+          - listitem [ref=e89]:
+            - link "Part Part Time" [ref=e90] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/part-time-jobs.php
+              - img "Part" [ref=e91]
+              - text: Part Time
+          - listitem [ref=e92]:
+            - link "Full Full Stack Developer" [ref=e93] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/full-stack-developer.php
+              - img "Full" [ref=e94]
+              - text: Full Stack Developer
+          - listitem [ref=e95]:
+            - link "Online Online Freelance" [ref=e96] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/freelance-job-openings.php
+              - img "Online" [ref=e97]
+              - text: Online Freelance
+          - listitem [ref=e98]:
+            - link "DevOps DevOps" [ref=e99] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/devops.php
+              - img "DevOps" [ref=e100]
+              - text: DevOps
+          - listitem [ref=e101]:
+            - link "React React Developer" [ref=e102] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/react-developer.php
+              - img "React" [ref=e103]
+              - text: React Developer
+          - listitem [ref=e104]:
+            - link "Software Software Developer" [ref=e105] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/software-developer.php
+              - img "Software" [ref=e106]
+              - text: Software Developer
+          - listitem [ref=e107]:
+            - link "Web Web Developer" [ref=e108] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/web-developer.php
+              - img "Web" [ref=e109]
+              - text: Web Developer
+          - listitem [ref=e110]:
+            - link "Cloud Cloud Computing" [ref=e111] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/cloud-computing.php
+              - img "Cloud" [ref=e112]
+              - text: Cloud Computing
+          - listitem [ref=e113]:
+            - link "Cloud Cloud Engineer" [ref=e114] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/cloud-engineer.php
+              - img "Cloud" [ref=e115]
+              - text: Cloud Engineer
+          - listitem [ref=e116]:
+            - link "Data Data Science" [ref=e117] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/data-science.php
+              - img "Data" [ref=e118]
+              - text: Data Science
+          - listitem [ref=e119]:
+            - link "Artificial Artificial Intelligence" [ref=e120] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/artificial-intelligence.php
+              - img "Artificial" [ref=e121]
+              - text: Artificial Intelligence
+          - listitem [ref=e122]:
+            - link "Machine Machine Learning" [ref=e123] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/machine-learning.php
+              - img "Machine" [ref=e124]
+              - text: Machine Learning
+          - listitem [ref=e125]:
+            - link "Work Work From Home" [ref=e126] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/work-from-home.php
+              - img "Work" [ref=e127]
+              - text: Work From Home
+          - listitem [ref=e128]:
+            - link "Backend Backend Developer" [ref=e129] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/backend-developer.php
+              - img "Backend" [ref=e130]
+              - text: Backend Developer
+          - listitem [ref=e131]:
+            - link "Javascript Javascript" [ref=e132] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/javascript.php
+              - img "Javascript" [ref=e133]
+              - text: Javascript
+          - listitem [ref=e134]:
+            - link "PHP PHP Developer" [ref=e135] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/php-developer.php
+              - img "PHP" [ref=e136]
+              - text: PHP Developer
+          - listitem [ref=e137]:
+            - link "AI AI Data Scientist" [ref=e138] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/ai-data-scientist.php
+              - img "AI" [ref=e139]
+              - text: AI Data Scientist
+          - listitem [ref=e140]:
+            - link "Web Web Design" [ref=e141] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/web-design.php
+              - img "Web" [ref=e142]
+              - text: Web Design
+          - listitem [ref=e143]:
+            - link "Front Front End Developer" [ref=e144] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/frontend-developer.php
+              - img "Front" [ref=e145]
+              - text: Front End Developer
+          - listitem [ref=e146]:
+            - link "C++ C++ Developer" [ref=e147] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/cplusplus.php
+              - img "C++" [ref=e148]
+              - text: C++ Developer
+          - listitem [ref=e149]:
+            - link "AI AI Engineer" [ref=e150] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/ai-engineer.php
+              - img "AI" [ref=e151]
+              - text: AI Engineer
+          - listitem [ref=e152]:
+            - link "UI/UX UI/UX Designer" [ref=e153] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/ux-designer.php
+              - img "UI/UX" [ref=e154]
+              - text: UI/UX Designer
+          - listitem [ref=e155]:
+            - link "Event Event Management" [ref=e156] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/event-management.php
+              - img "Event" [ref=e157]
+              - text: Event Management
+          - listitem [ref=e158]:
+            - link "Wordpress Wordpress Developer" [ref=e159] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/wordpress-developer.php
+              - img "Wordpress" [ref=e160]
+              - text: Wordpress Developer
+          - listitem [ref=e161]:
+            - link "Assistant Assistant Manager" [ref=e162] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/assistant-manager.php
+              - img "Assistant" [ref=e163]
+              - text: Assistant Manager
+          - listitem [ref=e164]:
+            - link "Copywriter Copywriter" [ref=e165] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/copywriter.php
+              - img "Copywriter" [ref=e166]
+              - text: Copywriter
+          - listitem [ref=e167]:
+            - link "Virtual Virtual Assistant" [ref=e168] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/virtual-assistant.php
+              - img "Virtual" [ref=e169]
+              - text: Virtual Assistant
+          - listitem [ref=e170]:
+            - link "Mobile Mobile App Developer" [ref=e171] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/mobile-app-developer.php
+              - img "Mobile" [ref=e172]
+              - text: Mobile App Developer
+          - listitem [ref=e173]:
+            - link "C C Programming" [ref=e174] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/c-programming.php
+              - img "C" [ref=e175]
+              - text: C Programming
+          - listitem [ref=e176]:
+            - link "C# C# Developer" [ref=e177] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/chash.php
+              - img "C#" [ref=e178]
+              - text: C# Developer
+          - listitem [ref=e179]:
+            - link "Database Database Manager" [ref=e180] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/database-manager.php
+              - img "Database" [ref=e181]
+              - text: Database Manager
+          - listitem [ref=e182]:
+            - link "Social Social Media Manager" [ref=e183] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/social-media-manager.php
+              - img "Social" [ref=e184]
+              - text: Social Media Manager
+          - listitem [ref=e185]:
+            - link "Market Market Research" [ref=e186] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/market-research.php
+              - img "Market" [ref=e187]
+              - text: Market Research
+          - listitem [ref=e188]:
+            - link "Data Data Analyst" [ref=e189] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/data-analysis.php
+              - img "Data" [ref=e190]
+              - text: Data Analyst
+          - listitem [ref=e191]:
+            - link "MySQL MySQL" [ref=e192] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/mysql.php
+              - img "MySQL" [ref=e193]
+              - text: MySQL
+          - listitem [ref=e194]:
+            - link "Cloud Cloud Architect" [ref=e195] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/cloud-architect.php
+              - img "Cloud" [ref=e196]
+              - text: Cloud Architect
+          - listitem [ref=e197]:
+            - link "Operations Operations Manager" [ref=e198] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/operations-manager.php
+              - img "Operations" [ref=e199]
+              - text: Operations Manager
+          - listitem [ref=e200]:
+            - link "Management Management" [ref=e201] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/management.php
+              - img "Management" [ref=e202]
+              - text: Management
+          - listitem [ref=e203]:
+            - link "IoT IoT Solutions Architect" [ref=e204] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/iot-solutions-architect.php
+              - img "IoT" [ref=e205]
+              - text: IoT Solutions Architect
+          - listitem [ref=e206]:
+            - link "HTML HTML" [ref=e207] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/html.php
+              - img "HTML" [ref=e208]
+              - text: HTML
+          - listitem [ref=e209]:
+            - link "Warehouse Warehouse" [ref=e210] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/warehouse.php
+              - img "Warehouse" [ref=e211]
+              - text: Warehouse
+          - listitem [ref=e212]:
+            - link "Software Software Architect" [ref=e213] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/software-architect.php
+              - img "Software" [ref=e214]
+              - text: Software Architect
+          - listitem [ref=e215]:
+            - link "Blockchain Blockchain Engineer" [ref=e216] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/blockchain-engineer.php
+              - img "Blockchain" [ref=e217]
+              - text: Blockchain Engineer
+          - listitem [ref=e218]:
+            - link "Big Big Data Engineer" [ref=e219] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/big-data-engineer.php
+              - img "Big" [ref=e220]
+              - text: Big Data Engineer
+          - listitem [ref=e221]:
+            - link "Cyber Cyber Security Engineer" [ref=e222] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/cyber-security-engineer.php
+              - img "Cyber" [ref=e223]
+              - text: Cyber Security Engineer
+          - listitem [ref=e224]:
+            - link "Brand Brand Strategist" [ref=e225] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/brand-strategist.php
+              - img "Brand" [ref=e226]
+              - text: Brand Strategist
+          - listitem [ref=e227]:
+            - link "Node.js Node.js Developer" [ref=e228] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/nodejs-developer.php
+              - img "Node.js" [ref=e229]
+              - text: Node.js Developer
+          - listitem [ref=e230]:
+            - link "iOS IOS Developer" [ref=e231] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/ios-developer.php
+              - img "iOS" [ref=e232]
+              - text: IOS Developer
+          - listitem [ref=e233]:
+            - link "Applications Applications Architect" [ref=e234] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/applications-architect.php
+              - img "Applications" [ref=e235]
+              - text: Applications Architect
+          - listitem [ref=e236]:
+            - link "Business Business Analyst" [ref=e237] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/business-analyst.php
+              - img "Business" [ref=e238]
+              - text: Business Analyst
+          - listitem [ref=e239]:
+            - link "Android Android Developer" [ref=e240] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/android-developer.php
+              - img "Android" [ref=e241]
+              - text: Android Developer
+          - listitem [ref=e242]:
+            - link "Product Product Manager" [ref=e243] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/product-manager.php
+              - img "Product" [ref=e244]
+              - text: Product Manager
+          - listitem [ref=e245]:
+            - link "Data Data Architect" [ref=e246] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/data-architect.php
+              - img "Data" [ref=e247]
+              - text: Data Architect
+          - listitem [ref=e248]:
+            - link "Healthcare Healthcare" [ref=e249] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/healthcare.php
+              - img "Healthcare" [ref=e250]
+              - text: Healthcare
+          - listitem [ref=e251]:
+            - link "Cyber Cyber Security" [ref=e252] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/cyber-security.php
+              - img "Cyber" [ref=e253]
+              - text: Cyber Security
+          - listitem [ref=e254]:
+            - link "Application Application Analyst" [ref=e255] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/application-analyst.php
+              - img "Application" [ref=e256]
+              - text: Application Analyst
+          - listitem [ref=e257]:
+            - link "Financial Financial Analyst" [ref=e258] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/financial-analyst.php
+              - img "Financial" [ref=e259]
+              - text: Financial Analyst
+          - listitem [ref=e260]:
+            - link "Real Real Estate" [ref=e261] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/real-estate.php
+              - img "Real" [ref=e262]
+              - text: Real Estate
+          - listitem [ref=e263]:
+            - link "Software Software Test Engineer" [ref=e264] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/software-test-engineer.php
+              - img "Software" [ref=e265]
+              - text: Software Test Engineer
+          - listitem [ref=e266]:
+            - link "Machine Machine Operator" [ref=e267] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/machine-operator.php
+              - img "Machine" [ref=e268]
+              - text: Machine Operator
+          - listitem [ref=e269]:
+            - link "Project Project Manager" [ref=e270] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/project-manager.php
+              - img "Project" [ref=e271]
+              - text: Project Manager
+          - listitem [ref=e272]:
+            - link "Ethical Ethical Hacking" [ref=e273] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/ethical-hacking.php
+              - img "Ethical" [ref=e274]
+              - text: Ethical Hacking
+          - listitem [ref=e275]:
+            - link "Office Office Assistant" [ref=e276] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/office-assistant.php
+              - img "Office" [ref=e277]
+              - text: Office Assistant
+          - listitem [ref=e278]:
+            - link "Telemarketer Telemarketer" [ref=e279] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/telemarketer.php
+              - img "Telemarketer" [ref=e280]
+              - text: Telemarketer
+          - listitem [ref=e281]:
+            - link "Web Web Development" [ref=e282] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/web-development.php
+              - img "Web" [ref=e283]
+              - text: Web Development
+          - listitem [ref=e284]:
+            - link "Engineering Engineering" [ref=e285] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/engineering.php
+              - img "Engineering" [ref=e286]
+              - text: Engineering
+          - listitem [ref=e287]:
+            - link "Dentist Dentist" [ref=e288] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/dentist.php
+              - img "Dentist" [ref=e289]
+              - text: Dentist
+          - listitem [ref=e290]:
+            - link "System System Analyst" [ref=e291] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/system-analyst.php
+              - img "System" [ref=e292]
+              - text: System Analyst
+          - listitem [ref=e293]:
+            - link "Journalist Journalist" [ref=e294] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/journalist.php
+              - img "Journalist" [ref=e295]
+              - text: Journalist
+          - listitem [ref=e296]:
+            - link "Google Google Ads" [ref=e297] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/google-ads.php
+              - img "Google" [ref=e298]
+              - text: Google Ads
+          - listitem [ref=e299]:
+            - link "Data Data Structure" [ref=e300] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/data-structure.php
+              - img "Data" [ref=e301]
+              - text: Data Structure
+          - listitem [ref=e302]:
+            - link "Data Data Entry Online" [ref=e303] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/data-entry.php
+              - img "Data" [ref=e304]
+              - text: Data Entry Online
+          - listitem [ref=e305]:
+            - link "Physician Physician" [ref=e306] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/physician.php
+              - img "Physician" [ref=e307]
+              - text: Physician
+          - listitem [ref=e308]:
+            - link "Facebook Facebook Ads" [ref=e309] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/facebook-ads.php
+              - img "Facebook" [ref=e310]
+              - text: Facebook Ads
+          - listitem [ref=e311]:
+            - link "Social Social Media Marketing" [ref=e312] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/social-media-marketing.php
+              - img "Social" [ref=e313]
+              - text: Social Media Marketing
+          - listitem [ref=e314]:
+            - link "SEO SEO" [ref=e315] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/seo.php
+              - img "SEO" [ref=e316]
+              - text: SEO
+          - listitem [ref=e317]:
+            - link "Quality Quality Analyst" [ref=e318] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/quality-analyst.php
+              - img "Quality" [ref=e319]
+              - text: Quality Analyst
+          - listitem [ref=e320]:
+            - link "Software Software Engineer" [ref=e321] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/software-engineer.php
+              - img "Software" [ref=e322]
+              - text: Software Engineer
+          - listitem [ref=e323]:
+            - link "Pediatrician Pediatrician" [ref=e324] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/pediatrician.php
+              - img "Pediatrician" [ref=e325]
+              - text: Pediatrician
+          - listitem [ref=e326]:
+            - link "Psychiatrist Psychiatrist" [ref=e327] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/psychiatrist.php
+              - img "Psychiatrist" [ref=e328]
+              - text: Psychiatrist
+          - listitem [ref=e329]:
+            - link "SAP SAP" [ref=e330] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/sap.php
+              - img "SAP" [ref=e331]
+              - text: SAP
+          - listitem [ref=e332]:
+            - link "SQL SQL" [ref=e333] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/Sql.php
+              - img "SQL" [ref=e334]
+              - text: SQL
+          - listitem [ref=e335]:
+            - link "Power Power BI" [ref=e336] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/power-bi.php
+              - img "Power" [ref=e337]
+              - text: Power BI
+          - listitem [ref=e338]:
+            - link "Tableau Tableau" [ref=e339] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/tableau.php
+              - img "Tableau" [ref=e340]
+              - text: Tableau
+          - listitem [ref=e341]:
+            - link "Salesforce Salesforce" [ref=e342] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/salesforce.php
+              - img "Salesforce" [ref=e343]
+              - text: Salesforce
+          - listitem [ref=e344]:
+            - link "MongoDB MongoDB" [ref=e345] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/mongodb.php
+              - img "MongoDB" [ref=e346]
+              - text: MongoDB
+          - listitem [ref=e347]:
+            - link "Scrum Scrum Master" [ref=e348] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/scrum-master.php
+              - img "Scrum" [ref=e349]
+              - text: Scrum Master
+          - listitem [ref=e350]:
+            - link "Networking Networking" [ref=e351] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/networking.php
+              - img "Networking" [ref=e352]
+              - text: Networking
+          - listitem [ref=e353]:
+            - link "Neurologists Neurologists" [ref=e354] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/neurologists.php
+              - img "Neurologists" [ref=e355]
+              - text: Neurologists
+          - listitem [ref=e356]:
+            - link "Medical Medical Assistants" [ref=e357] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/medical-assistants.php
+              - img "Medical" [ref=e358]
+              - text: Medical Assistants
+          - listitem [ref=e359]:
+            - link "Mechanical Mechanical Engineering" [ref=e360] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/mechanical-engineering.php
+              - img "Mechanical" [ref=e361]
+              - text: Mechanical Engineering
+          - listitem [ref=e362]:
+            - link "Nurse Nurse Practitioner" [ref=e363] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/nurse-practitioner.php
+              - img "Nurse" [ref=e364]
+              - text: Nurse Practitioner
+          - listitem [ref=e365]:
+            - link "Transcriptionist Transcriptionist" [ref=e366] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/transcriptionist.php
+              - img "Transcriptionist" [ref=e367]
+              - text: Transcriptionist
+          - listitem [ref=e368]:
+            - link "Research Research Analyst" [ref=e369] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/research-analyst.php
+              - img "Research" [ref=e370]
+              - text: Research Analyst
+          - listitem [ref=e371]:
+            - link "RDBMS RDBMS" [ref=e372] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/rdbms.php
+              - img "RDBMS" [ref=e373]
+              - text: RDBMS
+          - listitem [ref=e374]:
+            - link "Civil Civil Engineering" [ref=e375] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/civil-engineering.php
+              - img "Civil" [ref=e376]
+              - text: Civil Engineering
+          - listitem [ref=e377]:
+            - link "Medical Medical Assistant" [ref=e378] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/medical-assistant.php
+              - img "Medical" [ref=e379]
+              - text: Medical Assistant
+          - listitem [ref=e380]:
+            - link "Operating Operating System" [ref=e381] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/operating-system.php
+              - img "Operating" [ref=e382]
+              - text: Operating System
+          - listitem [ref=e383]:
+            - link "Marketing Marketing" [ref=e384] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/marketing.php
+              - img "Marketing" [ref=e385]
+              - text: Marketing
+          - listitem [ref=e386]:
+            - link "Graphic Graphic Design" [ref=e387] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/graphic-design.php
+              - img "Graphic" [ref=e388]
+              - text: Graphic Design
+          - listitem [ref=e389]:
+            - link "Sales Sales" [ref=e390] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/sales.php
+              - img "Sales" [ref=e391]
+              - text: Sales
+          - listitem [ref=e392]:
+            - link "Air Air traffic controller" [ref=e393] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/air-traffic-controller.php
+              - img "Air" [ref=e394]
+              - text: Air traffic controller
+          - listitem [ref=e395]:
+            - link "Teaching Teaching" [ref=e396] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/teaching.php
+              - img "Teaching" [ref=e397]
+              - text: Teaching
+          - listitem [ref=e398]:
+            - link "Banking Banking" [ref=e399] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/banking.php
+              - img "Banking" [ref=e400]
+              - text: Banking
+          - listitem [ref=e401]:
+            - link "RPA RPA Developer" [ref=e402] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/rpa-developer.php
+              - img "RPA" [ref=e403]
+              - text: RPA Developer
+          - listitem [ref=e404]:
+            - link "Finance Finance" [ref=e405] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/finance.php
+              - img "Finance" [ref=e406]
+              - text: Finance
+          - listitem [ref=e407]:
+            - link "Angular Angular Developer" [ref=e408] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/angular-developer.php
+              - img "Angular" [ref=e409]
+              - text: Angular Developer
+          - listitem [ref=e410]:
+            - link "Digital Digital Marketing" [ref=e411] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/digital-marketing.php
+              - img "Digital" [ref=e412]
+              - text: Digital Marketing
+          - listitem [ref=e413]:
+            - link "Human Human Resources" [ref=e414] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/human-resources.php
+              - img "Human" [ref=e415]
+              - text: Human Resources
+          - listitem [ref=e416]:
+            - link "Enterprise Enterprise Architect" [ref=e417] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/enterprise-architect.php
+              - img "Enterprise" [ref=e418]
+              - text: Enterprise Architect
+          - listitem [ref=e419]:
+            - link "Technical Technical Writer" [ref=e420] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/technical-writer.php
+              - img "Technical" [ref=e421]
+              - text: Technical Writer
+          - listitem [ref=e422]:
+            - link "Database Database Administrator" [ref=e423] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/database-administrator-jobs.php
+              - img "Database" [ref=e424]
+              - text: Database Administrator
+          - listitem [ref=e425]:
+            - link "Mental Mental Health Counselor" [ref=e426] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/mental-health-counselor-jobs.php
+              - img "Mental" [ref=e427]
+              - text: Mental Health Counselor
+          - listitem [ref=e428]:
+            - link "Pharmacist Pharmacist" [ref=e429] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/pharmacist-job-openings.php
+              - img "Pharmacist" [ref=e430]
+              - text: Pharmacist
+          - listitem [ref=e431]:
+            - link "Computer Computer Network Architect" [ref=e432] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/computer-network-architect-jobs.php
+              - img "Computer" [ref=e433]
+              - text: Computer Network Architect
+          - listitem [ref=e434]:
+            - link "Sales Sales Manager" [ref=e435] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/sales-manager-job-openings.php
+              - img "Sales" [ref=e436]
+              - text: Sales Manager
+          - listitem [ref=e437]:
+            - link "Financial Financial Advisor" [ref=e438] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/financial-advisor-jobs.php
+              - img "Financial" [ref=e439]
+              - text: Financial Advisor
+          - listitem [ref=e440]:
+            - link "Hardware Hardware Design Engineer" [ref=e441] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/hardware-design-engineer.php
+              - img "Hardware" [ref=e442]
+              - text: Hardware Design Engineer
+          - listitem [ref=e443]:
+            - link "Swift Swift Developer" [ref=e444] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/swift-developer.php
+              - img "Swift" [ref=e445]
+              - text: Swift Developer
+          - listitem [ref=e446]:
+            - link "Growth Growth Manager" [ref=e447] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/growth-manager.php
+              - img "Growth" [ref=e448]
+              - text: Growth Manager
+          - listitem [ref=e449]:
+            - link "Robotics Robotics Engineer" [ref=e450] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/robotics-engineer.php
+              - img "Robotics" [ref=e451]
+              - text: Robotics Engineer
+          - listitem [ref=e452]:
+            - link "Consulting Consulting" [ref=e453] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/consulting-jobs.php
+              - img "Consulting" [ref=e454]
+              - text: Consulting
+          - listitem [ref=e455]:
+            - link "Bootstrap Bootstrap Developer" [ref=e456] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/bootstrap-developer.php
+              - img "Bootstrap" [ref=e457]
+              - text: Bootstrap Developer
+          - listitem [ref=e458]:
+            - link "Medical Medical Coding" [ref=e459] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/medical-coding.php
+              - img "Medical" [ref=e460]
+              - text: Medical Coding
+          - listitem [ref=e461]:
+            - link "MS MS Excel" [ref=e462] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/ms-excel-jobs.php
+              - img "MS" [ref=e463]
+              - text: MS Excel
+          - listitem [ref=e464]:
+            - link "Business Business Development" [ref=e465] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/business-development.php
+              - img "Business" [ref=e466]
+              - text: Business Development
+          - listitem [ref=e467]:
+            - link "Medical Medical Lab Technician" [ref=e468] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/medical-lab-technician.php
+              - img "Medical" [ref=e469]
+              - text: Medical Lab Technician
+          - listitem [ref=e470]:
+            - link "Pharmacy Pharmacy Technician" [ref=e471] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/pharmacy-technician.php
+              - img "Pharmacy" [ref=e472]
+              - text: Pharmacy Technician
+          - listitem [ref=e473]:
+            - link "Accounting Accounting" [ref=e474] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/accounting-jobs.php
+              - img "Accounting" [ref=e475]
+              - text: Accounting
+          - listitem [ref=e476]:
+            - link "Management Management Trainee" [ref=e477] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/management-trainee.php
+              - img "Management" [ref=e478]
+              - text: Management Trainee
+          - listitem [ref=e479]:
+            - link "Video Video Editor" [ref=e480] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/video-editor.php
+              - img "Video" [ref=e481]
+              - text: Video Editor
+          - listitem [ref=e482]:
+            - link "Supply Supply Chain Management" [ref=e483] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/supply-chain-jobs.php
+              - img "Supply" [ref=e484]
+              - text: Supply Chain Management
+          - listitem [ref=e485]:
+            - link "Customer Customer Service" [ref=e486] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/customer-service.php
+              - img "Customer" [ref=e487]
+              - text: Customer Service
+          - listitem [ref=e488]:
+            - link "Interior Interior Designer" [ref=e489] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/interior-designer.php
+              - img "Interior" [ref=e490]
+              - text: Interior Designer
+          - listitem [ref=e491]:
+            - link "Telecom Telecom" [ref=e492] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/telecom-job-openings.php
+              - img "Telecom" [ref=e493]
+              - text: Telecom
+          - listitem [ref=e494]:
+            - link "Automation Automation Test Engineer" [ref=e495] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/automation-test-engineer.php
+              - img "Automation" [ref=e496]
+              - text: Automation Test Engineer
+          - listitem [ref=e497]:
+            - link "Site Site Reliability Engineer" [ref=e498] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/site-reliability-engineer.php
+              - img "Site" [ref=e499]
+              - text: Site Reliability Engineer
+          - listitem [ref=e500]:
+            - link "Information Information Security Analyst" [ref=e501] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/information-security-analysts.php
+              - img "Information" [ref=e502]
+              - text: Information Security Analyst
+          - listitem [ref=e503]:
+            - link "Loan Loan Officer" [ref=e504] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/jobs/loan-officer-job.php
+              - img "Loan" [ref=e505]
+              - text: Loan Officer
+      - generic [ref=e506]:
+        - heading "Job Search" [level=1] [ref=e508]
+        - generic [ref=e511]:
+          - link "BY Amply" [ref=e513] [cursor=pointer]:
+            - /url: https://amply.co
+          - generic [ref=e515]:
+            - textbox "Search jobs..." [ref=e516]
+            - textbox "Search locations..." [ref=e517]
+            - button "Search" [ref=e518] [cursor=pointer]
+        - generic [ref=e519]:
+          - heading "Welcome to Tutorials Point Job Search" [level=2] [ref=e520]
+          - paragraph [ref=e521]: Job Search by Tutorials Point is an all-new futuristic job search space where you can search, apply, and land your dream job.
+          - button "Read more +" [ref=e522] [cursor=pointer]
+        - separator [ref=e525]
+        - generic [ref=e526]:
+          - heading "Why choose Tutorials Point Job search" [level=2] [ref=e527]
+          - paragraph [ref=e528]:
+            - text: Tutorials Point has earned millions of loyal visitors who use the vast library of free text tutorials, online courses, graded certification programs, and its sophisticated
+            - link "Coding Ground." [ref=e530] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/codingground.htm
+          - paragraph [ref=e531]: The Job Search by Tutorials Point is the latest integration on the website designed to help learners with upskilling, getting certified, and applying for relevant jobs.
+          - paragraph [ref=e532]: The latest Job Search portal has a database that amplifies continuously with job requirements in countries like the US, UK, Canada, India, etc. With such a promising database, it gets easier to find the right job and get noticed by recruiters.
+          - button "Read more +" [ref=e533] [cursor=pointer]
+        - generic [ref=e535]:
+          - generic [ref=e536]: Advertisements
+          - generic [ref=e539]:
+            - iframe [ref=e542]:
+              - generic [active] [ref=f146e1]:
+                - generic [ref=f146e6]:
+                  - generic [ref=f146e8]:
+                    - link [ref=f146e11] [cursor=pointer]:
+                      - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CN726hUWuabiHE4miqMwP96ve2Q-Ak63fhQGFp82B4BSyysLCwwIQASCIgL8UYMmG_4fwo-wSoAG8-Lj-A8gBCeACAKgDAcgDywSqBM4CT9CngZub3MndIrfWcaIrHMHSNRc2zy14dd7XtMzTv5FxRdZCP5G04eaao1XAp21kUjffPJrkb47j48CTYiZNrPl9feGgVapshUKjR9XgZUU5d_a_VssCJ0T-Dk7f3o2263ACLACgTBHx3rx2F6tmSzz7wXk38HcTfaA2JmqnQy9zNJVx0pdGf2rTb3bjzOYVU1IXXSDBQzt7DX2eBo1GKjvcC1OQZqdPFpTQmBXYPz_tKfzrK6cMRqk93vZ5qZTepEPavFa62LEVQvZ2J1PUTrPNIopEGLcSbASVJAIOXC_1EyijVsc7W3GuJVIVbJ1V-XEZum6gPRiFEn1rVbIWJVMN9jjZcNoSXSSDj2ZBvPwmE3odXkAvdOlYHM65n3vErK7x-uHZ8RAP_EKUmeIXAYb-rAmBwduTcKy0CPLznMzdLf2n2_bDA0EHpYiAucAEn8mygsQF4AQBiAX7q8WfVcAFBfoFBgglEAEYAKAGLoAHrIfHAagHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB-LYsQKoB-LYsQKoB-LYsQLYBwDACAHSCDAIgGEQARidATIIioKAgICAgAg6DoBAgMCAgICAqIACqIMQSL39wTpYw4y04vaRkwOACgOQCwOYCwHICwGADAGiDA0qBgoE1tqxAkgBkAEBqg0CVVPIDQHiDRMI0cK04vaRkwMVCRGKAx33lTf76g0TCJCcteL2kZMDFQkRigMd95U3-_ANAogO____________AbAOtu6k0hjgEvuossvM8YLxoQHYEwzQFQHpFcEa0eshxQ-48BWH89QB-hUITFNSUlItMDOYFgHKFgIKAPgWAYAXAbIXDhgBKgoyMzc5Njg0Mjk2uhcCOAGqGBcJAAAAABwoTkESCjIzNzk2ODQyOTYYAbIYCRICu08YLiIBANAYAcIZAggB&ae=1&gclid=EAIaIQobChMI-N214vaRkwMVCRGKAx33lTf7EAEYASABEgL6nvD_BwE&num=1&cid=CAQSvgEA56J1ebxNMwW_nWhXAiR8zkeZCN-fhhiIItI0mh9tpXBUBI2eI4RjdRSIB-tYL0e1fRI5bKT8n-bd88N_XIM1JHeBdOeuyR90FvIUeL9QhWE3b2J6izXnPWhjKEkY89qwdBx8c4RjiV6oENCpkqMr8RoMaAv7e1N7qUuvObjVr7NvPdbOU2hqXt1LWCrd-nII1-D4hNDaumzYXO_AwH45RoYUEHaqlyhrsx16AABeM1thrnLaCrwIXiMDH6-5GAE&sig=AOD64_2RXaL3jXle9ihYd_denZYwd7t_fg&ctype=5&client=ca-pub-6163857992956964&nb=9&adurl=https://ziamond.com/round-ruby-lab-created-loose-stone/%3Fsku%3DLSRRR-03%26gad_source%3D5%26gad_campaignid%3D22883161595%26gclid%3DEAIaIQobChMI-N214vaRkwMVCRGKAx33lTf7EAEYASABEgL6nvD_BwE
+                    - link [ref=f146e16] [cursor=pointer]:
+                      - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=C_Hj5hUWuabiHE4miqMwP96ve2Q-Ak63fhQGFp82B4BSyysLCwwIQASCIgL8UYMmG_4fwo-wSoAG8-Lj-A8gBCeACAKgDAcgDywSqBM4CT9CngZub3MndIrfWcaIrHMHSNRc2zy14dd7XtMzTv5FxRdZCP5G04eaao1XAp21kUjffPJrkb47j48CTYiZNrPl9feGgVapshUKjR9XgZUU5d_a_VssCJ0T-Dk7f3o2263ACLACgTBHx3rx2F6tmSzz7wXk38HcTfaA2JmqnQy9zNJVx0pdGf2rTb3bjzOYVU1IXXSDBQzt7DX2eBo1GKjvcC1OQZqdPFpTQmBXYPz_tKfzrK6cMRqk93vZ5qZTepEPavFa62LEVQvZ2J1PUTrPNIopEGLcSbASVJAIOXC_1EyijVsc7W3GuJVIVbJ1V-XEZum6gPRiFEn1rVbIWJVMN9jjZcNoSXSSDj2ZBvPwmE3odXkAvdOlYHM65n3vErK7x-uHZ8RAP_EKUmeIXAYb-rAmBwduTcKy0CPLznMzdLf2n2_bDA0EHpYiAucAEn8mygsQF4AQBiAX7q8WfVcAFBfoFBgglEAEYAaAGLoAHrIfHAagHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQLYBwDACALSCDAIgGEQARidATIIioKAgICAgAg6DoBAgMCAgICAqIACqIMQSL39wTpYw4y04vaRkwOACgOQCwOYCwHICwGADAGiDA0qBgoE1tqxAkgBkAEBqg0CVVPIDQHiDRMI0cK04vaRkwMVCRGKAx33lTf76g0TCJCcteL2kZMDFQkRigMd95U3-_ANAogO____________AbAOtu6k0hjgEquN7oLvzePO2gHYEwzQFQHpFROTZgtbrwx-8BWH89QB-hUKTFNFU0dFLTEyMJgWAcoWAgoA-BYBgBcBshcOGAEqCjIzNzk2ODQyOTa6FwI4AaoYFwkAAAAAHChOQRIKMjM3OTY4NDI5NhgBshgJEgK7TxguIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMI-N214vaRkwMVCRGKAx33lTf7EAEYASACEgIqQfD_BwE&num=1&cid=CAQSvgEA56J1ebxNMwW_nWhXAiR8zkeZCN-fhhiIItI0mh9tpXBUBI2eI4RjdRSIB-tYL0e1fRI5bKT8n-bd88N_XIM1JHeBdOeuyR90FvIUeL9QhWE3b2J6izXnPWhjKEkY89qwdBx8c4RjiV6oENCpkqMr8RoMaAv7e1N7qUuvObjVr7NvPdbOU2hqXt1LWCrd-nII1-D4hNDaumzYXO_AwH45RoYUEHaqlyhrsx16AABeM1thrnLaCrwIXiMDH6-5GAE&sig=AOD64_2cYWziOcjtLotsxFgglVP8_ofjMw&ctype=5&client=ca-pub-6163857992956964&nb=9&adurl=https://ziamond.com/emerald-step-cut-green-emerald-lab-created-loose-stone/%3Fsku%3DLSESGE-120%26gad_source%3D5%26gad_campaignid%3D22883161595%26gclid%3DEAIaIQobChMI-N214vaRkwMVCRGKAx33lTf7EAEYASACEgIqQfD_BwE
+                    - link [ref=f146e21] [cursor=pointer]:
+                      - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CQPh8hUWuabiHE4miqMwP96ve2Q-Ak63fhQGFp82B4BSyysLCwwIQASCIgL8UYMmG_4fwo-wSoAG8-Lj-A8gBCeACAKgDAcgDywSqBM4CT9CngZub3MndIrfWcaIrHMHSNRc2zy14dd7XtMzTv5FxRdZCP5G04eaao1XAp21kUjffPJrkb47j48CTYiZNrPl9feGgVapshUKjR9XgZUU5d_a_VssCJ0T-Dk7f3o2263ACLACgTBHx3rx2F6tmSzz7wXk38HcTfaA2JmqnQy9zNJVx0pdGf2rTb3bjzOYVU1IXXSDBQzt7DX2eBo1GKjvcC1OQZqdPFpTQmBXYPz_tKfzrK6cMRqk93vZ5qZTepEPavFa62LEVQvZ2J1PUTrPNIopEGLcSbASVJAIOXC_1EyijVsc7W3GuJVIVbJ1V-XEZum6gPRiFEn1rVbIWJVMN9jjZcNoSXSSDj2ZBvPwmE3odXkAvdOlYHM65n3vErK7x-uHZ8RAP_EKUmeIXAYb-rAmBwduTcKy0CPLznMzdLf2n2_bDA0EHpYiAucAEn8mygsQF4AQBiAX7q8WfVcAFBfoFBgglEAEYAqAGLoAHrIfHAagHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQLYBwDACAPSCDAIgGEQARidATIIioKAgICAgAg6DoBAgMCAgICAqIACqIMQSL39wTpYw4y04vaRkwOACgOQCwOYCwHICwGADAGiDA0qBgoE1tqxAkgBkAEBqg0CVVPIDQHiDRMI0cK04vaRkwMVCRGKAx33lTf76g0TCJCcteL2kZMDFQkRigMd95U3-_ANAogO____________AbAOtu6k0hjgEtnW6MifqM-WlwHYEwzQFQHpFQfgWozb-PD78BWH89QB-hUHTFNWUlItNJgWAcoWAgoA-BYBgBcBshcOGAEqCjIzNzk2ODQyOTa6FwI4AaoYFwkAAAAAHChOQRIKMjM3OTY4NDI5NhgBshgJEgK7TxguIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMI-N214vaRkwMVCRGKAx33lTf7EAEYASADEgLsPPD_BwE&num=1&cid=CAQSvgEA56J1ebxNMwW_nWhXAiR8zkeZCN-fhhiIItI0mh9tpXBUBI2eI4RjdRSIB-tYL0e1fRI5bKT8n-bd88N_XIM1JHeBdOeuyR90FvIUeL9QhWE3b2J6izXnPWhjKEkY89qwdBx8c4RjiV6oENCpkqMr8RoMaAv7e1N7qUuvObjVr7NvPdbOU2hqXt1LWCrd-nII1-D4hNDaumzYXO_AwH45RoYUEHaqlyhrsx16AABeM1thrnLaCrwIXiMDH6-5GAE&sig=AOD64_1JK4FHBxfYULeX4PWzTV4lJ-hkJw&ctype=5&client=ca-pub-6163857992956964&nb=9&adurl=https://ziamond.com/oval-ruby-lab-created-loose-stone/%3Fsku%3DLSVRR-4%26gad_source%3D5%26gad_campaignid%3D22883161595%26gclid%3DEAIaIQobChMI-N214vaRkwMVCRGKAx33lTf7EAEYASADEgLsPPD_BwE
+                  - link [ref=f146e24] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CN726hUWuabiHE4miqMwP96ve2Q-Ak63fhQGFp82B4BSyysLCwwIQASCIgL8UYMmG_4fwo-wSoAG8-Lj-A8gBCeACAKgDAcgDywSqBM4CT9CngZub3MndIrfWcaIrHMHSNRc2zy14dd7XtMzTv5FxRdZCP5G04eaao1XAp21kUjffPJrkb47j48CTYiZNrPl9feGgVapshUKjR9XgZUU5d_a_VssCJ0T-Dk7f3o2263ACLACgTBHx3rx2F6tmSzz7wXk38HcTfaA2JmqnQy9zNJVx0pdGf2rTb3bjzOYVU1IXXSDBQzt7DX2eBo1GKjvcC1OQZqdPFpTQmBXYPz_tKfzrK6cMRqk93vZ5qZTepEPavFa62LEVQvZ2J1PUTrPNIopEGLcSbASVJAIOXC_1EyijVsc7W3GuJVIVbJ1V-XEZum6gPRiFEn1rVbIWJVMN9jjZcNoSXSSDj2ZBvPwmE3odXkAvdOlYHM65n3vErK7x-uHZ8RAP_EKUmeIXAYb-rAmBwduTcKy0CPLznMzdLf2n2_bDA0EHpYiAucAEn8mygsQF4AQBiAX7q8WfVcAFBfoFBgglEAEYAKAGLoAHrIfHAagHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB-LYsQKoB-LYsQKoB-LYsQLYBwDACAHSCDAIgGEQARidATIIioKAgICAgAg6DoBAgMCAgICAqIACqIMQSL39wTpYw4y04vaRkwOACgOQCwOYCwHICwGADAGiDA0qBgoE1tqxAkgBkAEBqg0CVVPIDQHiDRMI0cK04vaRkwMVCRGKAx33lTf76g0TCJCcteL2kZMDFQkRigMd95U3-_ANAogO____________AbAOtu6k0hjgEvuossvM8YLxoQHYEwzQFQHpFcEa0eshxQ-48BWH89QB-hUITFNSUlItMDOYFgHKFgIKAPgWAYAXAbIXDhgBKgoyMzc5Njg0Mjk2uhcCOAGqGBcJAAAAABwoTkESCjIzNzk2ODQyOTYYAbIYCRICu08YLiIBANAYAcIZAggB&ae=1&gclid=EAIaIQobChMI-N214vaRkwMVCRGKAx33lTf7EAEYASABEgL6nvD_BwE&num=1&cid=CAQSvgEA56J1ebxNMwW_nWhXAiR8zkeZCN-fhhiIItI0mh9tpXBUBI2eI4RjdRSIB-tYL0e1fRI5bKT8n-bd88N_XIM1JHeBdOeuyR90FvIUeL9QhWE3b2J6izXnPWhjKEkY89qwdBx8c4RjiV6oENCpkqMr8RoMaAv7e1N7qUuvObjVr7NvPdbOU2hqXt1LWCrd-nII1-D4hNDaumzYXO_AwH45RoYUEHaqlyhrsx16AABeM1thrnLaCrwIXiMDH6-5GAE&sig=AOD64_2RXaL3jXle9ihYd_denZYwd7t_fg&ctype=5&client=ca-pub-6163857992956964&nb=19&adurl=https://ziamond.com/round-ruby-lab-created-loose-stone/%3Fsku%3DLSRRR-03%26gad_source%3D5%26gad_campaignid%3D22883161595%26gclid%3DEAIaIQobChMI-N214vaRkwMVCRGKAx33lTf7EAEYASABEgL6nvD_BwE
+                    - img [ref=f146e26]
+                - img [ref=f146e30] [cursor=pointer]
+                - button [ref=f146e33] [cursor=pointer]:
+                  - img [ref=f146e34]
+                - iframe
+            - iframe [ref=e545]:
+              - generic [ref=f147e3]:
+                - link [ref=f147e4] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CwihthUWuabqHE4miqMwP96ve2Q_iz6fihQHDhuK17hTBuL2Tkw4QASCIgL8UYMmG_4fwo-wSoAHEx-6UAcgBAuACAKgDAcgDCKoEzwJP0GLip93BEhw4VRHmyvqxt0RPmgdCYdEDcAlTgSLiwNkSYne7hTtN2rABG4JdpLsmIW0P8Hf_Hk45tJE7iWVOxSZpT4F3JCoi5-N4aabv0UiwUQPFrvg0jkCPIr-g_gp9Mv_EiZU0_K-_cvF7-SfR_bW_sbJoKsHUwy2cZ2esAcjCkFvySICu5N17kjehAqJTSvdC64nNHhOzWeIlE0UCKl2Qj4HrzXaQ8unjM1hxnldgsPWAAMbrS_5x47oGQ0ByZz5GD9WGwq5rSdjU0rLV2nmWf4IVjM1LZBscmPMYL-ArefLff2ss4JY8dtuaiA2ZbMA2S8CE02GIodtOmClhIF3Ri13SqQK1AFxiJ6YZ8ccOSQnkYa_pHjSOK3nB8dVZmcvZvf9Kzedfhs2beAPZV7aKyyeTuVh3IB2KKT8h8c1TeA0Jl9Qwr50Tv7fYy8AEubyYsMgF4AQBiAX8yZmzVqAGAoAHop2P0wOoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwHSCDAIgGEQARidATIIioKAgICAgAg6DoBAgMCAgICAqIACqIMQSL39wTpYw4y04vaRkwOxCZZWxgiqkZH8gAoDmAsByAsBogwIKgYKBNbasQKqDQJVU8gNAeINEwjSwrTi9pGTAxUJEYoDHfeVN_vqDRMIkZy14vaRkwMVCRGKAx33lTf78A0CiA7___________8B2BMM0BUByhYCCgD4FgGAFwGyFw4YASoKMjM3OTY4NDI5NqoYFwkAAACAPAFDQRIKMjM3OTY4NDI5NhgBshgFGAIiAQDoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI-t214vaRkwMVCRGKAx33lTf7EAEYASAAEgLlY_D_BwE&num=1&cid=CAQSvgEA56J1ebxNMwW_nWhXAiR8zkeZCN-fhhiIItI0mh9tpXBUBI2eI4RjdRSIB-tYL0e1fRI5bKT8n-bd88N_XIM1JHeBdOeuyR90FvIUeL9QhWE3b2J6izXnPWhjKEkY89qwdBx8c4RjiV6oENCpkqMr8RoMaAv7e1N7qUuvObjVr7NvPdbOU2hqXt1LWCrd-nII1-D4hNDaumzYXO_AwH45RoYUEHaqlyhrsx16AABeM1thrnLaCrwIXiMDH6-5GAE&sig=AOD64_3MO-Na4v9NpqsoZM_Hf1aCZZa-vA&client=ca-pub-6163857992956964&rf=5&nx=CLICK_X&ny=CLICK_Y&uap=UACH(platform)&uapv=UACH(platformVersion)&uaa=UACH(architecture)&uam=UACH(model)&uafv=UACH(uaFullVersion)&uab=UACH(bitness)&uaw=UACH(wow64)&uafvl=UACH(fullVersionList)&nb=2&adurl=https://go.getfreecoupons.com/join-cos%3Fatnds%3D60%26popup%3D1%26utm_source%3Dgoogle_gdg_spin%26postback%3DEAIaIQobChMI-t214vaRkwMVCRGKAx33lTf7EAEYASAAEgLlY_D_BwE%26adgroup%3D191227108921%26campaign%3D23192823036%26device%3Dc%26creative%3D781193429445%26publisher%3Dwww.tutorialspoint.com%26source%3Dsegment_be_a_8168665692797703973%26welcome%3D2%26gad_campaignid%3D23192823036%26gclid%3DEAIaIQobChMI-t214vaRkwMVCRGKAx33lTf7EAEYASAAEgLlY_D_BwE
+                - generic [ref=f147e6]:
+                  - link [ref=f147e8] [cursor=pointer]:
+                    - /url: https://adssettings.google.com/whythisad?source=display&reasons=AcrBLeVy2UFPXyfphpJ9IW_fNsjEaLT4HBVxjjOVwc3hFAZ0CcoB5fZeqzd-XYCKymOE-D2vD2qS722WoQVcjg1ekS5q6bWS_qsEHr2x59hWtPlWiUh7H6Gn1wXDuOtyAas54d6z71WoSobMKL-zOF0KPKU4_sdKZyeBfkWy96Do1TVKz3MixfoYaW2osJlG8GHo3a8S-2wWn2PRnE2sFxoxKTCRIAwAhyfeQWzussu9pS3BE3lOGBPiD22dhE-DiTQz2oyT1H9OvX5mpYzCHod59oR3rePufzLGInqsEdtfyyPnrNx3tEPrRJ7vTwrlMPHEG3IY2CFowZLOOI6BWtOQF9kVOJBPW8AuVQLJXaEwbpf9OXCIAaCR_HpQ6lvmVFyac-oqSWDIQ_5WwEjyOIMDFlkU6-RP0iSBmGobniX8zGdEzY5AjA5zF8Gs4G3hGjqpaOFywxygCSsi7-VLBpgrkOoLswM75McKAdWXXKpHpdK2N8OvcJhYui6OteVFdNVpUgjVp6lRMto0bfFZg6yR78VddETWLH77hdab5jFijv7zjtb650kTmNMbFpxE_PnPTqb5ZGi_u84K-LxUUF1SprGU4yllVbMRVpOEUoLqqMeC81N_3vNs1Yn2EJFI-oqgBteZTZTht_xnAjzClFrln4MImbJv7ZmKIF5n8EynkZx9q-uQO0aMBE_h4Uisb57DzFLgHNc9WJetkV_LDEkJsMik5AUe90FD_qL3AC2ipiQSB2zXymV7IFKFO7fBP55Q4LThF9X6FRwSZ6064BON6vWJ7-7OxdJqf-hkAPugRFYc00quRLgXgrPI0jAkr98YKBwFTy_qDkr10xtHyZActbAu940VnUs_Gz1rWuDt0R6NM1bplhQe4WZtLGu642qlQ7WJWJnQx-q9zadGheX-UXEnHojMKQb2K6w6H2FPzPUlmc_OMoG-lXQ5kYJ_jkup9mnT1gojW2KByAjBRJuRThlapSAErcUbOOIKkCZwGbZJxzPdFmTQ6LEkNah8fpb-t_9OElCBKhcvagGAfiTLF-s5RMOZlk1Fk6s3rIGqeQmw_5cizdvHosX-cG9iUS9aLdHCN8Rz-rszqGKd-1Y6HKYI9jiFIDM-xN3MgG6I9uyl5ca3t7hstImum_MmZvLU3j1Np-0bteW_HtKHGsAz5SBO77k1PeX33F0hvpJ5MQigUUhTjKekQOqTBPKdhznKsewd5k8tST7oi1_fEWWTnA1YLtjemW6-23OZcv_jFMVnQxMAE4pWcC7k08TBO2DlCZS21FoF41HakYtjUBB9ON-ls-M2Z8uObNNrmQ4yyJc4KvVt4xdTuvZQdi74ddQBgpiTzWKGsy8k3lM91Dl4Qt61SG-48bDIay2jZLqvodsVMlnbuJ8zOybug-UwzPG_ySN492nu7STA4wEO0C8_4hGRDJ1xdSX1bzM8xwqaZ6F6Yhe_YOo5XDf0XXvEb7fcxNDcJQFNb51FDr8Okz3mfeCwrQ8MLmlkOvPSLXAAbHHTP4nbgs59741hOZl-DP13GAmREokgnZLre6XEq2Lwf38KmKJVZo2MDCLugLU44Trz0O8OP7fiPvUzLTPMX82ZeTBGmNsibvdWFyWmOw0wxbuNbPI4YNFWz9NjCrq8tgJwRFpsHJpjgNjFR_cBwmcACrHtjdg-ZMLCde-lUKT57LJki1FZaIybLY3MzWET0MlQ9MieaNkHDL3NHgdf8oS7Q0oQzmGk8cwTPSRyRPiwvyHmt-oEAr272vVrOkI-XaQDOiWP_wNo2LR1dQRoNVOu5Zph1cwVrU-w_kEWL53Io6JsGfdeHyvfHc4hlPiE9CuKhGkpsOjchPvcY_Z9YNOQykv6IyrCBZnV0yHpdc5055xoVqCfcWDesaiPjHJSDZbVk4eGtGRJV4bFLPVAwYBcWTxGBj6k4NkvDMBVmPlKzJj_4hS-KN-K7Bg6IvtqvjiEv5f-GF_b9y2w-hHCW_9EuWiusX386i3JdCCgpgyivzoicxJ_i8SnHjOlIgJQbA0vKGCcEvY3EzSu0Vea5_ZlGOmrBFc8_fTNkbw7gtKOw3eEysq8fzPqYBCwxwE2uc-_eleBOnU2IXNyC14B7mUHSzHhj8xJx3lF0Y6fykak8POYGNexfRitQpprv2uGxoFl1DPLufqfJ3vR7MtFsqQB4dEi5Ui53QheD9954TxN6HrKLdA2WZeBMriYz41uZQ2TzBWFIhIuHH-juuwz45Z2Tt04egdsLKaPo9rB60rsCdGpf7o8ImFXWugCinh9UP-fnbR3YFQjiJLT5qsGBV67P2pNRbQuiG9IWRNHfLBJQV_Mp5E3ys_GFy2CWqsACQWE_NbbD0AsD15ZBmLBFPdjfeOPtUbG_FA1PKYScmYQMuBlui69GmmAM8_J8C11EUJxJ0i_gygHI1Eq9yzkX4C2mHyIYsf6kpScUxqI1Qg1SKn7uWDmXCfjWjFkLeU3oxjJuP7ei6c70iLVJjP9Kwk9dePAYzAYVDhLUWWXIA&opi=122715837
+                    - img [ref=f147e10]
+                  - link [ref=f147e12] [cursor=pointer]:
+                    - /url: https://adssettings.google.com/whythisad?source=display&reasons=AcrBLeVy2UFPXyfphpJ9IW_fNsjEaLT4HBVxjjOVwc3hFAZ0CcoB5fZeqzd-XYCKymOE-D2vD2qS722WoQVcjg1ekS5q6bWS_qsEHr2x59hWtPlWiUh7H6Gn1wXDuOtyAas54d6z71WoSobMKL-zOF0KPKU4_sdKZyeBfkWy96Do1TVKz3MixfoYaW2osJlG8GHo3a8S-2wWn2PRnE2sFxoxKTCRIAwAhyfeQWzussu9pS3BE3lOGBPiD22dhE-DiTQz2oyT1H9OvX5mpYzCHod59oR3rePufzLGInqsEdtfyyPnrNx3tEPrRJ7vTwrlMPHEG3IY2CFowZLOOI6BWtOQF9kVOJBPW8AuVQLJXaEwbpf9OXCIAaCR_HpQ6lvmVFyac-oqSWDIQ_5WwEjyOIMDFlkU6-RP0iSBmGobniX8zGdEzY5AjA5zF8Gs4G3hGjqpaOFywxygCSsi7-VLBpgrkOoLswM75McKAdWXXKpHpdK2N8OvcJhYui6OteVFdNVpUgjVp6lRMto0bfFZg6yR78VddETWLH77hdab5jFijv7zjtb650kTmNMbFpxE_PnPTqb5ZGi_u84K-LxUUF1SprGU4yllVbMRVpOEUoLqqMeC81N_3vNs1Yn2EJFI-oqgBteZTZTht_xnAjzClFrln4MImbJv7ZmKIF5n8EynkZx9q-uQO0aMBE_h4Uisb57DzFLgHNc9WJetkV_LDEkJsMik5AUe90FD_qL3AC2ipiQSB2zXymV7IFKFO7fBP55Q4LThF9X6FRwSZ6064BON6vWJ7-7OxdJqf-hkAPugRFYc00quRLgXgrPI0jAkr98YKBwFTy_qDkr10xtHyZActbAu940VnUs_Gz1rWuDt0R6NM1bplhQe4WZtLGu642qlQ7WJWJnQx-q9zadGheX-UXEnHojMKQb2K6w6H2FPzPUlmc_OMoG-lXQ5kYJ_jkup9mnT1gojW2KByAjBRJuRThlapSAErcUbOOIKkCZwGbZJxzPdFmTQ6LEkNah8fpb-t_9OElCBKhcvagGAfiTLF-s5RMOZlk1Fk6s3rIGqeQmw_5cizdvHosX-cG9iUS9aLdHCN8Rz-rszqGKd-1Y6HKYI9jiFIDM-xN3MgG6I9uyl5ca3t7hstImum_MmZvLU3j1Np-0bteW_HtKHGsAz5SBO77k1PeX33F0hvpJ5MQigUUhTjKekQOqTBPKdhznKsewd5k8tST7oi1_fEWWTnA1YLtjemW6-23OZcv_jFMVnQxMAE4pWcC7k08TBO2DlCZS21FoF41HakYtjUBB9ON-ls-M2Z8uObNNrmQ4yyJc4KvVt4xdTuvZQdi74ddQBgpiTzWKGsy8k3lM91Dl4Qt61SG-48bDIay2jZLqvodsVMlnbuJ8zOybug-UwzPG_ySN492nu7STA4wEO0C8_4hGRDJ1xdSX1bzM8xwqaZ6F6Yhe_YOo5XDf0XXvEb7fcxNDcJQFNb51FDr8Okz3mfeCwrQ8MLmlkOvPSLXAAbHHTP4nbgs59741hOZl-DP13GAmREokgnZLre6XEq2Lwf38KmKJVZo2MDCLugLU44Trz0O8OP7fiPvUzLTPMX82ZeTBGmNsibvdWFyWmOw0wxbuNbPI4YNFWz9NjCrq8tgJwRFpsHJpjgNjFR_cBwmcACrHtjdg-ZMLCde-lUKT57LJki1FZaIybLY3MzWET0MlQ9MieaNkHDL3NHgdf8oS7Q0oQzmGk8cwTPSRyRPiwvyHmt-oEAr272vVrOkI-XaQDOiWP_wNo2LR1dQRoNVOu5Zph1cwVrU-w_kEWL53Io6JsGfdeHyvfHc4hlPiE9CuKhGkpsOjchPvcY_Z9YNOQykv6IyrCBZnV0yHpdc5055xoVqCfcWDesaiPjHJSDZbVk4eGtGRJV4bFLPVAwYBcWTxGBj6k4NkvDMBVmPlKzJj_4hS-KN-K7Bg6IvtqvjiEv5f-GF_b9y2w-hHCW_9EuWiusX386i3JdCCgpgyivzoicxJ_i8SnHjOlIgJQbA0vKGCcEvY3EzSu0Vea5_ZlGOmrBFc8_fTNkbw7gtKOw3eEysq8fzPqYBCwxwE2uc-_eleBOnU2IXNyC14B7mUHSzHhj8xJx3lF0Y6fykak8POYGNexfRitQpprv2uGxoFl1DPLufqfJ3vR7MtFsqQB4dEi5Ui53QheD9954TxN6HrKLdA2WZeBMriYz41uZQ2TzBWFIhIuHH-juuwz45Z2Tt04egdsLKaPo9rB60rsCdGpf7o8ImFXWugCinh9UP-fnbR3YFQjiJLT5qsGBV67P2pNRbQuiG9IWRNHfLBJQV_Mp5E3ys_GFy2CWqsACQWE_NbbD0AsD15ZBmLBFPdjfeOPtUbG_FA1PKYScmYQMuBlui69GmmAM8_J8C11EUJxJ0i_gygHI1Eq9yzkX4C2mHyIYsf6kpScUxqI1Qg1SKn7uWDmXCfjWjFkLeU3oxjJuP7ei6c70iLVJjP9Kwk9dePAYzAYVDhLUWWXIA&opi=122715837
+                    - img [ref=f147e14]
+                - img [ref=f147e17] [cursor=pointer]
+                - generic [ref=f147e28]:
+                  - img [ref=f147e31]
+                  - generic [ref=f147e34]:
+                    - text: Ads by
+                    - img [ref=f147e35]
+                  - generic [ref=f147e38]:
+                    - generic [ref=f147e41] [cursor=pointer]: Send feedback
+                    - link [ref=f147e43] [cursor=pointer]:
+                      - /url: https://adssettings.google.com/whythisad?source=display&reasons=AcrBLeVy2UFPXyfphpJ9IW_fNsjEaLT4HBVxjjOVwc3hFAZ0CcoB5fZeqzd-XYCKymOE-D2vD2qS722WoQVcjg1ekS5q6bWS_qsEHr2x59hWtPlWiUh7H6Gn1wXDuOtyAas54d6z71WoSobMKL-zOF0KPKU4_sdKZyeBfkWy96Do1TVKz3MixfoYaW2osJlG8GHo3a8S-2wWn2PRnE2sFxoxKTCRIAwAhyfeQWzussu9pS3BE3lOGBPiD22dhE-DiTQz2oyT1H9OvX5mpYzCHod59oR3rePufzLGInqsEdtfyyPnrNx3tEPrRJ7vTwrlMPHEG3IY2CFowZLOOI6BWtOQF9kVOJBPW8AuVQLJXaEwbpf9OXCIAaCR_HpQ6lvmVFyac-oqSWDIQ_5WwEjyOIMDFlkU6-RP0iSBmGobniX8zGdEzY5AjA5zF8Gs4G3hGjqpaOFywxygCSsi7-VLBpgrkOoLswM75McKAdWXXKpHpdK2N8OvcJhYui6OteVFdNVpUgjVp6lRMto0bfFZg6yR78VddETWLH77hdab5jFijv7zjtb650kTmNMbFpxE_PnPTqb5ZGi_u84K-LxUUF1SprGU4yllVbMRVpOEUoLqqMeC81N_3vNs1Yn2EJFI-oqgBteZTZTht_xnAjzClFrln4MImbJv7ZmKIF5n8EynkZx9q-uQO0aMBE_h4Uisb57DzFLgHNc9WJetkV_LDEkJsMik5AUe90FD_qL3AC2ipiQSB2zXymV7IFKFO7fBP55Q4LThF9X6FRwSZ6064BON6vWJ7-7OxdJqf-hkAPugRFYc00quRLgXgrPI0jAkr98YKBwFTy_qDkr10xtHyZActbAu940VnUs_Gz1rWuDt0R6NM1bplhQe4WZtLGu642qlQ7WJWJnQx-q9zadGheX-UXEnHojMKQb2K6w6H2FPzPUlmc_OMoG-lXQ5kYJ_jkup9mnT1gojW2KByAjBRJuRThlapSAErcUbOOIKkCZwGbZJxzPdFmTQ6LEkNah8fpb-t_9OElCBKhcvagGAfiTLF-s5RMOZlk1Fk6s3rIGqeQmw_5cizdvHosX-cG9iUS9aLdHCN8Rz-rszqGKd-1Y6HKYI9jiFIDM-xN3MgG6I9uyl5ca3t7hstImum_MmZvLU3j1Np-0bteW_HtKHGsAz5SBO77k1PeX33F0hvpJ5MQigUUhTjKekQOqTBPKdhznKsewd5k8tST7oi1_fEWWTnA1YLtjemW6-23OZcv_jFMVnQxMAE4pWcC7k08TBO2DlCZS21FoF41HakYtjUBB9ON-ls-M2Z8uObNNrmQ4yyJc4KvVt4xdTuvZQdi74ddQBgpiTzWKGsy8k3lM91Dl4Qt61SG-48bDIay2jZLqvodsVMlnbuJ8zOybug-UwzPG_ySN492nu7STA4wEO0C8_4hGRDJ1xdSX1bzM8xwqaZ6F6Yhe_YOo5XDf0XXvEb7fcxNDcJQFNb51FDr8Okz3mfeCwrQ8MLmlkOvPSLXAAbHHTP4nbgs59741hOZl-DP13GAmREokgnZLre6XEq2Lwf38KmKJVZo2MDCLugLU44Trz0O8OP7fiPvUzLTPMX82ZeTBGmNsibvdWFyWmOw0wxbuNbPI4YNFWz9NjCrq8tgJwRFpsHJpjgNjFR_cBwmcACrHtjdg-ZMLCde-lUKT57LJki1FZaIybLY3MzWET0MlQ9MieaNkHDL3NHgdf8oS7Q0oQzmGk8cwTPSRyRPiwvyHmt-oEAr272vVrOkI-XaQDOiWP_wNo2LR1dQRoNVOu5Zph1cwVrU-w_kEWL53Io6JsGfdeHyvfHc4hlPiE9CuKhGkpsOjchPvcY_Z9YNOQykv6IyrCBZnV0yHpdc5055xoVqCfcWDesaiPjHJSDZbVk4eGtGRJV4bFLPVAwYBcWTxGBj6k4NkvDMBVmPlKzJj_4hS-KN-K7Bg6IvtqvjiEv5f-GF_b9y2w-hHCW_9EuWiusX386i3JdCCgpgyivzoicxJ_i8SnHjOlIgJQbA0vKGCcEvY3EzSu0Vea5_ZlGOmrBFc8_fTNkbw7gtKOw3eEysq8fzPqYBCwxwE2uc-_eleBOnU2IXNyC14B7mUHSzHhj8xJx3lF0Y6fykak8POYGNexfRitQpprv2uGxoFl1DPLufqfJ3vR7MtFsqQB4dEi5Ui53QheD9954TxN6HrKLdA2WZeBMriYz41uZQ2TzBWFIhIuHH-juuwz45Z2Tt04egdsLKaPo9rB60rsCdGpf7o8ImFXWugCinh9UP-fnbR3YFQjiJLT5qsGBV67P2pNRbQuiG9IWRNHfLBJQV_Mp5E3ys_GFy2CWqsACQWE_NbbD0AsD15ZBmLBFPdjfeOPtUbG_FA1PKYScmYQMuBlui69GmmAM8_J8C11EUJxJ0i_gygHI1Eq9yzkX4C2mHyIYsf6kpScUxqI1Qg1SKn7uWDmXCfjWjFkLeU3oxjJuP7ei6c70iLVJjP9Kwk9dePAYzAYVDhLUWWXIA&opi=122715837
+                      - generic [ref=f147e44]:
+                        - text: Why this ad?
+                        - img [ref=f147e45]
+                - generic [ref=f147e48]:
+                  - generic [ref=f147e51] [cursor=pointer]: Not interested in this ad
+                  - generic [ref=f147e54] [cursor=pointer]: Ad covered content
+                  - generic [ref=f147e57] [cursor=pointer]: Ad was inappropriate
+                  - generic [ref=f147e60] [cursor=pointer]: Seen this ad multiple times
+                - generic [ref=f147e66]: Thanks. Feedback improves Google ads
+                - generic [ref=f147e72]:
+                  - text: Ad closed by
+                  - img [ref=f147e73]
+  - contentinfo [ref=e546]:
+    - generic [ref=e547]:
+      - generic [ref=e548]:
+        - generic [ref=e549]:
+          - heading "TOP TUTORIALS" [level=5] [ref=e550]
+          - list [ref=e551]:
+            - listitem [ref=e552]:
+              - link "Python Tutorial" [ref=e553] [cursor=pointer]:
+                - /url: /python/index.htm
+            - listitem [ref=e554]:
+              - link "Java Tutorial" [ref=e555] [cursor=pointer]:
+                - /url: /java/index.htm
+            - listitem [ref=e556]:
+              - link "C++ Tutorial" [ref=e557] [cursor=pointer]:
+                - /url: /cplusplus/index.htm
+            - listitem [ref=e558]:
+              - link "C Programming Tutorial" [ref=e559] [cursor=pointer]:
+                - /url: /cprogramming/index.htm
+            - listitem [ref=e560]:
+              - link "C# Tutorial" [ref=e561] [cursor=pointer]:
+                - /url: /csharp/index.htm
+            - listitem [ref=e562]:
+              - link "PHP Tutorial" [ref=e563] [cursor=pointer]:
+                - /url: /php/index.htm
+            - listitem [ref=e564]:
+              - link "R Tutorial" [ref=e565] [cursor=pointer]:
+                - /url: /r/index.htm
+            - listitem [ref=e566]:
+              - link "HTML Tutorial" [ref=e567] [cursor=pointer]:
+                - /url: /html/index.htm
+            - listitem [ref=e568]:
+              - link "CSS Tutorial" [ref=e569] [cursor=pointer]:
+                - /url: /css/index.htm
+            - listitem [ref=e570]:
+              - link "JavaScript Tutorial" [ref=e571] [cursor=pointer]:
+                - /url: /javascript/index.htm
+            - listitem [ref=e572]:
+              - link "SQL Tutorial" [ref=e573] [cursor=pointer]:
+                - /url: /sql/index.htm
+        - generic [ref=e574]:
+          - heading "TRENDING TECHNOLOGIES" [level=5] [ref=e575]
+          - list [ref=e576]:
+            - listitem [ref=e577]:
+              - link "Cloud Computing Tutorial" [ref=e578] [cursor=pointer]:
+                - /url: /cloud_computing/index.htm
+            - listitem [ref=e579]:
+              - link "Amazon Web Services Tutorial" [ref=e580] [cursor=pointer]:
+                - /url: /amazon_web_services/index.htm
+            - listitem [ref=e581]:
+              - link "Microsoft Azure Tutorial" [ref=e582] [cursor=pointer]:
+                - /url: /microsoft_azure/index.htm
+            - listitem [ref=e583]:
+              - link "Git Tutorial" [ref=e584] [cursor=pointer]:
+                - /url: /git/index.htm
+            - listitem [ref=e585]:
+              - link "Ethical Hacking Tutorial" [ref=e586] [cursor=pointer]:
+                - /url: /ethical_hacking/index.htm
+            - listitem [ref=e587]:
+              - link "Docker Tutorial" [ref=e588] [cursor=pointer]:
+                - /url: /docker/index.htm
+            - listitem [ref=e589]:
+              - link "Kubernetes Tutorial" [ref=e590] [cursor=pointer]:
+                - /url: /kubernetes/index.htm
+            - listitem [ref=e591]:
+              - link "DSA Tutorial" [ref=e592] [cursor=pointer]:
+                - /url: /data_structures_algorithms/index.htm
+            - listitem [ref=e593]:
+              - link "Spring Boot Tutorial" [ref=e594] [cursor=pointer]:
+                - /url: /spring_boot/index.htm
+            - listitem [ref=e595]:
+              - link "SDLC Tutorial" [ref=e596] [cursor=pointer]:
+                - /url: /sdlc/index.htm
+            - listitem [ref=e597]:
+              - link "Unix Tutorial" [ref=e598] [cursor=pointer]:
+                - /url: /unix/index.htm
+        - generic [ref=e599]:
+          - heading "CERTIFICATIONS" [level=5] [ref=e600]
+          - list [ref=e601]:
+            - listitem [ref=e602]:
+              - link "Business Analytics Certification" [ref=e603] [cursor=pointer]:
+                - /url: https://market.tutorialspoint.com/certification/business-analytics-certification-2023/index.asp
+            - listitem [ref=e604]:
+              - link "Java & Spring Boot Advanced Certification" [ref=e605] [cursor=pointer]:
+                - /url: https://market.tutorialspoint.com/certification/java-prime-pack/index.asp
+            - listitem [ref=e606]:
+              - link "Data Science Advanced Certification" [ref=e607] [cursor=pointer]:
+                - /url: https://market.tutorialspoint.com/certification/data-science-advanced-certification/index.asp
+            - listitem [ref=e608]:
+              - link "Cloud Computing And DevOps" [ref=e609] [cursor=pointer]:
+                - /url: https://market.tutorialspoint.com/certification/cloud-computing-and-devops-advanced-certification/index.asp
+            - listitem [ref=e610]:
+              - link "Advanced Certification In Business Analytics" [ref=e611] [cursor=pointer]:
+                - /url: https://market.tutorialspoint.com/certification/advanced-certification-in-business-analytics/index.asp
+            - listitem [ref=e612]:
+              - link "Artificial Intelligence And Machine Learning" [ref=e613] [cursor=pointer]:
+                - /url: https://market.tutorialspoint.com/certification/artificial-intelligence-and-machine-learning-certification/index.asp
+            - listitem [ref=e614]:
+              - link "DevOps Certification" [ref=e615] [cursor=pointer]:
+                - /url: https://market.tutorialspoint.com/certification/devops-certification/index.asp
+            - listitem [ref=e616]:
+              - link "Game Development Certification" [ref=e617] [cursor=pointer]:
+                - /url: https://market.tutorialspoint.com/certification/game-development-prime-pack/index.asp
+            - listitem [ref=e618]:
+              - link "Front-End Developer Certification" [ref=e619] [cursor=pointer]:
+                - /url: https://market.tutorialspoint.com/certification/frontend-developer-certification/index.asp
+            - listitem [ref=e620]:
+              - link "AWS Certification Training" [ref=e621] [cursor=pointer]:
+                - /url: https://market.tutorialspoint.com/certification/aws-prime-pack/index.asp
+            - listitem [ref=e622]:
+              - link "Python Programming Certification" [ref=e623] [cursor=pointer]:
+                - /url: https://market.tutorialspoint.com/certification/complete-python-prime-pack/index.asp
+        - generic [ref=e624]:
+          - heading "COMPILERS & EDITORS" [level=5] [ref=e625]
+          - list [ref=e626]:
+            - listitem [ref=e627]:
+              - link "Online Java Compiler" [ref=e628] [cursor=pointer]:
+                - /url: /compilers/online-java-compiler.htm
+            - listitem [ref=e629]:
+              - link "Online Python Compiler" [ref=e630] [cursor=pointer]:
+                - /url: /compilers/online-python-compiler.htm
+            - listitem [ref=e631]:
+              - link "Online Go Compiler" [ref=e632] [cursor=pointer]:
+                - /url: /compilers/online-golang-compiler.htm
+            - listitem [ref=e633]:
+              - link "Online C Compiler" [ref=e634] [cursor=pointer]:
+                - /url: /compilers/online-c-compiler.htm
+            - listitem [ref=e635]:
+              - link "Online C++ Compiler" [ref=e636] [cursor=pointer]:
+                - /url: /compilers/online-cpp-compiler.htm
+            - listitem [ref=e637]:
+              - link "Online C# Compiler" [ref=e638] [cursor=pointer]:
+                - /url: /compilers/online-csharp-compiler.htm
+            - listitem [ref=e639]:
+              - link "Online PHP Compiler" [ref=e640] [cursor=pointer]:
+                - /url: /compilers/online-php-compiler.htm
+            - listitem [ref=e641]:
+              - link "Online MATLAB Compiler" [ref=e642] [cursor=pointer]:
+                - /url: /compilers/online-matlab-compiler.htm
+            - listitem [ref=e643]:
+              - link "Online Bash Terminal" [ref=e644] [cursor=pointer]:
+                - /url: /compilers/online-bash-terminal.htm
+            - listitem [ref=e645]:
+              - link "Online SQL Compiler" [ref=e646] [cursor=pointer]:
+                - /url: /compilers/online-sql-editor.htm
+            - listitem [ref=e647]:
+              - link "Online Html Editor" [ref=e648] [cursor=pointer]:
+                - /url: /compilers/online-html-editor.htm
+      - list [ref=e649]:
+        - listitem [ref=e650]:
+          - link "ABOUT US" [ref=e651] [cursor=pointer]:
+            - /url: /about/index.htm
+          - text: "|"
+        - listitem [ref=e652]:
+          - link "OUR TEAM" [ref=e653] [cursor=pointer]:
+            - /url: /about/about_team.htm
+          - text: "|"
+        - listitem [ref=e654]:
+          - link "CAREERS" [ref=e655] [cursor=pointer]:
+            - /url: /about/about_careers.htm
+          - text: "|"
+        - listitem [ref=e656]:
+          - link "JOBS" [ref=e657] [cursor=pointer]:
+            - /url: /job_search.php
+          - text: "|"
+        - listitem [ref=e658]:
+          - link "CONTACT US" [ref=e659] [cursor=pointer]:
+            - /url: /about/contact_us.htm
+          - text: "|"
+        - listitem [ref=e660]:
+          - link "TERMS OF USE" [ref=e661] [cursor=pointer]:
+            - /url: /about/about_terms_of_use.htm
+          - text: "|"
+        - listitem [ref=e662]:
+          - link "PRIVACY POLICY" [ref=e663] [cursor=pointer]:
+            - /url: /about/about_privacy.htm
+          - text: "|"
+        - listitem [ref=e664]:
+          - link "REFUND POLICY" [ref=e665] [cursor=pointer]:
+            - /url: /about/return_refund_policy.htm
+          - text: "|"
+        - listitem [ref=e666]:
+          - link "COOKIES POLICY" [ref=e667] [cursor=pointer]:
+            - /url: /about/about_cookies.htm
+          - text: "|"
+        - listitem [ref=e668]:
+          - link "FAQ'S" [ref=e669] [cursor=pointer]:
+            - /url: /about/faq.htm
+      - generic [ref=e670]:
+        - img "tutorials point logo" [ref=e671]
+        - generic [ref=e672]:
+          - link "Facebook" [ref=e673] [cursor=pointer]:
+            - /url: https://www.facebook.com/tutorialspointindia
+            - img [ref=e674]
+          - link "X" [ref=e676] [cursor=pointer]:
+            - /url: https://x.com/tutorialspoint
+            - img [ref=e677]
+          - link "YouTube" [ref=e679] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg
+            - img [ref=e680]
+          - link "Linkedin" [ref=e682] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/tutorialspoint/
+            - img [ref=e683]
+          - link "Instagram" [ref=e685] [cursor=pointer]:
+            - /url: https://www.instagram.com/tutorialspoint_/
+            - img [ref=e686]
+        - generic [ref=e688]:
+          - link "Download Android App" [ref=e689] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.tutorialspoint.onlineviewer
+            - img "Download Android App" [ref=e690]
+          - link "Download IOS App" [ref=e691] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/tutorials-point/id914891263?ls=1&mt=8
+            - img "Download IOS App" [ref=e692]
+      - generic [ref=e693]:
+        - paragraph [ref=e694]: Tutorials Point is a leading Ed Tech company striving to provide the best learning material on technical and non-technical subjects.
+        - paragraph [ref=e695]: © Copyright 2026. All Rights Reserved.
+```

@@ -1,0 +1,1784 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - link "Home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e8]: Home
+      - link "Whiteboard" [ref=e9] [cursor=pointer]:
+        - /url: /whiteboard.htm
+        - img [ref=e10]
+        - generic [ref=e12]: Whiteboard
+      - link "Graphing Calculator" [ref=e13] [cursor=pointer]:
+        - /url: /online_graphing_calculator.htm
+        - img [ref=e14]
+        - generic [ref=e16]: Graphing Calculator
+      - link "Online Compilers" [ref=e17] [cursor=pointer]:
+        - /url: /codingground.htm
+        - img [ref=e18]
+        - generic [ref=e20]: Online Compilers
+      - link "Articles" [ref=e21] [cursor=pointer]:
+        - /url: /articles/index.php
+        - img [ref=e22]
+        - generic [ref=e24]: Articles
+      - link "Tools" [ref=e25] [cursor=pointer]:
+        - /url: /online_dev_tools.htm
+        - img [ref=e26]
+        - generic [ref=e28]: Tools
+    - generic [ref=e29]:
+      - link "Facebook" [ref=e30] [cursor=pointer]:
+        - /url: https://www.facebook.com/tutorialspointindia
+        - img [ref=e31]
+      - link "X" [ref=e33] [cursor=pointer]:
+        - /url: https://x.com/tutorialspoint
+        - img [ref=e34]
+      - link "YouTube" [ref=e36] [cursor=pointer]:
+        - /url: https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg
+        - img [ref=e37]
+      - link "LinkedIn" [ref=e39] [cursor=pointer]:
+        - /url: https://www.linkedin.com/company/tutorialspoint/
+        - img [ref=e40]
+      - link "Instagram" [ref=e42] [cursor=pointer]:
+        - /url: https://www.instagram.com/tutorialspoint_/
+        - img [ref=e43]
+  - banner [ref=e45]:
+    - generic [ref=e46]:
+      - generic [ref=e47]:
+        - link "Tutorials point" [ref=e48] [cursor=pointer]:
+          - /url: https://www.tutorialspoint.com
+          - img [ref=e49]
+        - button "Categories" [ref=e68] [cursor=pointer]:
+          - img [ref=e69]
+          - generic [ref=e71]: Categories
+          - img [ref=e72]
+      - generic [ref=e74]:
+        - link "Tutorials" [ref=e75] [cursor=pointer]:
+          - /url: /tutorialslibrary.htm
+          - img [ref=e76]
+          - text: Tutorials
+        - link "Courses" [ref=e78] [cursor=pointer]:
+          - /url: https://market.tutorialspoint.com/index.asp
+          - img [ref=e79]
+          - text: Courses
+        - link "Jobs" [ref=e81] [cursor=pointer]:
+          - /url: /jobs/index.htm
+          - img [ref=e82]
+          - text: Jobs
+        - link "Login" [ref=e84] [cursor=pointer]:
+          - /url: https://market.tutorialspoint.com/login.jsp
+  - main [ref=e85]:
+    - generic [ref=e87]:
+      - generic [ref=e88]:
+        - img "Java Tutorial" [ref=e91]
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Java - Home" [ref=e94] [cursor=pointer]:
+              - /url: /java/index.htm
+          - listitem [ref=e95]:
+            - link "Java - Overview" [ref=e96] [cursor=pointer]:
+              - /url: /java/java_overview.htm
+          - listitem [ref=e97]:
+            - link "Java - History" [ref=e98] [cursor=pointer]:
+              - /url: /java/java-history.htm
+          - listitem [ref=e99]:
+            - link "Java - Features" [ref=e100] [cursor=pointer]:
+              - /url: /java/java-features.htm
+          - listitem [ref=e101]:
+            - link "Java Vs. C++" [ref=e102] [cursor=pointer]:
+              - /url: /java/java-vs-cpp.htm
+          - listitem [ref=e103]:
+            - link "JVM - Java Virtual Machine" [ref=e104] [cursor=pointer]:
+              - /url: /java/java_jvm.htm
+          - listitem [ref=e105]:
+            - link "Java - JDK vs JRE vs JVM" [ref=e106] [cursor=pointer]:
+              - /url: /java/java-jdk-jre-jvm.htm
+          - listitem [ref=e107]:
+            - link "Java - Environment Setup" [ref=e108] [cursor=pointer]:
+              - /url: /java/java_environment_setup.htm
+          - listitem [ref=e109]:
+            - link "Java - Hello World Program" [ref=e110] [cursor=pointer]:
+              - /url: /java/java_hello_world.htm
+          - listitem [ref=e111]:
+            - link "Java - Comments" [ref=e112] [cursor=pointer]:
+              - /url: /java/java_comments.htm
+          - listitem [ref=e113]:
+            - link "Java - Basic Syntax" [ref=e114] [cursor=pointer]:
+              - /url: /java/java_basic_syntax.htm
+          - listitem [ref=e115]:
+            - link "Java - Variables" [ref=e116] [cursor=pointer]:
+              - /url: /java/java_variable_types.htm
+          - listitem [ref=e117]:
+            - link "Java - Data Types" [ref=e118] [cursor=pointer]:
+              - /url: /java/java_basic_datatypes.htm
+          - listitem [ref=e119]:
+            - link "Java - Type Casting" [ref=e120] [cursor=pointer]:
+              - /url: /java/java_type_casting.htm
+          - listitem [ref=e121]:
+            - link "Java - Unicode System" [ref=e122] [cursor=pointer]:
+              - /url: /java/java_unicode_system.htm
+          - listitem [ref=e123]:
+            - link "Java - User Input" [ref=e124] [cursor=pointer]:
+              - /url: /java/java_user_input.htm
+          - listitem [ref=e125]:
+            - link "Java - Date & Time" [ref=e126] [cursor=pointer]:
+              - /url: /java/java_date_time.htm
+        - heading "Java Operators" [level=2] [ref=e127]
+        - list [ref=e128]:
+          - listitem [ref=e129]:
+            - link "Java - Operators" [ref=e130] [cursor=pointer]:
+              - /url: /java/java_basic_operators.htm
+          - listitem [ref=e131]:
+            - link "Java - Arithmetic Operators" [ref=e132] [cursor=pointer]:
+              - /url: /java/java_arithmatic_operators_examples.htm
+          - listitem [ref=e133]:
+            - link "Java - Assignment Operators" [ref=e134] [cursor=pointer]:
+              - /url: /java/java_assignment_operators_examples.htm
+          - listitem [ref=e135]:
+            - link "Java - Relational Operators" [ref=e136] [cursor=pointer]:
+              - /url: /java/java_relational_operators_examples.htm
+          - listitem [ref=e137]:
+            - link "Java - Logical Operators" [ref=e138] [cursor=pointer]:
+              - /url: /java/java_logical_operators_examples.htm
+          - listitem [ref=e139]:
+            - link "Java - Bitwise Operators" [ref=e140] [cursor=pointer]:
+              - /url: /java/java_bitwise_operators_examples.htm
+          - listitem [ref=e141]:
+            - link "Java Operator Precedence & Associativity" [ref=e142] [cursor=pointer]:
+              - /url: /java/java_operator_precedence_and_associativity.htm
+          - listitem [ref=e143]:
+            - link "Java - Unary Operators" [ref=e144] [cursor=pointer]:
+              - /url: /java/java_unary_operators.htm
+        - heading "Java Control Statements" [level=2] [ref=e145]
+        - list [ref=e146]:
+          - listitem [ref=e147]:
+            - link "Java - Decision Making" [ref=e148] [cursor=pointer]:
+              - /url: /java/java_decision_making.htm
+          - listitem [ref=e149]:
+            - link "Java - If Else Statement" [ref=e150] [cursor=pointer]:
+              - /url: /java/if_else_statement_in_java.htm
+          - listitem [ref=e151]:
+            - link "Java - Switch Statement" [ref=e152] [cursor=pointer]:
+              - /url: /java/switch_statement_in_java.htm
+          - listitem [ref=e153]:
+            - link "Java - Loop Control" [ref=e154] [cursor=pointer]:
+              - /url: /java/java_loop_control.htm
+          - listitem [ref=e155]:
+            - link "Java - For Loop" [ref=e156] [cursor=pointer]:
+              - /url: /java/java_for_loop.htm
+          - listitem [ref=e157]:
+            - link "Java - For-Each Loop" [ref=e158] [cursor=pointer]:
+              - /url: /java/java_foreach_loop.htm
+          - listitem [ref=e159]:
+            - link "Java - While Loop" [ref=e160] [cursor=pointer]:
+              - /url: /java/java_while_loop.htm
+          - listitem [ref=e161]:
+            - link "Java - Do While Loop" [ref=e162] [cursor=pointer]:
+              - /url: /java/java_do_while_loop.htm
+          - listitem [ref=e163]:
+            - link "Java - Break Statement" [ref=e164] [cursor=pointer]:
+              - /url: /java/java_break_statement.htm
+          - listitem [ref=e165]:
+            - link "Java - Continue Statement" [ref=e166] [cursor=pointer]:
+              - /url: /java/java_continue_statement.htm
+        - heading "Object Oriented Programming" [level=2] [ref=e167]
+        - list [ref=e168]:
+          - listitem [ref=e169]:
+            - link "Java - OOPs Concepts" [ref=e170] [cursor=pointer]:
+              - /url: /java/java_oops_concepts.htm
+          - listitem [ref=e171]:
+            - link "Java - Object & Classes" [ref=e172] [cursor=pointer]:
+              - /url: /java/java_object_classes.htm
+          - listitem [ref=e173]:
+            - link "Java - Class Attributes" [ref=e174] [cursor=pointer]:
+              - /url: /java/java_class_attributes.htm
+          - listitem [ref=e175]:
+            - link "Java - Class Methods" [ref=e176] [cursor=pointer]:
+              - /url: /java/java_class_methods.htm
+          - listitem [ref=e177]:
+            - link "Java - Methods" [ref=e178] [cursor=pointer]:
+              - /url: /java/java_methods.htm
+          - listitem [ref=e179]:
+            - link "Java - Variables Scope" [ref=e180] [cursor=pointer]:
+              - /url: /java/java_variable_scope.htm
+          - listitem [ref=e181]:
+            - link "Java - Constructors" [ref=e182] [cursor=pointer]:
+              - /url: /java/java_constructors.htm
+          - listitem [ref=e183]:
+            - link "Java - Access Modifiers" [ref=e184] [cursor=pointer]:
+              - /url: /java/java_access_modifiers.htm
+          - listitem [ref=e185]:
+            - link "Java - Inheritance" [ref=e186] [cursor=pointer]:
+              - /url: /java/java_inheritance.htm
+          - listitem [ref=e187]:
+            - link "Java - Aggregation" [ref=e188] [cursor=pointer]:
+              - /url: /java/java_aggregation.htm
+          - listitem [ref=e189]:
+            - link "Java - Polymorphism" [ref=e190] [cursor=pointer]:
+              - /url: /java/java_polymorphism.htm
+          - listitem [ref=e191]:
+            - link "Java - Overriding" [ref=e192] [cursor=pointer]:
+              - /url: /java/java_overriding.htm
+          - listitem [ref=e193]:
+            - link "Java - Method Overloading" [ref=e194] [cursor=pointer]:
+              - /url: /java/java_method_overloading.htm
+          - listitem [ref=e195]:
+            - link "Java - Dynamic Binding" [ref=e196] [cursor=pointer]:
+              - /url: /java/java_dynamic_binding.htm
+          - listitem [ref=e197]:
+            - link "Java - Static Binding" [ref=e198] [cursor=pointer]:
+              - /url: /java/java_static_binding.htm
+          - listitem [ref=e199]:
+            - link "Java - Instance Initializer Block" [ref=e200] [cursor=pointer]:
+              - /url: /java/java_initializer_block.htm
+          - listitem [ref=e201]:
+            - link "Java - Abstraction" [ref=e202] [cursor=pointer]:
+              - /url: /java/java_abstraction.htm
+          - listitem [ref=e203]:
+            - link "Java - Encapsulation" [ref=e204] [cursor=pointer]:
+              - /url: /java/java_encapsulation.htm
+          - listitem [ref=e205]:
+            - link "Java - Interfaces" [ref=e206] [cursor=pointer]:
+              - /url: /java/java_interfaces.htm
+          - listitem [ref=e207]:
+            - link "Java - Packages" [ref=e208] [cursor=pointer]:
+              - /url: /java/java_packages.htm
+          - listitem [ref=e209]:
+            - link "Java - Inner Classes" [ref=e210] [cursor=pointer]:
+              - /url: /java/java_innerclasses.htm
+          - listitem [ref=e211]:
+            - link "Java - Static Class" [ref=e212] [cursor=pointer]:
+              - /url: /java/java_static_class.htm
+          - listitem [ref=e213]:
+            - link "Java - Anonymous Class" [ref=e214] [cursor=pointer]:
+              - /url: /java/java_anonymous_class.htm
+          - listitem [ref=e215]:
+            - link "Java - Singleton Class" [ref=e216] [cursor=pointer]:
+              - /url: /java/java_singleton_class.htm
+          - listitem [ref=e217]:
+            - link "Java - Wrapper Classes" [ref=e218] [cursor=pointer]:
+              - /url: /java/java_wrapper_classes.htm
+          - listitem [ref=e219]:
+            - link "Java - Enums" [ref=e220] [cursor=pointer]:
+              - /url: /java/java_lang_enum.htm
+          - listitem [ref=e221]:
+            - link "Java - Enum Constructor" [ref=e222] [cursor=pointer]:
+              - /url: /java/java_enum_constructor.htm
+          - listitem [ref=e223]:
+            - link "Java - Enum Strings" [ref=e224] [cursor=pointer]:
+              - /url: /java/java_enum_string.htm
+        - heading "Java Built-in Classes" [level=2] [ref=e225]
+        - list [ref=e226]:
+          - listitem [ref=e227]:
+            - link "Java - Number" [ref=e228] [cursor=pointer]:
+              - /url: /java/java_lang_number.htm
+          - listitem [ref=e229]:
+            - link "Java - Boolean" [ref=e230] [cursor=pointer]:
+              - /url: /java/java_lang_boolean.htm
+          - listitem [ref=e231]:
+            - link "Java - Characters" [ref=e232] [cursor=pointer]:
+              - /url: /java/java_characters.htm
+          - listitem [ref=e233]:
+            - link "Java - Arrays" [ref=e234] [cursor=pointer]:
+              - /url: /java/java_arrays.htm
+          - listitem [ref=e235]:
+            - link "Java - Multi-Dimensional Arrays" [ref=e236] [cursor=pointer]:
+              - /url: /java/java_multi_dimensional_arrays.htm
+          - listitem [ref=e237]:
+            - link "Java - Final Arrays" [ref=e238] [cursor=pointer]:
+              - /url: /java/java_final_arrays.htm
+          - listitem [ref=e239]:
+            - link "Java - Math Class" [ref=e240] [cursor=pointer]:
+              - /url: /java/java_lang_math.htm
+        - heading "Java File Handling" [level=2] [ref=e241]
+        - list [ref=e242]:
+          - listitem [ref=e243]:
+            - link "Java - Files" [ref=e244] [cursor=pointer]:
+              - /url: /java/java_file_class.htm
+          - listitem [ref=e245]:
+            - link "Java - Create a File" [ref=e246] [cursor=pointer]:
+              - /url: /java/java_create_file.htm
+          - listitem [ref=e247]:
+            - link "Java - Write to File" [ref=e248] [cursor=pointer]:
+              - /url: /java/java_write_file.htm
+          - listitem [ref=e249]:
+            - link "Java - Read Files" [ref=e250] [cursor=pointer]:
+              - /url: /java/java_read_file.htm
+          - listitem [ref=e251]:
+            - link "Java - Delete Files" [ref=e252] [cursor=pointer]:
+              - /url: /java/java_delete_file.htm
+          - listitem [ref=e253]:
+            - link "Java - Directories" [ref=e254] [cursor=pointer]:
+              - /url: /java/java_directories.htm
+          - listitem [ref=e255]:
+            - link "Java - I/O Streams" [ref=e256] [cursor=pointer]:
+              - /url: /java/java_files_io.htm
+        - heading "Java Error & Exceptions" [level=2] [ref=e257]
+        - list [ref=e258]:
+          - listitem [ref=e259]:
+            - link "Java - Exceptions" [ref=e260] [cursor=pointer]:
+              - /url: /java/java_exceptions.htm
+          - listitem [ref=e261]:
+            - link "Java - try-catch Block" [ref=e262] [cursor=pointer]:
+              - /url: /java/java_try_catch_block.htm
+          - listitem [ref=e263]:
+            - link "Java - try-with-resources" [ref=e264] [cursor=pointer]:
+              - /url: /java/java_try_with_resources.htm
+          - listitem [ref=e265]:
+            - link "Java - Multi-catch Block" [ref=e266] [cursor=pointer]:
+              - /url: /java/java_multi_catch_block.htm
+          - listitem [ref=e267]:
+            - link "Java - Nested try Block" [ref=e268] [cursor=pointer]:
+              - /url: /java/java_nested_try_block.htm
+          - listitem [ref=e269]:
+            - link "Java - Finally Block" [ref=e270] [cursor=pointer]:
+              - /url: /java/java_finally_block.htm
+          - listitem [ref=e271]:
+            - link "Java - throw Exception" [ref=e272] [cursor=pointer]:
+              - /url: /java/java_throw_exception.htm
+          - listitem [ref=e273]:
+            - link "Java - Exception Propagation" [ref=e274] [cursor=pointer]:
+              - /url: /java/java_exception_propagation.htm
+          - listitem [ref=e275]:
+            - link "Java - Built-in Exceptions" [ref=e276] [cursor=pointer]:
+              - /url: /java/java_builtin_exceptions.htm
+          - listitem [ref=e277]:
+            - link "Java - Custom Exception" [ref=e278] [cursor=pointer]:
+              - /url: /java/java_custom_exception.htm
+          - listitem [ref=e279]:
+            - link "Java - Chained Exception" [ref=e280] [cursor=pointer]:
+              - /url: /java/java_chained_exceptions.htm
+        - heading "Java Multithreading" [level=2] [ref=e281]
+        - list [ref=e282]:
+          - listitem [ref=e283]:
+            - link "Java - Multithreading" [ref=e284] [cursor=pointer]:
+              - /url: /java/java_multithreading.htm
+          - listitem [ref=e285]:
+            - link "Java - Thread Life Cycle" [ref=e286] [cursor=pointer]:
+              - /url: /java/java_thread_life_cycle.htm
+          - listitem [ref=e287]:
+            - link "Java - Creating a Thread" [ref=e288] [cursor=pointer]:
+              - /url: /java/java_create_thread.htm
+          - listitem [ref=e289]:
+            - link "Java - Starting a Thread" [ref=e290] [cursor=pointer]:
+              - /url: /java/java_start_thread.htm
+          - listitem [ref=e291]:
+            - link "Java - Joining Threads" [ref=e292] [cursor=pointer]:
+              - /url: /java/java_join_thread.htm
+          - listitem [ref=e293]:
+            - link "Java - Naming Thread" [ref=e294] [cursor=pointer]:
+              - /url: /java/java_naming_thread.htm
+          - listitem [ref=e295]:
+            - link "Java - Thread Scheduler" [ref=e296] [cursor=pointer]:
+              - /url: /java/java_thread_scheduler.htm
+          - listitem [ref=e297]:
+            - link "Java - Thread Pools" [ref=e298] [cursor=pointer]:
+              - /url: /java/java_thread_pool.htm
+          - listitem [ref=e299]:
+            - link "Java - Main Thread" [ref=e300] [cursor=pointer]:
+              - /url: /java/java_main_thread.htm
+          - listitem [ref=e301]:
+            - link "Java - Thread Priority" [ref=e302] [cursor=pointer]:
+              - /url: /java/java_thread_priority.htm
+          - listitem [ref=e303]:
+            - link "Java - Daemon Threads" [ref=e304] [cursor=pointer]:
+              - /url: /java/java_daemon_thread.htm
+          - listitem [ref=e305]:
+            - link "Java - Thread Group" [ref=e306] [cursor=pointer]:
+              - /url: /java/java_lang_threadgroup.htm
+          - listitem [ref=e307]:
+            - link "Java - Shutdown Hook" [ref=e308] [cursor=pointer]:
+              - /url: /java/java_shutdown_hook.htm
+        - heading "Java Synchronization" [level=2] [ref=e309]
+        - list [ref=e310]:
+          - listitem [ref=e311]:
+            - link "Java - Synchronization" [ref=e312] [cursor=pointer]:
+              - /url: /java/java_thread_synchronization.htm
+          - listitem [ref=e313]:
+            - link "Java - Block Synchronization" [ref=e314] [cursor=pointer]:
+              - /url: /java/java_block_synchronization.htm
+          - listitem [ref=e315]:
+            - link "Java - Static Synchronization" [ref=e316] [cursor=pointer]:
+              - /url: /java/java_static_synchronization.htm
+          - listitem [ref=e317]:
+            - link "Java - Inter-thread Communication" [ref=e318] [cursor=pointer]:
+              - /url: /java/java_thread_communication.htm
+          - listitem [ref=e319]:
+            - link "Java - Thread Deadlock" [ref=e320] [cursor=pointer]:
+              - /url: /java/java_thread_deadlock.htm
+          - listitem [ref=e321]:
+            - link "Java - Interrupting a Thread" [ref=e322] [cursor=pointer]:
+              - /url: /java/java_interrupting_thread.htm
+          - listitem [ref=e323]:
+            - link "Java - Thread Control" [ref=e324] [cursor=pointer]:
+              - /url: /java/java_thread_control.htm
+          - listitem [ref=e325]:
+            - link "Java - Reentrant Monitor" [ref=e326] [cursor=pointer]:
+              - /url: /java/java_reentrant_monitor.htm
+        - heading "Java Networking" [level=2] [ref=e327]
+        - list [ref=e328]:
+          - listitem [ref=e329]:
+            - link "Java - Networking" [ref=e330] [cursor=pointer]:
+              - /url: /java/java_networking.htm
+          - listitem [ref=e331]:
+            - link "Java - Socket Programming" [ref=e332] [cursor=pointer]:
+              - /url: /java/java_socket_programming.htm
+          - listitem [ref=e333]:
+            - link "Java - URL Processing" [ref=e334] [cursor=pointer]:
+              - /url: /java/java_url_processing.htm
+          - listitem [ref=e335]:
+            - link "Java - URL Class" [ref=e336] [cursor=pointer]:
+              - /url: /java/java_url.htm
+          - listitem [ref=e337]:
+            - link "Java - URLConnection Class" [ref=e338] [cursor=pointer]:
+              - /url: /java/java_urlconnection.htm
+          - listitem [ref=e339]:
+            - link "Java - HttpURLConnection Class" [ref=e340] [cursor=pointer]:
+              - /url: /java/java_httpurlconnection.htm
+          - listitem [ref=e341]:
+            - link "Java - Socket Class" [ref=e342] [cursor=pointer]:
+              - /url: /java/java-socket.htm
+          - listitem [ref=e343]:
+            - link "Java - Generics" [ref=e344] [cursor=pointer]:
+              - /url: /java/java_generics.htm
+        - heading "Java Collections" [level=2] [ref=e345]
+        - list [ref=e346]:
+          - listitem [ref=e347]:
+            - link "Java - Collections" [ref=e348] [cursor=pointer]:
+              - /url: /java/java_collections.htm
+          - listitem [ref=e349]:
+            - link "Java - Collection Interface" [ref=e350] [cursor=pointer]:
+              - /url: /java/java_collection_interface.htm
+        - heading "Java Interfaces" [level=2] [ref=e351]
+        - list [ref=e352]:
+          - listitem [ref=e353]:
+            - link "Java - List Interface" [ref=e354] [cursor=pointer]:
+              - /url: /java/java_list_interface.htm
+          - listitem [ref=e355]:
+            - link "Java - Queue Interface" [ref=e356] [cursor=pointer]:
+              - /url: /java/java_util_queue.htm
+          - listitem [ref=e357]:
+            - link "Java - Map Interface" [ref=e358] [cursor=pointer]:
+              - /url: /java/java_map_interface.htm
+          - listitem [ref=e359]:
+            - link "Java - SortedMap Interface" [ref=e360] [cursor=pointer]:
+              - /url: /java/java_sortedmap_interface.htm
+          - listitem [ref=e361]:
+            - link "Java - Set Interface" [ref=e362] [cursor=pointer]:
+              - /url: /java/java_set_interface.htm
+          - listitem [ref=e363]:
+            - link "Java - SortedSet Interface" [ref=e364] [cursor=pointer]:
+              - /url: /java/java_sortedset_interface.htm
+        - heading "Java Data Structures" [level=2] [ref=e365]
+        - list [ref=e366]:
+          - listitem [ref=e367]:
+            - link "Java - Data Structures" [ref=e368] [cursor=pointer]:
+              - /url: /java/java_data_structures.htm
+          - listitem [ref=e369]:
+            - link "Java - Enumeration" [ref=e370] [cursor=pointer]:
+              - /url: /java/java_enumeration_interface.htm
+        - heading "Java Collections Algorithms" [level=2] [ref=e371]
+        - list [ref=e372]:
+          - listitem [ref=e373]:
+            - link "Java - Iterators" [ref=e374] [cursor=pointer]:
+              - /url: /java/java_using_iterator.htm
+          - listitem [ref=e375]:
+            - link "Java - Comparators" [ref=e376] [cursor=pointer]:
+              - /url: /java/java_using_comparator.htm
+          - listitem [ref=e377]:
+            - link "Java - Comparable Interface in Java" [ref=e378] [cursor=pointer]:
+              - /url: /java/java-using-comparable.htm
+        - heading "Advanced Java" [level=2] [ref=e379]
+        - list [ref=e380]:
+          - listitem [ref=e381]:
+            - link "Java - Command-Line Arguments" [ref=e382] [cursor=pointer]:
+              - /url: /java/java-command-line-args.htm
+          - listitem [ref=e383]:
+            - link "Java - Lambda Expressions" [ref=e384] [cursor=pointer]:
+              - /url: /java/java-lambda-expressions.htm
+          - listitem [ref=e385]:
+            - link "Java - Sending Email" [ref=e386] [cursor=pointer]:
+              - /url: /java/java_sending_email.htm
+          - listitem [ref=e387]:
+            - link "Java - Applet Basics" [ref=e388] [cursor=pointer]:
+              - /url: /java/java_applet_basics.htm
+          - listitem [ref=e389]:
+            - link "Java - Javadoc Comments" [ref=e390] [cursor=pointer]:
+              - /url: /java/java_documentation.htm
+          - listitem [ref=e391]:
+            - link "Java - Autoboxing and Unboxing" [ref=e392] [cursor=pointer]:
+              - /url: /java/java-autoboxing-unboxing.htm
+          - listitem [ref=e393]:
+            - link "Java - File Mismatch Method" [ref=e394] [cursor=pointer]:
+              - /url: /java/java-file-mismatch-method.htm
+          - listitem [ref=e395]:
+            - link "Java - REPL (JShell)" [ref=e396] [cursor=pointer]:
+              - /url: /java/java-repl.htm
+          - listitem [ref=e397]:
+            - link "Java - Multi-Release Jar Files" [ref=e398] [cursor=pointer]:
+              - /url: /java/java_multirelease_jar.htm
+          - listitem [ref=e399]:
+            - link "Java - Private Interface Methods" [ref=e400] [cursor=pointer]:
+              - /url: /java/java_private_interface_methods.htm
+          - listitem [ref=e401]:
+            - link "Java - Inner Class Diamond Operator" [ref=e402] [cursor=pointer]:
+              - /url: /java/java_inner_class_diamond_operator.htm
+          - listitem [ref=e403]:
+            - link "Java - Multiresolution Image API" [ref=e404] [cursor=pointer]:
+              - /url: /java/java_multiresolution_image_api.htm
+          - listitem [ref=e405]:
+            - link "Java - Collection Factory Methods" [ref=e406] [cursor=pointer]:
+              - /url: /java/java_collection_factory_methods.htm
+          - listitem [ref=e407]:
+            - link "Java - Module System" [ref=e408] [cursor=pointer]:
+              - /url: /java/java_module_system.htm
+          - listitem [ref=e409]:
+            - link "Java - Nashorn JavaScript" [ref=e410] [cursor=pointer]:
+              - /url: /java/java_nashorn_java_script.htm
+          - listitem [ref=e411]:
+            - link "Java - Optional Class" [ref=e412] [cursor=pointer]:
+              - /url: /java/java_optional_class.htm
+          - listitem [ref=e413]:
+            - link "Java - Method References" [ref=e414] [cursor=pointer]:
+              - /url: /java/java_method_references.htm
+          - listitem [ref=e415]:
+            - link "Java - Functional Interfaces" [ref=e416] [cursor=pointer]:
+              - /url: /java/java_functional_interfaces.htm
+          - listitem [ref=e417]:
+            - link "Java - Default Methods" [ref=e418] [cursor=pointer]:
+              - /url: /java/java_default_methods.htm
+          - listitem [ref=e419]:
+            - link "Java - Base64 Encode Decode" [ref=e420] [cursor=pointer]:
+              - /url: /java/java_base64.htm
+          - listitem [ref=e421]:
+            - link "Java - Switch Expressions" [ref=e422] [cursor=pointer]:
+              - /url: /java/java_switch_expression.htm
+          - listitem [ref=e423]:
+            - link "Java - Teeing Collectors" [ref=e424] [cursor=pointer]:
+              - /url: /java/java_teeing_collectors.htm
+          - listitem [ref=e425]:
+            - link "Java - Microbenchmark" [ref=e426] [cursor=pointer]:
+              - /url: /java/java_micro_benchmark.htm
+          - listitem [ref=e427]:
+            - link "Java - Text Blocks" [ref=e428] [cursor=pointer]:
+              - /url: /java/java_text_blocks.htm
+          - listitem [ref=e429]:
+            - link "Java - Dynamic CDS archive" [ref=e430] [cursor=pointer]:
+              - /url: /java/java_dynamic_cds.htm
+          - listitem [ref=e431]:
+            - link "Java - Z Garbage Collector (ZGC)" [ref=e432] [cursor=pointer]:
+              - /url: /java/java_z_garbage_collectors.htm
+          - listitem [ref=e433]:
+            - link "Java - Null Pointer Exception" [ref=e434] [cursor=pointer]:
+              - /url: /java/java_nullpointerexception.htm
+          - listitem [ref=e435]:
+            - link "Java - Packaging Tools" [ref=e436] [cursor=pointer]:
+              - /url: /java/java_packaging_tools.htm
+          - listitem [ref=e437]:
+            - link "Java - Sealed Classes" [ref=e438] [cursor=pointer]:
+              - /url: /java/java_sealed_classes.htm
+          - listitem [ref=e439]:
+            - link "Java - Record Classes" [ref=e440] [cursor=pointer]:
+              - /url: /java/java_record.htm
+          - listitem [ref=e441]:
+            - link "Java - Hidden Classes" [ref=e442] [cursor=pointer]:
+              - /url: /java/java_hidden_classes.htm
+          - listitem [ref=e443]:
+            - link "Java - Pattern Matching" [ref=e444] [cursor=pointer]:
+              - /url: /java/java_instanceof_pattern_matching.htm
+          - listitem [ref=e445]:
+            - link "Java - Compact Number Formatting" [ref=e446] [cursor=pointer]:
+              - /url: /java/java_compact_number_formatting.htm
+          - listitem [ref=e447]:
+            - link "Java - Garbage Collection" [ref=e448] [cursor=pointer]:
+              - /url: /java/java_garbage_collection.htm
+          - listitem [ref=e449]:
+            - link "Java - JIT Compiler" [ref=e450] [cursor=pointer]:
+              - /url: /java/java_just_in_time_jit_compiler.htm
+        - heading "Java Miscellaneous" [level=2] [ref=e451]
+        - list [ref=e452]:
+          - listitem [ref=e453]:
+            - link "Java - Recursion" [ref=e454] [cursor=pointer]:
+              - /url: /java/java-recursion.htm
+          - listitem [ref=e455]:
+            - link "Java - Regular Expressions" [ref=e456] [cursor=pointer]:
+              - /url: /java/java_regular_expressions.htm
+          - listitem [ref=e457]:
+            - link "Java - Serialization" [ref=e458] [cursor=pointer]:
+              - /url: /java/java_serialization.htm
+          - listitem [ref=e459]:
+            - link "Java - Strings" [ref=e460] [cursor=pointer]:
+              - /url: /java/java_strings.htm
+          - listitem [ref=e461]:
+            - link "Java - Process API Improvements" [ref=e462] [cursor=pointer]:
+              - /url: /java/java_process_api_improvements.htm
+          - listitem [ref=e463]:
+            - link "Java - Stream API Improvements" [ref=e464] [cursor=pointer]:
+              - /url: /java/java_stream_api_improvements.htm
+          - listitem [ref=e465]:
+            - link "Java - Enhanced @Deprecated Annotation" [ref=e466] [cursor=pointer]:
+              - /url: /java/java_enhanced_deprecated_annotation.htm
+          - listitem [ref=e467]:
+            - link "Java - CompletableFuture API Improvements" [ref=e468] [cursor=pointer]:
+              - /url: /java/java_completablefuture_api_improvements.htm
+          - listitem [ref=e469]:
+            - link "Java - Marker Interface" [ref=e470] [cursor=pointer]:
+              - /url: /java/java_marker_interface.htm
+          - listitem [ref=e471]:
+            - link "Java - Streams" [ref=e472] [cursor=pointer]:
+              - /url: /java/java_streams.htm
+          - listitem [ref=e473]:
+            - link "Java - Datetime Api" [ref=e474] [cursor=pointer]:
+              - /url: /java/java_datetime_api.htm
+          - listitem [ref=e475]:
+            - link "Java 8 - New Features" [ref=e476] [cursor=pointer]:
+              - /url: /java/java8_new_features.htm
+          - listitem [ref=e477]:
+            - link "Java 9 - New Features" [ref=e478] [cursor=pointer]:
+              - /url: /java/java9_new_features.htm
+          - listitem [ref=e479]:
+            - link "Java 10 - New Features" [ref=e480] [cursor=pointer]:
+              - /url: /java/java10_new_features.htm
+          - listitem [ref=e481]:
+            - link "Java 11 - New Features" [ref=e482] [cursor=pointer]:
+              - /url: /java/java11_new_features.htm
+          - listitem [ref=e483]:
+            - link "Java 12 - New Features" [ref=e484] [cursor=pointer]:
+              - /url: /java/java12_new_features.htm
+          - listitem [ref=e485]:
+            - link "Java 13 - New Features" [ref=e486] [cursor=pointer]:
+              - /url: /java/java13_new_features.htm
+          - listitem [ref=e487]:
+            - link "Java 14 - New Features" [ref=e488] [cursor=pointer]:
+              - /url: /java/java14_new_features.htm
+          - listitem [ref=e489]:
+            - link "Java 15 - New Features" [ref=e490] [cursor=pointer]:
+              - /url: /java/java15_new_features.htm
+          - listitem [ref=e491]:
+            - link "Java 16 - New Features" [ref=e492] [cursor=pointer]:
+              - /url: /java/java16_new_features.htm
+        - heading "Java APIs & Frameworks" [level=2] [ref=e493]
+        - list [ref=e494]:
+          - listitem [ref=e495]:
+            - link "JDBC Tutorial" [ref=e496] [cursor=pointer]:
+              - /url: /jdbc/index.htm
+          - listitem [ref=e497]:
+            - link "SWING Tutorial" [ref=e498] [cursor=pointer]:
+              - /url: /swing/index.htm
+          - listitem [ref=e499]:
+            - link "AWT Tutorial" [ref=e500] [cursor=pointer]:
+              - /url: /awt/index.htm
+          - listitem [ref=e501]:
+            - link "Servlets Tutorial" [ref=e502] [cursor=pointer]:
+              - /url: /servlets/index.htm
+          - listitem [ref=e503]:
+            - link "JSP Tutorial" [ref=e504] [cursor=pointer]:
+              - /url: /jsp/index.htm
+        - heading "Java Class References" [level=2] [ref=e505]
+        - list [ref=e506]:
+          - listitem [ref=e507]:
+            - link "Java - Scanner" [ref=e508] [cursor=pointer]:
+              - /url: /java/util/java_util_scanner.htm
+          - listitem [ref=e509]:
+            - link "Java - Arrays" [ref=e510] [cursor=pointer]:
+              - /url: /java/util/java_util_arrays.htm
+          - listitem [ref=e511]:
+            - link "Java - Strings" [ref=e512] [cursor=pointer]:
+              - /url: /java/lang/java_lang_string.htm
+          - listitem [ref=e513]:
+            - link "Java - Date" [ref=e514] [cursor=pointer]:
+              - /url: /java/util/java_util_date.htm
+          - listitem [ref=e515]:
+            - link "Java - ArrayList" [ref=e516] [cursor=pointer]:
+              - /url: /java/util/java_util_arraylist.htm
+          - listitem [ref=e517]:
+            - link "Java - Vector" [ref=e518] [cursor=pointer]:
+              - /url: /java/util/java_util_vector.htm
+          - listitem [ref=e519]:
+            - link "Java - Stack" [ref=e520] [cursor=pointer]:
+              - /url: /java/util/java_util_stack.htm
+          - listitem [ref=e521]:
+            - link "Java - PriorityQueue" [ref=e522] [cursor=pointer]:
+              - /url: /java/util/java_util_priorityqueue.htm
+          - listitem [ref=e523]:
+            - link "Java - LinkedList" [ref=e524] [cursor=pointer]:
+              - /url: /java/util/java_util_linkedlist.htm
+          - listitem [ref=e525]:
+            - link "Java - ArrayDeque" [ref=e526] [cursor=pointer]:
+              - /url: /java/util/java_util_arraydeque.htm
+          - listitem [ref=e527]:
+            - link "Java - HashMap" [ref=e528] [cursor=pointer]:
+              - /url: /java/util/java_util_hashmap.htm
+          - listitem [ref=e529]:
+            - link "Java - LinkedHashMap" [ref=e530] [cursor=pointer]:
+              - /url: /java/util/java_util_linkedhashmap.htm
+          - listitem [ref=e531]:
+            - link "Java - WeakHashMap" [ref=e532] [cursor=pointer]:
+              - /url: /java/util/java_util_weakhashmap.htm
+          - listitem [ref=e533]:
+            - link "Java - EnumMap" [ref=e534] [cursor=pointer]:
+              - /url: /java/util/java_util_enummap.htm
+          - listitem [ref=e535]:
+            - link "Java - TreeMap" [ref=e536] [cursor=pointer]:
+              - /url: /java/util/java_util_treemap.htm
+          - listitem [ref=e537]:
+            - link "Java - IdentityHashMap" [ref=e538] [cursor=pointer]:
+              - /url: /java/util/java_util_identityhashmap.htm
+          - listitem [ref=e539]:
+            - link "Java - HashSet" [ref=e540] [cursor=pointer]:
+              - /url: /java/util/java_util_hashset.htm
+          - listitem [ref=e541]:
+            - link "Java - EnumSet" [ref=e542] [cursor=pointer]:
+              - /url: /java/util/java_util_enumset.htm
+          - listitem [ref=e543]:
+            - link "Java - LinkedHashSet" [ref=e544] [cursor=pointer]:
+              - /url: /java/util/java_util_linkedhashset.htm
+          - listitem [ref=e545]:
+            - link "Java - TreeSet" [ref=e546] [cursor=pointer]:
+              - /url: /java/util/java_util_treeset.htm
+          - listitem [ref=e547]:
+            - link "Java - BitSet" [ref=e548] [cursor=pointer]:
+              - /url: /java/util/java_util_bitset.htm
+          - listitem [ref=e549]:
+            - link "Java - Dictionary" [ref=e550] [cursor=pointer]:
+              - /url: /java/util/java_util_dictionary.htm
+          - listitem [ref=e551]:
+            - link "Java - Hashtable" [ref=e552] [cursor=pointer]:
+              - /url: /java/util/java_util_hashtable.htm
+          - listitem [ref=e553]:
+            - link "Java - Properties" [ref=e554] [cursor=pointer]:
+              - /url: /java/util/java_util_properties.htm
+          - listitem [ref=e555]:
+            - link "Java - Collection" [ref=e556] [cursor=pointer]:
+              - /url: /java/util/java_util_collections.htm
+          - listitem [ref=e557]:
+            - link "Java - Array" [ref=e558] [cursor=pointer]:
+              - /url: /java/util/java_util_arrays.htm
+        - heading "Java Useful Resources" [level=2] [ref=e559]
+        - list [ref=e560]:
+          - listitem [ref=e561]:
+            - link "Java - Cheatsheet" [ref=e562] [cursor=pointer]:
+              - /url: /java/java_cheatsheet.htm
+          - listitem [ref=e563]:
+            - link "Java - Questions and Answers" [ref=e564] [cursor=pointer]:
+              - /url: /java/java_questions_answers.htm
+          - listitem [ref=e565]:
+            - link "Java 8 - Questions and Answers" [ref=e566] [cursor=pointer]:
+              - /url: /java/java8_questions_answers.htm
+          - listitem [ref=e567]:
+            - link "Java - Quick Guide" [ref=e568] [cursor=pointer]:
+              - /url: /java/java_quick_guide.htm
+          - listitem [ref=e569]:
+            - link "Java - Useful Resources" [ref=e570] [cursor=pointer]:
+              - /url: /java/java_useful_resources.htm
+          - listitem [ref=e571]:
+            - link "Java - Discussion" [ref=e572] [cursor=pointer]:
+              - /url: /java/java_discussion.htm
+          - listitem [ref=e573]:
+            - link "Java - Online Compiler" [ref=e574] [cursor=pointer]:
+              - /url: /compilers/online-java-compiler.htm
+          - listitem [ref=e575]:
+            - link "Java - Examples" [ref=e576] [cursor=pointer]:
+              - /url: /javaexamples/index.htm
+        - generic [ref=e577]:
+          - img [ref=e578]
+          - text: Selected Reading
+        - list [ref=e582]:
+          - listitem [ref=e583]:
+            - link "UPSC IAS Exams Notes" [ref=e584] [cursor=pointer]:
+              - /url: /upsc_ias_exams.htm
+          - listitem [ref=e585]:
+            - link "Developer's Best Practices" [ref=e586] [cursor=pointer]:
+              - /url: /developers_best_practices/index.htm
+          - listitem [ref=e587]:
+            - link "Questions and Answers" [ref=e588] [cursor=pointer]:
+              - /url: /questions_and_answers.htm
+          - listitem [ref=e589]:
+            - link "Online Resume Builder" [ref=e590] [cursor=pointer]:
+              - /url: /online-resume-builder.htm
+          - listitem [ref=e591]:
+            - link "HR Interview Questions" [ref=e592] [cursor=pointer]:
+              - /url: /hr_interview_questions/index.htm
+          - listitem [ref=e593]:
+            - link "Computer Glossary" [ref=e594] [cursor=pointer]:
+              - /url: /computer_glossary.htm
+          - listitem [ref=e595]:
+            - link "Who is Who" [ref=e596] [cursor=pointer]:
+              - /url: /computer_whoiswho.htm
+      - generic [ref=e598]:
+        - navigation "Breadcrumb" [ref=e599]:
+          - link "Home" [ref=e600] [cursor=pointer]:
+            - /url: /
+          - img [ref=e601]
+          - text: Java
+        - generic [ref=e603]:
+          - img "Java Tutorial TutorialsPoint" [ref=e605]
+          - heading "Java Tutorial" [level=1] [ref=e606]
+          - generic [ref=e608]:
+            - button "Job Search" [ref=e609] [cursor=pointer]: Job Search
+            - link "PDF Version" [ref=e610] [cursor=pointer]:
+              - /url: /java/java_pdf_version.htm
+              - text: PDF Version
+            - link "Quick Guide" [ref=e611] [cursor=pointer]:
+              - /url: /java/java_quick_guide.htm
+              - text: Quick Guide
+            - link "Resources" [ref=e612] [cursor=pointer]:
+              - /url: /java/java_useful_resources.htm
+              - text: Resources
+            - link "Discussion" [ref=e613] [cursor=pointer]:
+              - /url: /java/java_discussion.htm
+              - text: Discussion
+          - paragraph [ref=e614]:
+            - text: This
+            - strong [ref=e615]: Java tutorial
+            - text: has been written for beginners to advanced programmers who are striving to learn Java programming. We have provided numerous practical examples to explain the concepts in simple and easy steps. This tutorial has been prepared and reviewed by experienced Java programmers at Tutorials Point, and the best effort has been put into making it useful for the students and Java developers.
+          - paragraph [ref=e616]: After completing this tutorial, you will find yourself at a moderate level of expertise in Java programming, from where you can elevate yourself to the next levels.
+          - heading "What is Java?" [level=2] [ref=e617]
+          - paragraph [ref=e618]:
+            - text: Java is a popular high-level,
+            - link "object-oriented programming" [ref=e619] [cursor=pointer]:
+              - /url: /java/java_oops_concepts.htm
+            - text: language that was originally developed by Sun Microsystems and released in 1995. Currently, Java is owned by Oracle, and more than 3 billion devices run Java. Java runs on a variety of platforms, such as
+            - link "Windows" [ref=e620] [cursor=pointer]:
+              - /url: /windows10/index.htm
+            - text: ", Mac OS, and the various versions ofUNIX. Today Java is being used to develop numerous types of software applications, including desktop apps, mobile apps, web apps, games, and much more."
+          - blockquote [ref=e621]: Java is a general-purpose programming language intended to let programmers Write Once, Run Anywhere (WORA). This means that compiled Java code can run on all platforms that support Java without the need to recompile.
+          - paragraph [ref=e622]: In this tutorial, you will learn everything about Java, starting from basics to advanced concepts such as overview, history, installations, basic input/output, conditional & control statements, arrays, classes, inheritances, method overloading & overriding, exception handling, and many more.
+          - generic [ref=e626]:
+            - generic [ref=e627]:
+              - img [ref=e629] [cursor=pointer]
+              - generic [ref=e632]: Advertisement
+            - generic [ref=e643]:
+              - generic "Advertisement" [ref=e644]
+              - iframe [ref=e646]:
+                - generic [active] [ref=f11e1]:
+                  - button [ref=f11e4] [cursor=pointer]:
+                    - img [ref=f11e5]
+                  - iframe [ref=f11e7]:
+                    - generic [ref=f480e4] [cursor=pointer]:
+                      - generic:
+                        - generic:
+                          - generic [ref=f480e5]:
+                            - generic [ref=f480e6]:
+                              - generic [ref=f480e7]: Geek Street in Kokomo, Indiana - Your Central…
+                              - generic [ref=f480e8]: kokomotoysonline
+                            - button [ref=f480e9]:
+                              - img [ref=f480e10]
+                            - generic [ref=f480e12]: Learn More
+                          - img [ref=f480e15]
+                          - generic:
+                            - button "2" [ref=f480e18]:
+                              - generic [ref=f480e19]: "2"
+                            - generic [ref=f480e21]: 0:58
+          - heading "Java First Example" [level=2] [ref=e651]
+          - paragraph [ref=e652]:
+            - text: The first example in Java is to
+            - link "print \"Hello, World!\"" [ref=e653] [cursor=pointer]:
+              - /url: /java/java_hello_world.htm
+            - text: "on the screen. Let's have a quick look at the first examples in Java programming:"
+          - generic [ref=e663]: "public class MyFirstJavaProgram { /* This is my first java program. * This will print 'Hello, World!' as the output */ public static void main(String []args) { System.out.println(\"Hello, World!\"); // prints Hello, World! } }"
+          - heading "Getting Started with Java" [level=2] [ref=e664]
+          - paragraph [ref=e665]: "Explore the following chapters to get started learning Java programming:"
+          - list [ref=e666]:
+            - listitem [ref=e667]:
+              - link "Java - Home" [ref=e668] [cursor=pointer]:
+                - /url: /java/index.htm
+            - listitem [ref=e669]:
+              - link "Java - Overview" [ref=e670] [cursor=pointer]:
+                - /url: /java/java_overview.htm
+            - listitem [ref=e671]:
+              - link "Java - History" [ref=e672] [cursor=pointer]:
+                - /url: /java/java-history.htm
+            - listitem [ref=e673]:
+              - link "Java - Features" [ref=e674] [cursor=pointer]:
+                - /url: /java/java-features.htm
+            - listitem [ref=e675]:
+              - link "Java Vs. C++" [ref=e676] [cursor=pointer]:
+                - /url: /java/java-vs-cpp.htm
+            - listitem [ref=e677]:
+              - link "JVM - Java Virtual Machine" [ref=e678] [cursor=pointer]:
+                - /url: /java/java_jvm.htm
+            - listitem [ref=e679]:
+              - link "Java - JDK vs JRE vs JVM" [ref=e680] [cursor=pointer]:
+                - /url: /java/java-jdk-jre-jvm.htm
+            - listitem [ref=e681]:
+              - link "Java - Hello World Program" [ref=e682] [cursor=pointer]:
+                - /url: /java/java_hello_world.htm
+            - listitem [ref=e683]:
+              - link "Java - Environment Setup" [ref=e684] [cursor=pointer]:
+                - /url: /java/java_environment_setup.htm
+            - listitem [ref=e685]:
+              - link "Java - Basic Syntax" [ref=e686] [cursor=pointer]:
+                - /url: /java/java_basic_syntax.htm
+          - heading "Java Basics" [level=2] [ref=e687]
+          - paragraph [ref=e688]: "Explore the basic topics such as data types, operators, user input, etc.:"
+          - list [ref=e689]:
+            - listitem [ref=e690]:
+              - link "Java - Variable Types" [ref=e691] [cursor=pointer]:
+                - /url: /java/java_variable_types.htm
+            - listitem [ref=e692]:
+              - link "Java - Data Types" [ref=e693] [cursor=pointer]:
+                - /url: /java/java_basic_datatypes.htm
+            - listitem [ref=e694]:
+              - link "Java - Type Casting" [ref=e695] [cursor=pointer]:
+                - /url: /java/java_type_casting.htm
+            - listitem [ref=e696]:
+              - link "Java - Unicode System" [ref=e697] [cursor=pointer]:
+                - /url: /java/java_unicode_system.htm
+            - listitem [ref=e698]:
+              - link "Java - Basic Operators" [ref=e699] [cursor=pointer]:
+                - /url: /java/java_basic_operators.htm
+            - listitem [ref=e700]:
+              - link "Java - Comments" [ref=e701] [cursor=pointer]:
+                - /url: /java/java_comments.htm
+            - listitem [ref=e702]:
+              - link "Java - User Input" [ref=e703] [cursor=pointer]:
+                - /url: /java/java_user_input.htm
+            - listitem [ref=e704]:
+              - link "Java - Date & Time" [ref=e705] [cursor=pointer]:
+                - /url: /java/java_date_time.htm
+          - heading "Java Conditional Statements" [level=2] [ref=e706]
+          - paragraph [ref=e707]: "Furthermore, in Java, explore the conditional statements to implement the logic and to make decisions based on the conditions:"
+          - list [ref=e708]:
+            - listitem [ref=e709]:
+              - link "Java - Decision Making" [ref=e710] [cursor=pointer]:
+                - /url: /java/java_decision_making.htm
+            - listitem [ref=e711]:
+              - link "Java - If-else" [ref=e712] [cursor=pointer]:
+                - /url: /java/if_else_statement_in_java.htm
+            - listitem [ref=e713]:
+              - link "Java - Switch" [ref=e714] [cursor=pointer]:
+                - /url: /java/switch_statement_in_java.htm
+          - heading "Java Loops and Control Statements" [level=2] [ref=e715]
+          - paragraph [ref=e716]: "Explore the loops and control statements to learn how to control the execution of the programming logics:"
+          - list [ref=e717]:
+            - listitem [ref=e718]:
+              - link "Java - Loop Control" [ref=e719] [cursor=pointer]:
+                - /url: /java/java_loop_control.htm
+            - listitem [ref=e720]:
+              - link "Java - For Loops" [ref=e721] [cursor=pointer]:
+                - /url: /java/java_for_loop.htm
+            - listitem [ref=e722]:
+              - link "Java - For-Each Loops" [ref=e723] [cursor=pointer]:
+                - /url: /java/java_foreach_loop.htm
+            - listitem [ref=e724]:
+              - link "Java - While Loops" [ref=e725] [cursor=pointer]:
+                - /url: /java/java_while_loop.htm
+            - listitem [ref=e726]:
+              - link "Java - do-while Loops" [ref=e727] [cursor=pointer]:
+                - /url: /java/java_do_while_loop.htm
+            - listitem [ref=e728]:
+              - link "Java - Break" [ref=e729] [cursor=pointer]:
+                - /url: /java/java_break_statement.htm
+            - listitem [ref=e730]:
+              - link "Java - Continue" [ref=e731] [cursor=pointer]:
+                - /url: /java/java_continue_statement.htm
+          - paragraph [ref=e732]
+          - heading "Java String and Arrays" [level=2] [ref=e733]
+          - paragraph [ref=e734]: "Explore the following strings and array-related chapters:"
+          - list [ref=e735]:
+            - listitem [ref=e736]:
+              - link "Java Strings and String Class" [ref=e737] [cursor=pointer]:
+                - /url: /java/lang/java_lang_string.htm
+            - listitem [ref=e738]:
+              - link "Java - Strings" [ref=e739] [cursor=pointer]:
+                - /url: /java/java_strings.htm
+          - heading "Java OOPs" [level=2] [ref=e740]
+          - paragraph [ref=e741]: "Explore the following chapters to learn the object-oriented programming approach in Java:"
+          - list [ref=e742]:
+            - listitem [ref=e743]:
+              - link "Java - OOPs Concepts" [ref=e744] [cursor=pointer]:
+                - /url: /java/java_oops_concepts.htm
+            - listitem [ref=e745]:
+              - link "Java - Object & Classes" [ref=e746] [cursor=pointer]:
+                - /url: /java/java_object_classes.htm
+            - listitem [ref=e747]:
+              - link "Java - Class Attributes" [ref=e748] [cursor=pointer]:
+                - /url: /java/java_class_attributes.htm
+            - listitem [ref=e749]:
+              - link "Java - Class Methods" [ref=e750] [cursor=pointer]:
+                - /url: /java/java_class_methods.htm
+            - listitem [ref=e751]:
+              - link "Java - Methods" [ref=e752] [cursor=pointer]:
+                - /url: /java/java_methods.htm
+            - listitem [ref=e753]:
+              - link "Java - Variables Scope" [ref=e754] [cursor=pointer]:
+                - /url: /java/java_variable_scope.htm
+            - listitem [ref=e755]:
+              - link "Java - Constructors" [ref=e756] [cursor=pointer]:
+                - /url: /java/java_constructors.htm
+            - listitem [ref=e757]:
+              - link "Java - Access Modifiers" [ref=e758] [cursor=pointer]:
+                - /url: /java/java_access_modifiers.htm
+            - listitem [ref=e759]:
+              - link "Java - Inheritance" [ref=e760] [cursor=pointer]:
+                - /url: /java/java_inheritance.htm
+            - listitem [ref=e761]:
+              - link "Java - Aggregation" [ref=e762] [cursor=pointer]:
+                - /url: /java/java_aggregation.htm
+            - listitem [ref=e763]:
+              - link "Java - Polymorphism" [ref=e764] [cursor=pointer]:
+                - /url: /java/java_polymorphism.htm
+            - listitem [ref=e765]:
+              - link "Java - Overriding" [ref=e766] [cursor=pointer]:
+                - /url: /java/java_overriding.htm
+            - listitem [ref=e767]:
+              - link "Java - Method Overloading" [ref=e768] [cursor=pointer]:
+                - /url: /java/java_method_overloading.htm
+            - listitem [ref=e769]:
+              - link "Java - Dynamic Binding" [ref=e770] [cursor=pointer]:
+                - /url: /java/java_dynamic_binding.htm
+            - listitem [ref=e771]:
+              - link "Java - Static Binding" [ref=e772] [cursor=pointer]:
+                - /url: /java/java_static_binding.htm
+            - listitem [ref=e773]:
+              - link "Java - Instance Initializer Block" [ref=e774] [cursor=pointer]:
+                - /url: /java/java_initializer_block.htm
+            - listitem [ref=e775]:
+              - link "Java - Abstraction" [ref=e776] [cursor=pointer]:
+                - /url: /java/java_abstraction.htm
+            - listitem [ref=e777]:
+              - link "Java - Encapsulation" [ref=e778] [cursor=pointer]:
+                - /url: /java/java_encapsulation.htm
+          - heading "Java Collections and Interfaces" [level=2] [ref=e779]
+          - paragraph [ref=e780]: "Explore Java interfaces and collections-related chapters:"
+          - list [ref=e781]:
+            - listitem [ref=e782]:
+              - link "Java - Interfaces" [ref=e783] [cursor=pointer]:
+                - /url: /java/java_interfaces.htm
+            - listitem [ref=e784]:
+              - link "Java - List Interface" [ref=e785] [cursor=pointer]:
+                - /url: /java/java_list_interface.htm
+            - listitem [ref=e786]:
+              - link "Java - Queue Interface" [ref=e787] [cursor=pointer]:
+                - /url: /java/java_util_queue.htm
+            - listitem [ref=e788]:
+              - link "Java - Map Interface" [ref=e789] [cursor=pointer]:
+                - /url: /java/java_map_interface.htm
+            - listitem [ref=e790]:
+              - link "Java - SortedMap Interface" [ref=e791] [cursor=pointer]:
+                - /url: /java/java_sortedmap_interface.htm
+            - listitem [ref=e792]:
+              - link "Java - Set Interface" [ref=e793] [cursor=pointer]:
+                - /url: /java/java_set_interface.htm
+            - listitem [ref=e794]:
+              - link "Java - SortedSet Interface" [ref=e795] [cursor=pointer]:
+                - /url: /java/java_sortedset_interface.htm
+            - listitem [ref=e796]:
+              - link "Java - Iterators" [ref=e797] [cursor=pointer]:
+                - /url: /java/java_using_iterator.htm
+            - listitem [ref=e798]:
+              - link "Java - Comparators" [ref=e799] [cursor=pointer]:
+                - /url: /java/java_using_comparator.htm
+            - listitem [ref=e800]:
+              - link "Java - Comparable Interface in Java" [ref=e801] [cursor=pointer]:
+                - /url: /java/java-using-comparable.htm
+            - listitem [ref=e802]:
+              - link "Java - Collections" [ref=e803] [cursor=pointer]:
+                - /url: /java/java_collections.htm
+            - listitem [ref=e804]:
+              - link "Java - Collection Interface" [ref=e805] [cursor=pointer]:
+                - /url: /java/java_collection_interface.htm
+          - heading "Java Exceptional Handling" [level=2] [ref=e806]
+          - paragraph [ref=e807]: "Explore the file handling chapters to learn how to create, write, read, and manipulate the files and directories:"
+          - list [ref=e808]:
+            - listitem [ref=e809]:
+              - link "Java - Files" [ref=e810] [cursor=pointer]:
+                - /url: /java/java_file_class.htm
+            - listitem [ref=e811]:
+              - link "Java - Create a File" [ref=e812] [cursor=pointer]:
+                - /url: /java/java_create_file.htm
+            - listitem [ref=e813]:
+              - link "Java - Write to File" [ref=e814] [cursor=pointer]:
+                - /url: /java/java_write_file.htm
+            - listitem [ref=e815]:
+              - link "Java - Read Files" [ref=e816] [cursor=pointer]:
+                - /url: /java/java_read_file.htm
+            - listitem [ref=e817]:
+              - link "Java - Delete Files" [ref=e818] [cursor=pointer]:
+                - /url: /java/java_delete_file.htm
+            - listitem [ref=e819]:
+              - link "Java - Directories" [ref=e820] [cursor=pointer]:
+                - /url: /java/java_directories.htm
+            - listitem [ref=e821]:
+              - link "Java - I/O Streams" [ref=e822] [cursor=pointer]:
+                - /url: /java/java_files_io.htm
+          - heading "Java Multithreading" [level=2] [ref=e823]
+          - paragraph [ref=e824]: "Explore the threading-related chapters to learn to manage multiple threads in Java:"
+          - list [ref=e825]:
+            - listitem [ref=e826]:
+              - link "Java - Multithreading" [ref=e827] [cursor=pointer]:
+                - /url: /java/java_multithreading.htm
+            - listitem [ref=e828]:
+              - link "Java - Thread Life Cycle" [ref=e829] [cursor=pointer]:
+                - /url: /java/java_thread_life_cycle.htm
+            - listitem [ref=e830]:
+              - link "Java - Creating a Thread" [ref=e831] [cursor=pointer]:
+                - /url: /java/java_create_thread.htm
+            - listitem [ref=e832]:
+              - link "Java - Starting a Thread" [ref=e833] [cursor=pointer]:
+                - /url: /java/java_start_thread.htm
+            - listitem [ref=e834]:
+              - link "Java - Joining Threads" [ref=e835] [cursor=pointer]:
+                - /url: /java/java_join_thread.htm
+            - listitem [ref=e836]:
+              - link "Java - Naming Thread" [ref=e837] [cursor=pointer]:
+                - /url: /java/java_naming_thread.htm
+            - listitem [ref=e838]:
+              - link "Java - Thread Scheduler" [ref=e839] [cursor=pointer]:
+                - /url: /java/java_thread_scheduler.htm
+            - listitem [ref=e840]:
+              - link "Java - Thread Pools" [ref=e841] [cursor=pointer]:
+                - /url: /java/java_thread_pool.htm
+            - listitem [ref=e842]:
+              - link "Java - Main Thread" [ref=e843] [cursor=pointer]:
+                - /url: /java/java_main_thread.htm
+            - listitem [ref=e844]:
+              - link "Java - Thread Priority" [ref=e845] [cursor=pointer]:
+                - /url: /java/java_thread_priority.htm
+            - listitem [ref=e846]:
+              - link "Java - Daemon Threads" [ref=e847] [cursor=pointer]:
+                - /url: /java/java_daemon_thread.htm
+            - listitem [ref=e848]:
+              - link "Java - Thread Group" [ref=e849] [cursor=pointer]:
+                - /url: /java/java_lang_threadgroup.htm
+            - listitem [ref=e850]:
+              - link "Java - Shutdown Hook" [ref=e851] [cursor=pointer]:
+                - /url: /java/java_shutdown_hook.htm
+          - heading "Java Practices" [level=2] [ref=e852]
+          - list [ref=e853]:
+            - listitem [ref=e854]:
+              - link "Java Quick Guide" [ref=e855] [cursor=pointer]:
+                - /url: /java/java_quick_guide.htm
+            - listitem [ref=e856]:
+              - link "Java Interview Questions" [ref=e857] [cursor=pointer]:
+                - /url: /java/java_interview_questions.htm
+            - listitem [ref=e858]:
+              - link "Java 8 Interview Questions" [ref=e859] [cursor=pointer]:
+                - /url: /java/java8_interview_questions.htm
+            - listitem [ref=e860]:
+              - link "Java Online Test" [ref=e861] [cursor=pointer]:
+                - /url: /java/java_online_test.htm
+            - listitem [ref=e862]:
+              - link "Java Mock Test" [ref=e863] [cursor=pointer]:
+                - /url: /java/java_mock_test.htm
+          - heading "Java References" [level=2] [ref=e864]
+          - paragraph [ref=e865]: Here, you can find the package, class, and method references −
+          - list [ref=e866]:
+            - listitem [ref=e867]:
+              - link "Java Scanner Class" [ref=e868] [cursor=pointer]:
+                - /url: /java/util/java_util_scanner.htm
+            - listitem [ref=e869]:
+              - link "Java Arrays Class" [ref=e870] [cursor=pointer]:
+                - /url: /java/util/java_util_arrays.htm
+            - listitem [ref=e871]:
+              - link "Java Strings Class" [ref=e872] [cursor=pointer]:
+                - /url: /java/lang/java_lang_string.htm
+            - listitem [ref=e873]:
+              - link "Java Date Class" [ref=e874] [cursor=pointer]:
+                - /url: /java/util/java_util_date.htm
+            - listitem [ref=e875]:
+              - link "Java ArrayList Class" [ref=e876] [cursor=pointer]:
+                - /url: /java/util/java_util_arraylist.htm
+            - listitem [ref=e877]:
+              - link "Java Vector Class" [ref=e878] [cursor=pointer]:
+                - /url: /java/util/java_util_vector.htm
+            - listitem [ref=e879]:
+              - link "Java Stack Class" [ref=e880] [cursor=pointer]:
+                - /url: /java/util/java_util_stack.htm
+            - listitem [ref=e881]:
+              - link "Java PriorityQueue Class" [ref=e882] [cursor=pointer]:
+                - /url: /java/util/java_util_priorityqueue.htm
+            - listitem [ref=e883]:
+              - link "Java LinkedList Class" [ref=e884] [cursor=pointer]:
+                - /url: /java/util/java_util_linkedlist.htm
+            - listitem [ref=e885]:
+              - link "Java ArrayDeque Class" [ref=e886] [cursor=pointer]:
+                - /url: /java/util/java_util_arraydeque.htm
+            - listitem [ref=e887]:
+              - link "Java HashMap Class" [ref=e888] [cursor=pointer]:
+                - /url: /java/util/java_util_hashmap.htm
+            - listitem [ref=e889]:
+              - link "Java LinkedHashMap Class" [ref=e890] [cursor=pointer]:
+                - /url: /java/util/java_util_linkedhashmap.htm
+            - listitem [ref=e891]:
+              - link "Java WeakHashMap Class" [ref=e892] [cursor=pointer]:
+                - /url: /java/util/java_util_weakhashmap.htm
+            - listitem [ref=e893]:
+              - link "Java EnumMap Class" [ref=e894] [cursor=pointer]:
+                - /url: /java/util/java_util_enummap.htm
+            - listitem [ref=e895]:
+              - link "Java TreeMap Class" [ref=e896] [cursor=pointer]:
+                - /url: /java/util/java_util_treemap.htm
+            - listitem [ref=e897]:
+              - link "Java IdentityHashMap Class" [ref=e898] [cursor=pointer]:
+                - /url: /java/util/java_util_identityhashmap.htm
+            - listitem [ref=e899]:
+              - link "Java HashSet Class" [ref=e900] [cursor=pointer]:
+                - /url: /java/util/java_util_hashset.htm
+            - listitem [ref=e901]:
+              - link "Java EnumSet Class" [ref=e902] [cursor=pointer]:
+                - /url: /java/util/java_util_enumset.htm
+            - listitem [ref=e903]:
+              - link "Java LinkedHashSet Class" [ref=e904] [cursor=pointer]:
+                - /url: /java/util/java_util_linkedhashset.htm
+            - listitem [ref=e905]:
+              - link "Java TreeSet Class" [ref=e906] [cursor=pointer]:
+                - /url: /java/util/java_util_treeset.htm
+            - listitem [ref=e907]:
+              - link "Java BitSet Class" [ref=e908] [cursor=pointer]:
+                - /url: /java/util/java_util_bitset.htm
+            - listitem [ref=e909]:
+              - link "Java Dictionary Class" [ref=e910] [cursor=pointer]:
+                - /url: /java/util/java_util_dictionary.htm
+            - listitem [ref=e911]:
+              - link "Java Hashtable Class" [ref=e912] [cursor=pointer]:
+                - /url: /java/util/java_util_hashtable.htm
+            - listitem [ref=e913]:
+              - link "Java Properties Class" [ref=e914] [cursor=pointer]:
+                - /url: /java/util/java_util_properties.htm
+            - listitem [ref=e915]:
+              - link "Java Collection Class" [ref=e916] [cursor=pointer]:
+                - /url: /java/util/java_util_collections.htm
+            - listitem [ref=e917]:
+              - link "Java Array Class" [ref=e918] [cursor=pointer]:
+                - /url: /java/util/java_util_arrays.htm
+          - heading "Online Java Compiler" [level=2] [ref=e919]
+          - paragraph [ref=e920]:
+            - text: Our Java programming tutorial provides various examples to explain the concepts. To compile and execute the given Java programming examples in your browser itself, we have provided
+            - link "Online Java Compiler" [ref=e921] [cursor=pointer]:
+              - /url: /compilers/online-java-compiler.htm
+            - text: . You can edit and run almost all the examples directly from your browser without the need to set up your development environment.
+          - paragraph [ref=e922]:
+            - text: Try to click the icon
+            - img "run button" [ref=e923]
+            - text: to run the following Java code to print conventional "Hello, World!" using Java Programming.
+          - paragraph [ref=e924]: Below code box allows you to change the value of the code. So, please try to change the value inside println() and run it again to verify the result.
+          - generic [ref=e934]: "public class MyFirstJavaProgram { /* This is my first java program. * This will print 'Hello, World!' as the output */ public static void main(String []args) { System.out.println(\"Hello, World!\"); // prints Hello, World! } }"
+          - heading "Java Features" [level=2] [ref=e935]
+          - paragraph [ref=e936]: "Java is a feature-rich language. Java is evolving continuously with every update, and updates are coming every six months. Following are some of the main features of the Java language:"
+          - list [ref=e937]:
+            - listitem [ref=e938]:
+              - link "Object Oriented" [ref=e939] [cursor=pointer]:
+                - /url: /java/java_oops_concepts.htm
+              - text: ": Java is a pure object-oriented language, and everything in Java is an object. Java supports OOPS principles like"
+              - link "Inheritance" [ref=e940] [cursor=pointer]:
+                - /url: /java/java_inheritance.htm
+              - text: ","
+              - link "Encapsulation" [ref=e941] [cursor=pointer]:
+                - /url: /java/java_encapsulation.htm
+              - text: ","
+              - link "Polymorphism" [ref=e942] [cursor=pointer]:
+                - /url: /java/java_polymorphism.htm
+              - text: ", Classes , and so on. Java itself can be extended as well, being based on an object model."
+            - listitem [ref=e943]:
+              - text: "Platform Independent: Java code is platform independent. A Java code is not compiled into machine-specific code; it is compiled into a platform-neutral byte code. This byte code is executed by"
+              - link "JVM" [ref=e944] [cursor=pointer]:
+                - /url: /java/java_jvm.htm
+              - text: which runs the code on the underlying platform. This capability makes Java a Write Once Run Anywhere language.
+            - listitem [ref=e945]: "Easy To Learn: Java inherits features from C and C++, and developers can easily learn Java if they know any of the C or C++ languages. Even for someone new to computer languages, Java is very easy to learn from scratch."
+            - listitem [ref=e946]: "Secure: Java is secure by architecture. A developer is not required to directly interact with the underlying memory or operating system. Java provides automatic garbage collection, so developers are not required to worry about memory leaks, management, etc."
+            - listitem [ref=e947]: "Architectural-Neutral: Java byte code can be executed on any kind of processor. JRE automatically handles the code execution on different types of processors."
+            - listitem [ref=e948]: "Portable: A Java code written on a Windows machine can be executed without any code change on MacOS and vice versa. There is no need to make any operating system-specific code changes."
+            - listitem [ref=e949]: "Robust: Java is a very robust language with very strong compile-time error checks, strict type checking, and runtime exception handling."
+            - listitem [ref=e950]:
+              - link "Multithreading" [ref=e951] [cursor=pointer]:
+                - /url: /java/java_multithreading.htm
+              - text: ": Java provides inbuilt support for multiprocessing and multithreading. Java provides thread handling, monitors, deadlock handling, racing conditions, etc."
+            - listitem [ref=e952]:
+              - text: "High Performance: Java, although being interpreted, is still very performant. The"
+              - link "JIT(Just In Time) compiler" [ref=e953] [cursor=pointer]:
+                - /url: /java/java_just_in_time_jit_compiler.htm
+              - text: helps in improving performance.
+            - listitem [ref=e954]: "Distributed: Java is designed for distributed systems and is the most popular language for developing internet-based applications as the internet is a distributed environment."
+          - heading "Java Applications" [level=2] [ref=e955]
+          - paragraph [ref=e956]: Since Java supports object-oriented features and is platform-independent, it is extensively used in various fields. Listed below are a few areas where Java is used -
+          - list [ref=e957]:
+            - listitem [ref=e958]: Enterprise solutions
+            - listitem [ref=e959]: Game development
+            - listitem [ref=e960]: Secured web development
+            - listitem [ref=e961]: Embedded systems
+            - listitem [ref=e962]: Mobile application development
+            - listitem [ref=e963]: Big Data Applications, and many more.
+          - heading "Java Platforms (Editions)" [level=2] [ref=e964]
+          - paragraph [ref=e965]: Platforms of Java are divided into four Java editions, which are −
+          - list [ref=e966]:
+            - listitem [ref=e967]:
+              - strong [ref=e968]: Java SE (Java Standard Edition)
+              - text: ": It is a standard edition that is used to develop and deploy portable code for desktop and server environments."
+            - listitem [ref=e969]:
+              - strong [ref=e970]: Java EE (Java Enterprise Edition)
+              - text: ": It is an enterprise edition that is used to develop web applications."
+            - listitem [ref=e971]:
+              - strong [ref=e972]: Java ME (Java Micro Edition)
+              - text: ": J2ME is used to develop mobile applications; it is a micro edition of Java."
+            - listitem [ref=e973]:
+              - strong [ref=e974]: "JavaFx:"
+              - text: It is used to develop lightweight user interfaces for rich internet applications.
+          - heading "Java Jobs & Opportunities" [level=2] [ref=e975]
+          - paragraph [ref=e976]: Java is very in demand, and all the major companies are recruiting Java programmers to develop their desktop, web, and mobile applications.
+          - paragraph [ref=e977]: "Today, a Java programmer with 3-5 years of experience is asking for around $120,000 in an in an annual package, and this is the most demanding programming language in America. Though it can vary depending on the location of the job. Following are the great companies that are using Java and they need good Java programmers:"
+          - list [ref=e978]:
+            - listitem [ref=e979]: Google
+            - listitem [ref=e980]: Microsoft
+            - listitem [ref=e981]: Facebook
+            - listitem [ref=e982]: IBM
+            - listitem [ref=e983]: Amazon
+            - listitem [ref=e984]: Netflix
+            - listitem [ref=e985]: Pinterest
+            - listitem [ref=e986]: Uber
+            - listitem [ref=e987]: JetBrains
+            - listitem [ref=e988]: Many more...
+          - paragraph [ref=e989]: So, you could be the next potential employee for any of these major companies. We have developed great learning material for Java that will help you prepare for the technical interviews and certification exams based on Java. So, start learning Java using this simple and effective tutorial from anywhere and anytime, absolutely at your pace.
+          - heading "Why to Learn Java?" [level=2] [ref=e990]
+          - paragraph [ref=e991]: Java is a MUST to learn programming language for students and working professionals to become a great software engineer, especially when they are working in the software development domain. If you will conduct a survey about the best programming language around, Java is sure to come up.
+          - paragraph [ref=e992]: "Java is a fairly easy programming language to learn, so if you are starting to learn any programming language, then Java could be your great choice. There's also plenty of Java tools that make it easy for developers and beginners to use. There are many other good reasons that make Java the first choice of any programmer:"
+          - list [ref=e993]:
+            - listitem [ref=e994]: Java is open source, which means it's available free of cost.
+            - listitem [ref=e995]: Java is simple and so easy to learn.
+            - listitem [ref=e996]: Java is much in demand and ensures a high salary.
+            - listitem [ref=e997]: Java has a large, vibrant community.
+            - listitem [ref=e998]: Java has powerful development tools.
+            - listitem [ref=e999]: Java is platform-independent.
+          - heading "Who should Learn Java" [level=2] [ref=e1000]
+          - paragraph [ref=e1001]:
+            - text: This
+            - strong [ref=e1002]: Java tutorial
+            - text: will help both students as well as working professionals who want to develop applications using Java technologies like banking systems, support systems, information systems, websites, mobile apps, personal blogs, etc. We recommend reading this tutorial in the sequence listed in the left-side menu.
+          - paragraph [ref=e1003]: Today, Java is one of the most demanding programming languages, and so it has become an essential language to learn for anyone involved in the software application development process, including software developers, software designers, project managers, etc.
+          - heading "Prerequisites to Learn Java" [level=2] [ref=e1004]
+          - paragraph [ref=e1005]: Though we have tried our best to present the Core Java concepts in a simple and easy way, still, before you start learning Java, it is assumed that the readers have a reasonable exposure to any programming environment and knowledge of basic concepts such as variables, commands, syntax, etc.
+          - heading "Learn Java by Examples" [level=2] [ref=e1006]
+          - paragraph [ref=e1007]:
+            - text: "This tutorial provides a set of Java examples. Practice these examples to learn the Java concepts better:"
+            - link "Java Examples" [ref=e1008] [cursor=pointer]:
+              - /url: /javaexamples/index.htm
+              - strong [ref=e1009]: Java Examples
+          - heading "Java Online Quizzes" [level=2] [ref=e1010]
+          - paragraph [ref=e1011]: This Java tutorial helps you prepare for technical interviews and certification exams. We have provided various quizzes and assignments to check your learning level. Given quizzes have multiple-choice types of questions and their answers with short explanations.
+          - paragraph [ref=e1012]: "Following is a sample quiz; try to attempt any of the given answers:"
+          - generic [ref=e1014]:
+            - button "Show Answer" [ref=e1015] [cursor=pointer]: Show Answer
+            - generic [ref=e1016]:
+              - paragraph [ref=e1017]: "Q 1 - The Java programming language was developed by which of the following :"
+              - paragraph [ref=e1018]:
+                - link "A - Google in 1990s" [ref=e1019] [cursor=pointer]:
+                  - /url: javascript:void(0);
+              - paragraph [ref=e1020]:
+                - link "B - Micorsoft in 1980s" [ref=e1021] [cursor=pointer]:
+                  - /url: javascript:void(0);
+              - paragraph [ref=e1022]:
+                - link "C - Sun Microsystems in 1995" [ref=e1023] [cursor=pointer]:
+                  - /url: javascript:void(0);
+              - paragraph [ref=e1024]:
+                - link "D - None of the Above" [ref=e1025] [cursor=pointer]:
+                  - /url: javascript:void(0);
+          - paragraph [ref=e1026]:
+            - text: Start your online quiz
+            - link "Start Java Quiz" [ref=e1027] [cursor=pointer]:
+              - /url: /java/java_online_quiz.htm
+            - text: .
+          - heading "Download Java" [level=2] [ref=e1028]
+          - paragraph [ref=e1029]:
+            - text: "Java's latest version can be downloaded from Oracle's official website:"
+            - link "Java Downloads" [ref=e1030] [cursor=pointer]:
+              - /url: https://www.oracle.com/in/java/technologies/downloads/
+          - heading "Java Certification" [level=2] [ref=e1031]
+          - paragraph [ref=e1032]:
+            - text: Get certified in Java to boost your skills and career
+            - link "Get certified" [ref=e1033] [cursor=pointer]:
+              - /url: https://www.tutorialspoint.com/certification/java-prime-pack/index.asp
+              - button "Get certified" [ref=e1034]
+          - heading "Frequently Asked Questions about Java Tutorial" [level=2] [ref=e1035]
+          - paragraph [ref=e1036]: There are some important frequently asked questions (FAQs) about Java Programming tutorial, this section lists them down along with their answers briefly - −
+          - heading "1. What are the 4 important concepts in Java?" [level=3] [ref=e1037]
+          - blockquote [ref=e1038]: "Java supports abstraction, encapsulation, polymorphism, and inheritance. These are 4 major theoretical principles of object-oriented programming. But Java also works with three further OOP concepts: association, aggregation, and composition."
+          - heading "2. What are the benefits of Java?" [level=3] [ref=e1039]
+          - blockquote [ref=e1040]:
+            - list [ref=e1041]:
+              - listitem [ref=e1042]: Java is free and open source
+              - listitem [ref=e1043]: Java is community driven and has expert leadership
+              - listitem [ref=e1044]: Java is fast and high-performance
+              - listitem [ref=e1045]: Java is easy to learn
+              - listitem [ref=e1046]: Java is statically typed
+              - listitem [ref=e1047]: Java is object-oriented
+              - listitem [ref=e1048]: Java supports functional programming
+          - heading "3. How much time will it take to learn Java?" [level=3] [ref=e1049]
+          - blockquote [ref=e1050]: Learning style and dedication to the amount of time you can spend each day affect a lot. However, on average, it takes around 6 to 12 months to learn Java programming.
+          - heading "4. Why is Java a so popular programming language?" [level=3] [ref=e1051]
+          - blockquote [ref=e1052]: The Java language is easily extensible because it is based on an object model. Platform-dependent. Unlike many other programming languages, Java is compiled, not into a platform-dependent machine but into platform-independent byte code.
+          - heading "5. What are the advantages of Java over Python?" [level=3] [ref=e1053]
+          - blockquote [ref=e1054]: Python and Java are two of the most popular programming languages among software programmers. Java is generally faster and more efficient than Python because it is a compiled language, whereas Python is an interpreted language and has simpler, more concise syntax than Java.
+          - heading "6. How do I start learning Java?" [level=3] [ref=e1055]
+          - blockquote [ref=e1056]:
+            - paragraph [ref=e1057]: "Here is the summarized list of tips that you can follow to start learning Java:"
+            - list [ref=e1058]:
+              - listitem [ref=e1059]: First and most important is to make your mind to learn Java.
+              - listitem [ref=e1060]: Install Java Virtual Machine and Java Compilers on your computer system.
+              - listitem [ref=e1061]: Follow our tutorial step by step, starting from the very beginning.
+              - listitem [ref=e1062]: Read more articles, watch online courses, or buy a book on Java to enhance your knowledge in Java.
+              - listitem [ref=e1063]: Try to develop small software using Java and other technologies like MySQL if you want to make use of a database.
+          - heading "7. What are Java Technologies for Web Applications?" [level=3] [ref=e1064]
+          - blockquote [ref=e1065]:
+            - paragraph [ref=e1066]: "Java provides the following technologies to help web development:"
+            - list [ref=e1067]:
+              - listitem [ref=e1068]: Java Servlet API.
+              - listitem [ref=e1069]: JavaServer Pages Standard Tag Library.
+              - listitem [ref=e1070]: JavaServer Faces Technology.
+              - listitem [ref=e1071]: Java Message Service API.
+              - listitem [ref=e1072]: JDBC API.
+              - listitem [ref=e1073]: Java Persistence API.
+              - listitem [ref=e1074]: Java Naming and Directory Interface.
+              - listitem [ref=e1075]: NetBeans IDE.
+          - heading "8. Which is the best place to learn Java?" [level=3] [ref=e1076]
+          - blockquote [ref=e1077]:
+            - text: You can use our simple and the best Java tutorial to learn Java and Advanced Java. We have removed all the unnecessary complexity while teaching you Java concepts. You can start learning it now
+            - link "Start Learning Java" [ref=e1078] [cursor=pointer]:
+              - /url: /java/index.htm
+            - text: .
+        - generic [ref=e1079]:
+          - button "Print Page" [ref=e1080] [cursor=pointer]:
+            - img [ref=e1081]
+            - text: Print Page
+          - generic [ref=e1083]:
+            - link "Previous" [ref=e1084] [cursor=pointer]:
+              - /url: /java/index.htm
+              - img [ref=e1085]
+              - text: Previous
+            - link "Next" [ref=e1087] [cursor=pointer]:
+              - /url: /java/java_overview.htm
+              - text: Next
+              - img [ref=e1088]
+        - generic [ref=e1091]:
+          - generic [ref=e1092]: Advertisements
+          - generic [ref=e1095]:
+            - iframe [ref=e1098]:
+              - iframe [ref=f53e18]:
+                - generic [active] [ref=f75e1]:
+                  - generic [ref=f75e3]:
+                    - link "Advertisement" [ref=f75e6] [cursor=pointer]:
+                      - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjstzmgu0XGGruVugIj5wd-uCTr5daFn6WRH9op1Qd-qCjPz-ZWRtWbzScp90mTQIVdht_vkNAtGIFy409VsurEVhgs9HqZJCmRf8649R2KW6pkNEeycbIsd6QadmY8v_CvoLI2qu_wGi60ljJjYGAOSeUEmlNZqI90kQAR8tyqv46FK6RL5V4BxOEAGYJw3fXVmsb42zN5YY9FRa_SrZ4AJo6AEs7Go1B1tWu5kLzoVdVB1MoG1ed3EX9Y6ZKhpg9y-oPfktehUmqVlqqvkuCpT1rtjLufuj2CGBV5pyP0jSVo99Xs6Sl32nryciZeZYXCEBu9Gir5lGGZKg_mxEZRBJXDdRl2ntQgkDPJvUGigWNfpUctDlQclzzmx2kIw5P9mZiBL92oe60Ysa-agAmVbq6EydnEUp5WyzXIFWLNrDuvJ6t5CYVi85WuPYvMghqvPJTMON7MRmuGTuZr3RzCL7YpIadkgsg2s-y0vPr_NW3ihE89So_dJugMdmf0EH22e7uy5DY7PEpvaRxoeVv1osf3vepIw436OiqHxi-rgfmkc0EYSt037DNhcvUaW8fkUl67uG5n4uDrwNuh3B8sRdWIGGG2pHbKA6MdTSjvt-o5Z1fIo8U0KhDk4FxZN8RsbXWU1E-pwHIayRN9i5hLzxnNz-grrGEDXj5ZIz_HPdSdYbP-W8QXxWpjFbELYjQU_NDvqcG2U2dAa2Wxkrvd6eHc06ck6XjE7UJHzLq90W9VHQDIG2Dq_GdkkeHQSxlinqpZaZU6g_gCz_pQMSoDPZbeKYLuFhgCLfYxYqqflb9O0hVKuTjjRejXMgCgQgs6D4-htx_j4cgnbdDa-BN6-BgAOXZ-LOUnvfmHEfSWqCsItV25lh75iqyWg8qdeNpbvVF4EOuKq7l2Lf944942-Pua3Noj6KGGCQ67AKohJc8p3oVwA0kCTna21ZvqYlTPVHGHFrfbUnxKKPMrmz0OBkOpvu9csWkbOS8gMsSpaA_uFQKplV5AqD0pptH9oxgWwCuC7jaDMAiFMHdtm4JqN1y_w3ubMKXx9r7Fou2McHcqEPLEQw7MYPqid2bSXPR6a51KgCw4rVIEfEKMF_PPz3ctoZfdgWwL_iJ5CR8P6M3u5XkZCDbHOHq4MraRKVneD6g8vqNH4sNdR5ea_rgdGkXPob5ITNiW3vtIRnHE2KmvwEqSAUejK3WvLJ_BFvoKNuWrnl7K8nA75gSQd7WMh4gsawXtqFhMA6VOcFaSNzAw76ASM9qXqICcRDFGzVUzxkRSbYMqDIrukd0tIj8_E0BRV-nvfY-Vx3ZObjiB4GKzQCNbvrTmrJe5t04Y17qM3c5a-4a-P9KI8AVvpWArLfNAZYu6yav4c6j7L8XgAGdHRVb5twMOT5pT7mRWyr77Z32Qv8MyXCMddeCbCoZfki7cls0iKdHXjg_KkKxDQRtQlSP18sKyW7HKN6d6KD3QwoVzD6h3qd-iotn1jCEreQ-iDSezuaulmve5K1Ie_rl2f8Xvnym_Ag7gxEHE44mNbx9SSbx-t-KrDbeJEIQIvbIf5OWnEu6O_gGHNzXBBxSfyVfC67vap4_U0_w4pZ0-NacLwZU7_N8dr5WHzY95igAKY3lxZAODdqrWyqZDKAcCxlxYqYOJt9ogdOPNKBhMkPU2qc3zugDDun-f3iV9Y1o54UG6zUAyYUHhADlmTkLpgDqOLZ3_yMFRYQrSzs6PlSdczMHhJUQ_NnA7OTQMpCrVcYwYmPspfS_FoZHiZYm6yHe0ijC8i-6cCrfxSzg7Gyth8f353ThGmu37q6Q2gEJbhahtqXvx9ZkkZpYCqQb4nGlo7wFeR0Ja-NclyPveaskOd3RiaqbrU0g26pmc3eFjMzGvDKJVTISRndxeDxv5qkVkzkEZoXq1_QBhMQSM-6ITnvoGGtERo2yEEQ00WgP3KaP3bbBveU1zrKWLt7c2Q40PqNhA&sai=AMfl-YR_e0hbiAARfcDAKskJvRg5g-39Pz5crvq2v5WqyMOD--sYfDRkK4mt0ScKYW-MwgdsCPF5_CyVyJAkDoPC-hCnBtWICCVY8mwku1qp_Ng0utIoA9sUa_PdnTkHUMBJENnkv7258bUCkG-LVTZp9T-rUXl4yzV4gtp0rRoKETh40FEgKmBlGeV2thGT5ztW5eNiVNeprYojgMP5SbDpenLjwdC1EVBQgdTt02WcSp-9wmB0u3HIgylkgmgWY2r8R_PD3G5BU_4hnR0-xaQfT6QwsHvRUAauss6PF7SnP_-X4Pei5Ur6_QrCSyOYkuU9ZVvVdeJ2sC_daUrOw9J5MtqI9SP_ZCxHF3DwroL3Q81UX8n1UN0MVl-3r4MqlVuGNHidRAh4vAB7AMFYZNDeNEPyQV-EAlYI34zxu-XDBtW7MGRPFtAJlIOm2WIedQLZmSYWysZ-zPMXAWAojeCaWH7X0ue1Rm-jtcFh2MltIL-5sVyY6svwYu1zFHpJDMaCgw1Uwf2t2fKKIE3pTmncFfqEKSnS-VzEFz8h60-fvELlo6zQPxj5NJ36sVhrhtXtVMBoIxfm30HxIUXIp7uSMBNoCcyDMMKphY30JsLpzuTks4NPK7yU-s3XggYPK6H0qsgGFMrjYa7NNtRWiGTjjAt9hVCep-Bm3XsCkEOceO4NVnxdQBOHjQrSjRc06FMfPTn1ZhqI5VeL-8vheuyqsweaA_TKyv9LnIPQe4YFycWWQ97qRhkmd8fgjaFqmnMDe7ZU7Xh1q9e3YYKcT632iH_2UUgdMTR5qH9h7pJ4BlEp5kANaZNh-FfM4-EuOmeRr-yvinCk&sig=Cg0ArKJSzFRAcHifNEiD&cry=1&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://dpt.hanover.edu/%3Futm_source%3Ddisplay%26utm_medium%3Dbanner%26utm_campaign%3Dawareness_reg_d_hanover_dpt%26utm_content%3Ddefault%26dclid%3D%25edclid!%26gad_source%3D7%26gad_campaignid%3D23002309426
+                      - img "Advertisement" [ref=f75e7]
+                    - generic [ref=f75e8]:
+                      - generic:
+                        - img [ref=f75e12] [cursor=pointer]
+                        - button [ref=f75e15] [cursor=pointer]:
+                          - img [ref=f75e16]
+                  - iframe [ref=f75e23]:
+                    
+                  - img [ref=f75e24]
+                  - img
+            - iframe [ref=e1101]:
+              - generic [active]:
+                - generic:
+                  - generic [ref=f54e2]:
+                    - link "Advertisement" [ref=f54e5] [cursor=pointer]:
+                      - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsuln2YRBWG_b5BeIx69jzdlqW9qyHK3wP2v95v4ymiEWPFlsqkOAEQwtDw6W0vBMOTapf0aizQRJxsYBtYvXlcndsamRm_LeTJ1B8OH6hqBAwidNxqibposYp9HW0Tc1FLdRpVK45GnhzD0BskRDYXrOnnrag1enKZWxIY3QsqJc8SljUmO6lCKzCZ3znIbJqinQdQbjc0n6tO2MrP6qdKWWy0sEyq2ywOY7ap2vMysb-1DS34cTypx_DYEeZ0baWNUEk-nzkwtwHleDtjoDutK7vP9u5KrN7W171ZZ7aAOINqMZKZhuBBOC0rUkNiHwPP_GHZIyCC4DZG42VYY_WEySvhK8Tmj3PQj7T0em4A9RFCEX-_xUnOHYthWFnZvbudRGBxweoRsqiPHeVScOKs5zv0bp3L5-zr5xDo9lKWod518ckIvVNCAjzuFIqAxW6MvL-awDN0kRnTcBKAYrPUYJPK_JEE482DyJtfd3l2mEvKNeqsAejhP1MUAIfUmNp74waWmVUxNG-ASRQcpUB-1wbVc9H9tANgspTG0MRkrAWD7GmzXRP1DBBaZQRNyhaiwSCLiuQKP4RB2uMO7Hk5KQFAy7y3Os9viJC829iuoUNp-jW9lMdiFop4h0IsJ_aIZM50EScKwnxq8A3m_4qgOFBrNsdAHfGbwehF61zzLLDHdz-iDqF6_cG2ei80aahQYCbe_dEHB_nHNyqAwjG8cOQeo7VexonikGJg1gWFXgLdUJb357D070gA-3N8eEOOdMa7skoubbET5rxHx3YzV61XMY2ELaspJOpe5Ir-C3l-GoIknPf-B8LctruA8yurIg3Fakupx57plL2BV6HuhGsfoU21_syEW-1TZP2hJR4CqVODURxMcMprB8MWdqZVnCeUBXErpUH_gVW6JcFRphtaHfgdPjrWw_wuq4DbgN4uJWaq3X-bvo4Fm41oF3ouJLgVTu1HCW2QeIBvw43-rs2Qf3x2leJtWxoSD8sv_HGi1EOlHtHOXxLIRt3_3wj3HVi71xhcsGpE8-K_-9mbUa6ftdSNsmA7OyG1XV1BVtwYOO_ZVmAcUQyoCA8tUEzhe5XKnmNYL14_fd3ilVjQsmn0K6HiW1A4jdjycV4F2y-wxL0XOQAdwvKIEXP0uo4Bz4em00bzI8BlPNk7g_OgJa2qIWqveYM7_O8NLIsrZqy2oEdi0fCYOdTTWc9LmsAkNTGOx_E88C8czVcrjGHwIvr59EeXNJtjZsq0AmM3RDkaFF5XM3sL9LUjLH18c6IkG0eC89_pYQstrSABZysqIcQijB0nN8Lb4tR31ukDbxyTi9tL1mnnrxUsPiEcxtzVsL-Y08-nuhb5bUCqxGiVSdst0UHmdV1bXrEg9N4TR8xUKOt9PUgvqewS58fNDmXcnGBoMQCH8bsJpP-PUwSKG7pYhtc95PWvBpbTbNg4x3uTeOrb1RiQ1-_6KKD7jybifxLvuToM2MNdSiCSOiNvOI2L--UB4OJSkydQ2jgSd5XSnHGgiCx_M--DyQQTACgaFfHGcSNSZYrAUKd7eBrvTe1S_zviUXeFb1h5Q84p2PwDq23KEqiURz-TCAyOWo-MWlqm6mBTTGV_kmOCYwa2dK1FcmnAui4C-HFAegjZxmOTH9kV1Pfnn6V1cNRw_RPVEgqArep-ezClZu1rK-1qLOA0C5zSSyHKDOLUXLuV6gpdjKCJLKfYQ0Xj2KFc5ECMABy5XS5OMFxze6JepWdZeX3lFYwy1FaScsIxVrwJ0FZhmeAeCutVX7UACydWWaafN1w8O9dDYV-08LrbgSv3NGzl1auyagpqtFfaXRQWwbE3HM6Y-umIIxF1Dg3KBzapRGpPw4ShHf3FmalzIW-tJhV-Ry2m2Pjhw6iATI_Nll5wd-bKbFqNP5c5p3YfM16fI-mMXWpm9ZSg_37Tth-tjdoQ6meDcuNaeAcyaDs9bAAKX0Iw_xyu5P2gdoZMqoKIyO4LnHBI1F7PjBJi6jSysq-Mj_-0Owez0J7UA2hLZoqrKOeMRQb7iOG3pyjI9G2-uEWUaGuUjB-RwPYT2BaX_2Xe3cOKh2R2YaCZENQ&sai=AMfl-YR9gwCssoC5v6Wkoe0BwMoYPUwNEGYEJdMDGEa57Kf2vzb2ZjgyB6x7fLqa7XTT5oyRwos7VeogyeA0Zf94yzzKcj59nSpvJxPag8T3snLEeb_2MAk7w24BYbmFalf_hPvX04pWnBLGtoZyARcBqQZFzFYjj9e-ld4vilzcP507n0k9xN3mz_ku94ow2keP6j_c69tE0WTyKQXQBJSXrcApoLZnTCtaqqJFvga_9-SRhSluYP1bModgq0pu6cIVH8LN-aR2w1Dr9kW75rnRjC0mMpIvKHkfG4ju8IAi5hlXsOCsXWBk3Xdsa8QyWp7cIyXEMDUtJUyIoNG3mfbYUgXcgOXLuE7gpFftexZN3SbeSrUjsg6b1Qf_XFMLFpx_VZAdn2QcNqJQ-3gne_wDIa3D0AKBz3yavm7ne0AGF1i0us2hbWbt2-k1XaoDYyCnFN6iHeFm8NmWw9XdcWZ2qk07d4p33hsUmsG56YVKHDbJYQ7_834bfUORpjvg1-ars2-JMdzCycCIkKoF0Av05CTV4PzFcRCYv0P77Xy5nqRtCQrAR-xFcRBkkNtRiRLjunejrxoR0GvmAGyXp7yBalmeGH80Yg3oVSsdMdZiw_ypFtceyrrt3530EQcbl_aJyB5vrITSPEdVju_x0eIFIlDJ-xpFI3KAQ2phv6PtJNNcd9AbPahdqtAgj7Y4bE6jWEl0HEQyF8CxAZ9Ek9mRLNf90DM1nIdUg1V0WtXo9F3IXRmivhxYCnWOUws-ka7OC-oBAYwCcZ4mWYnCXA37H3czQTnnMYm6j8y6GHBnHC1dP-98b4vUYJPSbPZ2p33LyXdZnJnAnZzvG7piuZrcPGK4emXbo7LTqhTLcwbJZvVuDlg7JlzqA-blHMzCiiLh1W7dp1sLrVwb&sig=Cg0ArKJSzP7IPQ3M6ECg&pr=8:52DFF9F22137262A&cry=1&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://d.agkn.com/pixel/10691/%3Fche%3D2842611106%26cmid%3D35324961%26sid%3D6031710%26pid%3D441973968%26cgid%3D635296699%26cid%3D251084791%26aid%3D9902108%26gdpr%3D%24%7BGDPR%7D%26gdpr_consent%3D%24%7BGDPR_CONSENT_468%7D%26l1%3Dhttps://www.peacocktv.com/stream-movies/hamnet%3Fcid%3D2601aoalwsonpkpddisp301006%26utm_campaign%3D2601aoalwson%26utm_source%3Dpk_vrs_dv360%26utm_medium%3Dpd_disp_awa_bnr%26utm_term%3D441973968%26utm_content%3D251084791%26dclid%3D%25edclid!%26gad_source%3D7%26gad_campaignid%3D23617240767
+                      - img "Advertisement" [ref=f54e6]
+                    - generic [ref=f54e7]:
+                      - generic:
+                        - img [ref=f54e11] [cursor=pointer]
+                        - button [ref=f54e14] [cursor=pointer]:
+                          - img [ref=f54e15]
+                  - generic:
+                    - iframe
+      - generic [ref=e1103]:
+        - iframe [ref=e1108]:
+          - generic [ref=f48e4]:
+            - iframe [ref=f48e15]:
+              - iframe [ref=f79e2]:
+                
+            - iframe [ref=f48e17]:
+              - generic [ref=f162e3]:
+                - generic [ref=f162e4]:
+                  - generic:
+                    - img [ref=f162e8] [cursor=pointer]
+                    - button [ref=f162e11] [cursor=pointer]:
+                      - img [ref=f162e12]
+                - link "DAUGHTER DISCOVERS why her mother went astray after long 52 years wait Learn More" [ref=f162e20] [cursor=pointer]:
+                  - /url: https://article.writeswonder.com/daughter-discovers-why-her-mother-went-astray-after-long-52-years-wait/
+                  - img [ref=f162e21]
+                  - paragraph [ref=f162e22]: DAUGHTER DISCOVERS why her mother went astray after long 52 years wait
+                  - button "Learn More" [ref=f162e23]
+            - iframe [ref=f48e19]:
+              - generic [active] [ref=f413e1]:
+                - generic:
+                  - generic [ref=f413e3]:
+                    - generic [ref=f413e4]:
+                      - generic:
+                        - img [ref=f413e8] [cursor=pointer]
+                        - button [ref=f413e11] [cursor=pointer]:
+                          - img [ref=f413e12]
+                    - link "Man's Sudden Disappearance Led to 7 years long Investigation that Ended On An Unexpected Note Learn More" [ref=f413e20] [cursor=pointer]:
+                      - /url: https://article.writeswonder.com/mans-sudden-disappearance-led-to-investigation-that-continued-for-7-years-and-ended-on-an-unexpected-note/
+                      - img [ref=f413e21]
+                      - paragraph [ref=f413e22]: Man's Sudden Disappearance Led to 7 years long Investigation that Ended On An Unexpected Note
+                      - button "Learn More" [ref=f413e23]
+                  - iframe
+                  - iframe
+            - iframe [ref=f48e21]:
+              - generic [active] [ref=f446e1]:
+                - generic:
+                  - generic [ref=f446e3]:
+                    - generic [ref=f446e4]:
+                      - generic:
+                        - img [ref=f446e8] [cursor=pointer]
+                        - button [ref=f446e11] [cursor=pointer]:
+                          - img [ref=f446e12]
+                    - generic [ref=f446e19]:
+                      - link "Man's Sudden Disappearance Led to 7 years long Investigation that Ended On An Unexpected Note Learn More" [ref=f446e20] [cursor=pointer]:
+                        - /url: https://article.writeswonder.com/mans-sudden-disappearance-led-to-investigation-that-continued-for-7-years-and-ended-on-an-unexpected-note/
+                        - img [ref=f446e21]
+                        - paragraph [ref=f446e22]: Man's Sudden Disappearance Led to 7 years long Investigation that Ended On An Unexpected Note
+                        - button "Learn More" [ref=f446e23]
+                      - iframe [ref=f446e25]:
+                        
+                  - iframe
+                  - iframe
+        - generic [ref=e1111]:
+          - iframe [ref=e1114]:
+            - generic [ref=f49e4]:
+              - iframe [ref=f49e15]:
+                - generic [ref=f72e3]:
+                  - link "Advertisement" [ref=f72e6] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsuNn8QmTLeKHld2Ro4ZbfKEpqcFBinuaXquHm3yW_9LnoemF2-Va3KtLW-cR3My684i9B9-Afl-LVgjWaCySTrBAFYaHU_7HXc8SHQXNKWp2jaW9YQwAzpp_eEZNrBL1RXDYT6PV7xjh8mjFAzkGF0JvsUPEG8a8NBhl10iJKFqTZqT6wRUcA20vYpeQ2a5qsm68lUKKl3ljoL-1vQDJ_bcQlPW5bFbR-JlFdY2k6xT6EZwEsPFxejwf-QGQod3mXCZANISguXrSe3g02DX0s4apse3ASff9VZoL8cBK4UY5gJMui1wZ4t4ZIG7e0NX6molL7jS6NGdtHn38NCofdI5H9qjeot_ug32VdP27ObuvhVwap6sSqCOpUqWNWsut8wYShSj8q3s1EydGhMB6pAD3fkEbWYrRgf6QL0jhv7HyqVZ5QKlGqEfpXY4-AVtqUqZSZ3PordUaKQUYkBV2NTj-ZZDqZ_z242IsBgMDwe9Kxu5ZBbjbgeRnLCIvTDWCqoYuKM_fqn0nUOA9rg_Aw_uZjv0YaiyKBuWcFJAo4dZ2HynnE3gfTMknB24XzTpsnqagoOp9-_BX8MCYN3m1sQN7eK7AB2cF4xAaSPTwy8Z2cgJkAdNcMmpHbELlnd9jULyujxhMidCueNZymGRX1xVHRVhnykNe3-39cgLWEH2aKazq7oL2ZEEKA2QrUiJrdC_CJNCLBAKF2n7iq9lPP07sEL26VuhiiKSFVhjXjlZQfOdM-nd26kN7iszvu42BqtYxP9dtrplo0W6tI2XT_SwT9FWDfmx87om4I53gBLX_7IjExlYPC-0-_7vR_2qGFvJ4RkdqTeeEa4YyHCwiA_fTA2GYVIyFh-gftP0WxwYCdfPrIwwWT-x7zXT1NFf77fXbK9ifC166ZlnSPByzsi6WeGzJICQ236rbJSm8wPrtbe8s90xwUPB6vXo-7hJWuDBXUG0DnHJI4-35j2KwA8Yz9MGthI9wnqMOxkVGmbY6_HNX2h3r5HCShuaqpOV2SMu5Q-z4sQWYGiohdDoRzNKh2lsBoPvLSzWL15DZoK-XrGUi0oc53TlCPNI98V_VVBYTXeWqjCHqyZG8dsiojSyfVg6vpsc8-Do7PP9KH91neo9QEMayPafYGKzN8pzTjyEe1rDNCQP_cUg5jBXl7XGCKJdJGWuEJYueiBAQStaKsgD95MRG_iuXuCvNww7P6LHgUPXjhied7bRnf8YrK3ycAfqyHamBGaOXNHLDk6M_qdZK3BTJ4X7wViWPiMb7qdFUlmhkk9JExv1vklPNvqamJFCv_rNXm0gWXXeKbkcInd7QtuX6CfqxfJqvSiUxieB3DtCvKKPLkXMjFB3eTbrYUqcw7SdmPY5EjlzOQQPzTp_ojHnIufJDVlbLCz5B-j0AuPOTTScCdstKc9zrYedSPRl3crimFZ1xFFQFo4ud9esjuXFQsU0CzShwgRbZcEP-iWLP2-jw7BXr6ws_sfB9ZyKniYPodUJZ8kzwVStK4xjCLsrArdxUquXfjpeXKTI1vgNGvX8riR-QHAdSwBTv0FSO2Co0UyuJ9oLe9CsUyj12pj8-jpizcFp21SIU9MpDg5RS66iI14MccpwqanwqFrRJwSGbXyEIGX_kedmiM4-WnDTf7AS-vp7zXi1wP7cx_6u4OmHLuySJO3movCCxeauU3utKhMOAXHxFWOzl99iQfsPpncayD6aYq4WAbqAp2x1oPk__oHayiPZl1r4wNfjKwuYdajx0Hl3hJ8baNJcN61omoxcpxK0-8IJ-NvuLD8bdDhKaVAuK_ksFiFBntVxBPAJTDjNaPyEbvSgJ5fbq_Hv-0bf5XodMDDfmpNk2bGOAFTciLBZW2PwOt-98Mdux_DADNX_UztOkAZa6CzbKeDRCoUHtxtK7LXZBzEno1XTPAJxeDqRHo_xv__bcJFjj7HVN8h9UEAYfN3eqY74jpK0y91u&sai=AMfl-YRGBS4RD09p9O2NMgQeKLTlXkVDJ_4fnfCS8t2ncWzJEUgdeAAM9UgvIrlrkD27woZ34Rpg6M1Qp315npbjMfRqnyYEg0Qinhw-g251L4sbRentrSmj4Pi1HzHpVrTkwf1fE-87E3Ef0vINat49oQ3sM4Nt_wre9rMOw8Nc-dqJ7qFxCc1ieScP373HeviCp64QDQOMIkW7cuq_nbI3LpP8j8vbDNlpf4roy8eH5PmxMSxMjwlmlrs7os-Ps3nanh6X5PK2UihfN06c2d-RafGAt-M4PmX26S1K7FXTajvWHZp2_0xnWOjLGAzb0flNvudD_G8TH6qpD4TWDXVh2_kanSkqpY8UPebzl8F5MJeXknKMA0oefpbGEBoNnHMvY27JJrc_BUqy3TA2oXzeFnwPp-Z9W14PzUyx1N9MA94WyMl5cPG1ytvZ_k3qJNcYQlU26kPuph1uPAKSyLe-MQKW1byw9CoGJoJ9lVHB8zJx5Q5GrYGo9UneJ5Q0BzVZO9EuwXS87cCfBwPosj9RgRBhd5Bp1yiJSgQL9LY2oWuobxOFcqzoLS4fBML9ypRvg_UrPkd4v6H76B56ek2Ihm0KrBO9TOMiOOQqECJZ1mkIopSexInr-S_yIWGyreKywI-Peh4SBQHSBvZ-MSapRR9PrdCCByb7L2CbN4boPzgs1pvAFCuYniwAv3FzyF9sbGwELOUEk7eqbg9AU4IVIVpIzYwL5HwIVXMdDDcxSthPVuiWLHE3PYiSw7hEkmvPXTBn1Im1aKobXQX4hkedsHAImVd12F1OPjhknNqTAbG8hP3jgAdjz1MNOLUemzS-fAOytKGz8wJs3fcYqJnilkMnKQ67E13T6pEL2l7Kz1l1FCS2Bnv7l8XEF2W31vwJxvtozX1xF-XVj_k&sig=Cg0ArKJSzIp4kRuFiFIy&pr=9:AAABnNDCNPrWshtYw_TKU__4PsZCmzTI1mJbog&cry=1&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://viously-d.openx.net/w/1.0/rc%3Fts%3D2DAABBgABAAECAAIBAAsAAgAAAY4cGAp3Z1IxZGloYjFFHBad16WNvpL4mCkWmYXzt9671NGsAQAcFpydkqSSlu7taxbjuZGM0ZKb4dgBABbkmPKaDRUGeQwALBwVBAAcFQIAHBUIAHwcFQQAHBUCABgMMS4xNjA4ODA2NDQxABwcFQgAHBUCABgMMS4zNDA0NDQ4NDAwAAAcJqbq_JUEFQQ2oOr8lQQWnur8lQQlAhUCpu4BFs4BFpQCFgIWAhYCFgIWwAIW7gEWlAIAHBwsFoCxiqS77IOtKhbrsrXZ5-KA56UBAAAWvNmYgAQWxL6bgAQW8NmkgAQWgIiggAQVGBwUZBSABQAVBCb2Ahb2AhbAAhE1Dib2AjQCACwsFs3f3bisvIasrgEW59ujqqrJy7abAQAW5Jjymg0GKLzZmIAEFsS-m4AEFoCIoIAEFvDZpIAEGAk2Nzg5MjQ2NjIW3uk1FsACJQQWYhgKNzQ5NDQzMzg1MLERGAVPWC1HQgx6FAEUAQAWAhgDcnRiAAw8OAtoYW5vdmVyLmVkdTgCMTAAAAA%26r%3Dhttps://dpt.hanover.edu/%3Futm_source%3Ddisplay%26utm_medium%3Dbanner%26utm_campaign%3Dawareness_reg_d_hanover_dpt%26utm_content%3Ddefault%26dclid%3D%25edclid!%26gad_source%3D7%26gad_campaignid%3D22992033282
+                    - img "Advertisement" [ref=f72e7]
+                  - generic [ref=f72e8]:
+                    - generic:
+                      - img [ref=f72e12] [cursor=pointer]
+                      - button [ref=f72e15] [cursor=pointer]:
+                        - img [ref=f72e16]
+              - iframe [ref=f49e17]:
+                - generic [ref=f148e3]:
+                  - link "Advertisement" [ref=f148e6] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjss-SBxTadyo8OwmPMHIfg7UPjFmOULVkbc82CMFvlGLKN2YKxYnqWZSsliH1mLbvvVgJvHNJS2Fvr20LEua8eAjSiajO2E_WTkMclaSa-yXc6JdKy16HvUr_Tn2eMCjYmVe3VGPuAiy2Qmk2QFtY6m2pLGuJE5Ywz4FYuM9OLEPF7Dscu5zXVzogBgEu06XIPyjlXWuezx6-szpC19CakhdEmF-vJ1dFCakUQsFb4rxNTxYAUSmHB-uJDHZ-IN6tNjy6DAWDcwZRxMxBlsxbAIjkUAeuOdkQolXtaJGTGrJkZdZYpAI5pt3j-wvDV_E3GVtVb0SiYRrWHW6zl_ReIjMaH7Yzt1oEOsxRf8bcjWYiCU0PfEBU0J22iJ86FbJa4j3lWF6xfcG1I9wN4Xvx1VA_5QjWuheeVGnovir9MlLaBK1vywXVToLRPpoS9VqY8EU5obSCZ-rfRMRUFqTArnL1yMPfGmSlHH0EFqgrjeQrXQnn6x4NVt30IBfBeo6Ds9MPNlEPb-G9XrUYkzb5G3v21Psw9lZqVWEbfifYK55n3SzgJgRaZNtj0XCbctOvrDP6RU5mtdcckWGvjHpoWlHTh30SAtndSbCkiTNGTsqFfQeNQzxt4zbdmw8Vt-QgsE2sOvqeZJB8bdydN8TiXrCMLWEatQraOqBizGwrQFZM-xnbFtp_JAUwAubJZrqt7EZbKE0E_qe0dZKUkxrf7O9YFZPANaKxpG_Gl3UOmoaUK83Uat8uFCdCqimJCr0TdwKcbwoSYWoy7JhOb6DtAbfOqUABUBnYA5RlDGcZ2_Q2LmIOEYq-J3QBueyIzPYY7aCJaB1wYrxqnc6j0AtNm7cXG7CxFPf-FSLUlH4NR2YZ3aV2mfMYbef00xwFswy5dNFisIOUiyzPZhchp8xK2TpX1UzJ4z8GLc1x8P8LJ8zx1BhTz43aPS_FoJsxfZBTYK-qVSc8ScdpMKdTdHP-Cq2S5pOoiF5bjGlKEoJT9taiGwcKffLbkErdsg155rcylUE4yE4hH5XOMMZAyBUAP3I_G7MiMZjIPUY2m64mmrN9wfIVTdRitjEi78Au9dYatEC6xuXZZw_bOVRypSUxIj6qYc05fgvxbTZwAEYCSFL47hdDfPm3tZGo55P7SupytA8ycCZvWM4unBhluLX9aAyaTNXWHNlElsrGD0JOQ0mfp3HBMH8dsXUO6P91I-dW-5foB-8NlF1vhhhAXKbSFX5HzZRxse_j8pVjnRxoStjdU7eCxQvxWMoyAXv2ZN9RflcjA-wLfROnvXdk7THZy5pPfLmoQ__6hat2WWr93-mtSEn73h3O_Nvr6UUdLh0W7XqzDHG9BCIaUDNE5pnS20ICgPjkL2cz9lL3tEv51GN2DHIGwlq6w9-4QrExzCN2kH3q2Bf-TTlFOfRLvBq0VfT0ClRdQxriTb_6138pNLjfy7J9E_GCLjJ8GyPld1Xdc7uZTrGPHqVNmjXDv7WOuxNmpRgwcqAW_Mkkna-W4a7Q6ayVerir9MRfDW3efT3wDORWtbyUgg0NVNHzwFlTfzBqaJQtOUb9gAKJSIXZXrtOYRmAO53JdybSGNJ-LCYPORd1Gx9NKjQrfbdCJBFpbZWjm8ImQ0QxScAlDhpgTaiB0d6NkDHR1vf07qw4AkEs85AkwsQ9MxYPPp_wtWnCMKWnqYXU0XTSHOCmFd_lBKmRFp6VlEAD_3tXqEJ4FbCAwPFyDZjTh_JnN-8z2Sq80jGkZw5XcMc8W6NICRFMGAucCwXE3iKbNXGWmGpSz9h0dI58a5I1zvo-SgyOdYiy9l0Q4NuPpAh8xIkiHrkrpStY0iJmOlJSvR8nhier7ZB7Wjgc-5cWOcvhMlJjebPNXXmielUd05L0HhKFlos-LU6sjlbXOZOREOav3vriZRkxjvpsje8sBUA2H5CxBAbVCGmiX01fvpFEUC4cTwUXtLQzqF-MhOoOg&sai=AMfl-YQnntwPPIcWT4Rzclz0QqQ0I8T1XwyY6rrEZ8Y3-cZfsLTSAbtmEyNkfCzI2IRiucuQQB6oOVkW4oltekkuOrbAco-8GL8PzhajEcvyTrbpbaBu-tMGaC0MuNHHCaYemE9ot4x0MhW7mtKj3_u9dCgQTehu4iYSlhDXsW-B3ropkWnQgPA2_tBfBGIuqj30Jnqthndq0r3vmR9RSaFctWpi_w43ZhRDXntQIFU9yUKsQp0e34bivkZi94IsCh-rT-QkM3vcyuJv4IYQhkQw7dt1Wd9hwMrGcCO6i4c7UyBAQqWXtXINrdns14T-_tJArj20qGSyCAMY6ZSaS_tbJuOZPZForfBZ1Ce_kAEyf972qh6DQvyoEybW0Rcq183fKn8K8m4NV0XQUbbetyPWm5jwa3XEPtB29p_RWlwdB7fmC5YREUnX_bmg2p-9TukphiosfBBlo6f385nYr6yaAb0t0oCIDastXCxirgwZ33RYMnuB2HM2pnD2lhF1Df3wpiiIbr9rGztCL7lyTLj4TSUMGuaz5RvYfVBmBB6Gb9Vleyr4kdBNSkT9U2ciqjnZReeAQjp5-QS-TpvM-mBw4Y5JBQU1bOUEX3IijhCj71b80UjiJBnQerihC1oPg3pIYpx0UWHUt3BvYcBashosvnN_2xI2owMMs9IJtr8SML1l3gM7YwRRXYsrDKdOFRzoNj073tjbDeVLDsqQp7iFDHl0I3Zayv_2aK32vRL0sN7zwHuzd5kR7Sg0hlMdRzX990f0qGHZiGgcTKeB1OUnRQ6ybbE1BP3X8zZaURz1BLuFrFwcDqGJtC-rKH-ISjA7SzDzxZnUye5f8LQDVLkqnrirj18AlrzYGy6OxaCTLFycVbyTtEj94NcMwnIRtXpXgg0Ja3GRk_Dj_LI&sig=Cg0ArKJSzJ-kXl4XuI8R&pr=9:AAABnNDCNPI918u34qwFkUnFly6bWXq7AHJrng&cry=1&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://viously-d.openx.net/w/1.0/rc%3Fts%3D2DAABBgABAAECAAIBAAsAAgAAAY4cGApaZ0pUVFhEWXdiHBad16WNvpL4mCkWmYXzt9671NGsAQAcFrqsmtmwn_jYMBax75yoka6pwv8BABbkmPKaDRUGeQwALBwVBAAcFQIAHBUIAHwcFQQAHBUCABgMMS4xNjA4ODA2NDQxABwcFQgAHBUCABgMMS4zNDA0NDQ4NDAwAAAcJqbq_JUEFQQ2oOr8lQQWnur8lQQlAhUCpu4BFs4BFpQCFgIWAhYCFgIWwAIW7gEWlAIAHBwsFoCxiqS77IOtKhbrsrXZ5-KA56UBAAAWvNmYgAQWxL6bgAQW8NmkgAQWgIiggAQVGBwUZBSABQAVBCb2Ahb2AhbAAhE1Dib2AjQCACwsFsnr3bO3hb_fgQEWj6656Ln29ff3AQAW5Jjymg0GKLzZmIAEFsS-m4AEFoCIoIAEFvDZpIAEGAk2NzkxMTQyNzQW3uk1FsACJQQWYhgKNzQ5NDQzMzg1MLERGAVPWC1HQgx6FAEUAQAWAhgDcnRiAAw8OAtoYW5vdmVyLmVkdTgCMTAAAAA%26r%3Dhttps://dpt.hanover.edu/%3Futm_source%3Ddisplay%26utm_medium%3Dbanner%26utm_campaign%3Dawareness_reg_d_hanover_dpt%26utm_content%3Ddefault%26dclid%3D%25edclid!%26gad_source%3D7%26gad_campaignid%3D23002288940
+                    - img "Advertisement" [ref=f148e7]
+                  - generic [ref=f148e8]:
+                    - generic:
+                      - img [ref=f148e12] [cursor=pointer]
+                      - button [ref=f148e15] [cursor=pointer]:
+                        - img [ref=f148e16]
+              - iframe [ref=f49e19]:
+                - generic [active] [ref=f406e1]:
+                  - generic [ref=f406e3]:
+                    - link "Advertisement" [ref=f406e6] [cursor=pointer]:
+                      - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjstksMtW4bx5JgHn_iEZv_WYuItbbQYIpwYJhUxZVAzirRrPfrqVZsHNVOmgF11lL_59CPhR20pM6FRaA6uRsrXyaefqOFDDkknGlLr9ryMtG31SllEe8Sb-ZiYne5vyUL05RYERWnLTI3g--u33P5qUHTUTICKUg-HBH9nj1n6ZqRlJyuWh24z_8XU96FO0qyG72Ibx2B6zBo9tA2I9zsfG8xXNudlbXsihO05XwtIcCr9bKMroBDVWPZfXX_O3lV3aQq3eHfG1gm8SK6pkjCcZD5MvPTXRPhOTfGYyAX58VZb3eAi3QrBxuaINSH4KUMycjK4E8QQC8DJY6d6Dax3eKDGflUIy40s6eNpRfKPjUPvtLtfzRQqngudATOXs891FJJZzXM-K6MCwFphjPp1j_Rmv2KGakl1k2Ha3NyeVRGw268cchZzHzkn2QERvSoZbIrpS7Sarb2kbTy3xr_aqh5dEcme00UEqyhnOqKG20zwP7Lipf6yS8ye0Q3_whWpr9SVu9V_fxG7iD9CA3eQ0_B-_RflHx9zGUVbYdPWsCj7VpW4ocR5aA-ElpM24TCa9YoqOOoW_-W707-KUY8C8uiXW8rZxctvEKBjeEreWMUB0LVy_Eo4WB_tJX-AmZ_I1twdsWtmsFfBAZPeX9BpFaOIlN1u57l382e88DjBekyCI2ndMFKFsc0AzrbEsFieoqMOXujd3jETSFf7GO1X1sK3UpLwL5NqxDJJyRefGAjXVZZXgM1OIC2TxjLMOGzHM5OrqH4qqE352tsB21VzktWloT_1Z8vCdVcEpxS_7dFjLW7OWWGorRajJMbYhAw_HDNExWTgr-LjJtzXq5zdi2VtgkSXSHYORdhHsf5CE7AClo0SiBo6ykKjjn3lH7A1bR8-GaTFZXzFl-DzI_wETGogfxx7GJAwxJ_PHyrTqkpQgfZRC-rceBgyxz4fijmYUKylwZ3O5ZDidgqcRd0-BCeak4vGDDwkuTmDw_h0PObhfDyxBydRwdvS9Mj-m_On9PNAxhzVOgwW3Xk-w2E0KoIm9nyhx6K9x0fwnR_HOz8erB6m-XxJDQKO3N_cMRndUpauYQUYEJM9hIelSA0Cmlrg_gTinjONpq0F3Hvdnga47J_JxIOfJxXiFciEEBreyKIXrRu5B3nGaG85Qy3By-y8dDka2pG_6qxYocrzIXHvVQdP8Ak3pBORNCWnbR-t1R6UPkn2hRraezszOKeLLqznA5tF6JN3FRRfj-xg64i5G5v-teraWVGPR8l-nRQZIXZVpxlQCTovWzUn5zDo2JeFTg48P7Yypoo85C2ZY7yx5HJsev2FJtcyLBqNmVpZNALv9c7f1zYiqSMDbFHFYfGZU4qgM0JRzfsoM_FDtqM6lo7t3Ov8BfUWTI8n99St_iSr7KqrAz5hyWVeXvYvuQAWRLdOy6Ck6bzAkda_0qCGbtzcxcBjhSxTtCnEySLEF2dCVIUmAHJBL4GFv3cSbRjUs8ustuhrXKwrNvaZMCa4QERPGNXrL9epvyx6uR2VRuL43-eqQt5qbjT5YWXusHQQtk6rKum-7EMDrrfQompK6qB89NHDIGqLIt13BrLB0KcViMTVQ_JSovZeGyIZ7W_MKN1vSFMhcHSLfbk6OXu2zy8gqqnj14Xl-pnoDM_QLYQZxXq6nz8jQM3dmY7wDdaZbuQDylRmuuBcYcKRYwTS5e30Mrojuieo8-T3qAJzJncXVPO9cNzKtzaqqL0a9m8nQegXrSJguUf-3Nq6PDjXmm-aUigIqPgiIfNU2pKejRMSrBNO_qwoZOQCDfBDJjLIXnnf5RtUflv2JOQXHfMx2z1D9G64XmXty2m8kNsRHuejGOp48tfJJMlpol-mKlPff2apESWKeFOWfXIosxrGaGBY3BG4h3Ugw6ssKFVdduUNkjPGHVaNFcCvVT-nwitp_EgTQI5L5yrK-G8uVDtHyHvPDXSvYvWTNKCzb6pxZ6qczcR4CxabYR4uqfUZLxUTqa0ZPSgny&sai=AMfl-YTtg9PEkJlFgrVk_pJtpXjIw3NrX3vCaDrES4etNQ1_Yy0pYV2aKF2HMwMfwfkk_oJpZEY6v3-2skn4J__B_MxF0eoZB_wM-s-nFJO-SAWYTOWoawN1WZv_J_dPF_JCatZ3xiqmbtcXzLYEb38iimT4NFP4ypwtReI9w0tEBfx_iXYWWVXdfOLO7bK9sB9m5cpserCe1xhJLswOjsWWv2zPaLg3RGeMvHizII0_gK0wD9Y9WBJx5NBibf6lnrxwG36yiblDtOJGM_5N_vCF-0BcpWhTuzvFLDptnvVwaFiyv8pdsRW4VurHEdTKOG8nFMEJj5gCOwWMmiNCRT_45L6ms_-ZXN_ZNCg3vbRh6PprUjkvs47DPIYUQWl_YJvGKQBd5JIa-VDTZzN3pjChNHGWlls7dCMkR8KJTXD48u0ylrBEpcvPaiYXObvL9dj_OO_T6uZJrqPe2cZoMBeMBs6o2EDcVQKoGIvuVmnDp5AxpfBKCfbaZqpKcvs9ng-5xGyvrz4fWnpm3ZIrgVHgf5a8ABT-BvUVCGs_kfTD6HpHo8aKgqfBLxIOTn_WdUJ_Zesg3mvYVnNQH8sD7m-YAOyb2cyWfsZsW6meeEPTM388x5Mjpptu_g1EaQkM54Tg88CTEzygV55vq0s-NrK_z75WzaLhM6zL3uqvnTgcZkwaCAhEewv1Ke-4nMApDMv5MYyXcYaREDWEXuixTrbGjzh1vgzeS0m3htsqrhCOrPGsGEyfUNqzBi2FIClQ12EzAGzcDviEKm3LO845jFxpAskpsBlFMhL8Dmdn7peI2kZYWtwZT2tdtxeLMQypUN5btykXj8C5kKdVmBRHoJS0EWf4MUqqbW_nzb-EPptWU7iHaESvls-ccReacew&sig=Cg0ArKJSzFisbJfo5pCZ&pr=8:EBA464B75B082361&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://www.uc.edu/hire-student-talent%3Futm_source%3Dcarnegie-digital%26utm_medium%3Ddisplay%26utm_campaign%3Dco-op-employer%2B1010516441%26utm_term%3Ddv360%26utm_content%3Doutreach%26dclid%3D%25edclid!%26gad_source%3D7%26gad_campaignid%3D23394676759
+                      - img "Advertisement" [ref=f406e7]
+                    - generic [ref=f406e8]:
+                      - generic:
+                        - img [ref=f406e12] [cursor=pointer]
+                        - button [ref=f406e15] [cursor=pointer]:
+                          - img [ref=f406e16]
+                  - generic:
+                    - iframe
+              - iframe [ref=f49e21]:
+                - generic [active] [ref=f439e1]:
+                  - generic [ref=f439e3]:
+                    - link "Advertisement" [ref=f439e6] [cursor=pointer]:
+                      - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsusEPlrzMT4ISiu0tG9TBJNyUy94ucUtRi73HDz4X-KgXMtpHvVfwNAAkqNDY3FnRGXRQcsid12U2B5zmXyyN_7m-LZzaKxUg1Ut2_EsM5rdx7UvXqQiWoa_iPLuwHJRmnix-STelr4k5YrlPH542-Rj29CuYE5qpIV79_R10Ricblb75A5opvF_5Fmr_dUJH5sGbKdKg_W6BmlcY73ACltHlyfWubEyW0jsb4UEramTvIUYiWezQkb2EetzSvRROVqzoek7VlKqmNH5uRG7ogy5bgKCXJa8DQdTYAD7fqzpcsK-hxKHpG4_fAwbtr6RzftjKWgXAESiOhKtWDl982jlC21wZh570Vf6HLLUmDYJVCuDnFnciRrW0ZPavknXW4OKqK_B3x7TrLaYzFEXnEjNsbCxOUhQGeUaVTH6s8eazZPK2zW16vuJFmJX5ud5d07at_KJkrMs0ECfkE5XV6BzkEJkrUflvFUE3vpiepg99PrEwOWK6e33VgPsO4gpqccIEku0Tis2-pwzotGna-Ibyo5iWTZomfDok2TSKo0n-WklELq0ZjZhaAKumFg3yTgWToMPYKDO73R2NcDFyVM1vqNT0FQcLmkaqrUDCGwTEXQn3QxnzP3IDCsSV1gs9LCduECELsCvDSVLWDKUo5UIijqZykVo82pvPfF54s5-2HtKe-cnzu1JBOrIhxKkdAtMRGfskX9Lk4iJYCYvHHVM6VlmtAhqCbEPdkgQttz04dNqvNgPD1nH9xoaU5fismRyJkeCefyzwBz49HuRqfEYD7uy24YViTvS5YAWily0WnhRxOgwWaNHoYjSUS15Ln703JSIx8dxwtY5-Ugs_fM1XDgfcrvJMNlmxNtL1j2r8rf82YJOGF1YCJxXVV1u1yvoId6N-e7aCWOAcyfFcfApqAAX9ESRBiRSgvuyHUQzLy-XhnwqUzzreBgVscQENGHxhN8nGEa2D5cos_lPRA4fDpsiwVSXF_4Xa61dk1GcCAZt165AXA2iQfXxyTBPG8OfKet5izkGj6Lh77N-FJfYUITk384O2yRtsa_k7d0_dJs204HcIp1hbLY15dV_a6HvtUYM0SAh80rwuqbuRTE-DrZ_AcNsK2m3Ra4tEJuUCx6Zniby0urFXsCSTTJrCdgjKACVsPDFRc_E1pdY0xoTtdvwrGzuV-KocTASYLdLT4YkRL2df8PLrWNgG83KVwD36aShlOyO3hmxVnngsOCgRbei32al8fyyQvzOPKtwlYpXTnv-t7MRNkU_i6LI_Unzj2LhLpdoTMFaOGAtxWCP44C7gzE42zDrw_X6qTPhrRZyoHgbyHTie1Ww-sa54iNUhqAd3sgmQjSNgTcFp9DCfEYUgIqHWY0-JBsXXstRui24QUlvFBH1sVbnM9K6ZWxB7k5zE4JDG1ZHWeSFOBrkLEmCWcsCFYlsyk-heAY9KMbTzKl2_nfA6ncnOHLLKQkVlLroQIpGJFOM0XIn1NhCHASvYSe4Y6VdaYe2J52uT8BAlpeZUE6nxQTBJ8Zd4jQTRjTL_tFb8qRwjYS9c3owTbaZGNPXNuSazqfPYynXYuAXl2p0EevehBvtc8J3y_aswayQMJqnan1wKmGjTNmsIMqvswCCRaiGzdQPRgBED1oB2dQwstY2TThuwqBw61-yeVQ5GJvO8q-GN1tFwcT0thMNWDhzWxKVYfIbxgriJ_seljTNx63Nz2jhAXaKddXjLFYbdbaVAOlhN1VrwDRKV-Pw0HIyiNmH_Mdb3j-3J6SaWKkAORgWEldvB-d16guCovDX4gVKN_IRYWCvhn_2GUNWrMxOIt9-zy4OueyjAd0oo4YzcaEUCQ4hsoLFKpQnzJXfrtNuyvnvgOn-eIgWr0B86AXh3QeLBMU7azFGCh3i4MuUeBJpgC1Wzm8NoyaUccw1BZLUC9IipeLzdaDDFy5Ms68CLXsOiNS_x4D7zrBwpJdnz-FTxgJpxEnNE0HugiJsDSWd9WC3gjpsW6hvsle_eVV3OIo&sai=AMfl-YTa4YUrjgvtqim_xJTj3LnYT8odOEb_O-sdK2cOEzxV23Crous1i5Y4KZdyazf2oymyZGQJ9J2X-PzDWdYDBfHhPx3eiQUQRc8Ig3ZntX3KTgIc4yuwrGi5zxN8OauB1-qeGMDbrdLXbEyDnbx53Hl3GDW1GkGVXMrvE5vaSsk60eKhpAJicpuciWAmFTbD4twL7-cogdbVFW4Rss8E9W1TLKG93spWxqo1VrZl828P7WO7MoQODQy4wVLCWI3u0fVtLoiuLhnr9eNrw8XjxhzImzPv0sqoiouTosW9UixuxDhgokwQv-y5vTG4hwl7lN4iE3Zs9dTGVR9Oye_lxUq_opo7CbAmtWGjLXd4lFviIFkkWDNB3hJRfLVUfenk4rrKvOlH31gcUQfE6G1PJv0jdSdgjbIKz2dlVulCPTeVe7y_Be2x9YBsuVEMhC5wJAb34vxb_He_oqygeKE5UDXk6JDwudk9TrzTBSDRF7Wl5jU8hvN5-9BY4v4BQcoqQfQ55SDYHQXT0jy2nTrk2I4roqvGt3OYT27sSVxmW6YDWlEJNmE3wlDpzrK6K6C7zmCSOfFmdSth9z7sEWG-JTxQn69aI-GiCp5eYJ5umMtN0xQosI4rfC16XcaxzraYUTwEZlbq8PJgPVdkYKnelGh9bUjLPYC4gA_AflIpn9PBumOvQ0BRSLk1WZl3vlGpRfxLMnucD_O9YU4tUeS0EnKsMhk55RT6bMpaCXcVq8VRvU-BkTcpWHQonnsWRxJMZUy3eXLAXOl8lIUg0Mo6kKE_m20cN91hVkmIQlww_1G7qA1dXMXWZBXu9Q4ZRQ0WQXmZUjylTRqJJVkKEYe1ES3svGR-MJF-7p3znTvar48FZEzVXcoLZeHkD5I&sig=Cg0ArKJSzM9SUrbu7mtw&pr=8:EBA464B75B082361&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://www.uc.edu/hire-student-talent%3Futm_source%3Dcarnegie-digital%26utm_medium%3Ddisplay%26utm_campaign%3Dco-op-employer%2B1010516441%26utm_term%3Ddv360%26utm_content%3Doutreach%26dclid%3D%25edclid!%26gad_source%3D7%26gad_campaignid%3D23394676759
+                      - img "Advertisement" [ref=f439e7]
+                    - generic [ref=f439e8]:
+                      - generic:
+                        - img [ref=f439e12] [cursor=pointer]
+                        - button [ref=f439e15] [cursor=pointer]:
+                          - img [ref=f439e16]
+                  - generic:
+                    - iframe
+          - iframe [ref=e1117]:
+            - generic [ref=f50e4]:
+              - iframe [ref=f50e15]:
+                - generic [ref=f77e3]:
+                  - link "Advertisement" [ref=f77e6] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjss0dl7ydin-XQW3tA3fjVi_vCf1plwb1CEBMAT5l2lKZLIbMKYU-YDCw0V2TiYYctOFevtJti0Asg1hgfCvyX7IoOA1CC7kyoE9A7IDc-zLdVKlH8QVvOsL-tPXw_i24QN-qwmPf2WVXxfcFuydUPvAySEK5yDE5cIxQ42U7XXr9tP2JS6sAfy0wpoA-7ef1CkwepYJxEJoohvelOeFa1MdDWUgJJm88fjvK29BYM8AKXalCIspZtKEsSO_FANPCijWav_2_n2RRFNhAd_lYALaEk0eZKlr_XXVPr0lC5XqRkyvbdknSJ2eKOjjSFyBYbrOYzEI8UDw-Zutab5z7NTFagMqtpJTDLF5TV_V8dUMfYXrAMxBNHnYTuPye68ZFiKlmJwX00t5_NUZPe-sKDEwfN1wyXkMBnGs5pyBVE4QQxLtw9ZktOO-FlGAZHAbEShO9w1QK7I-JZ2buI8v6DYOW9e1T-Hw8jJgrjb1tkWVq86wGqy_CjbL1pYNwJfaQA7K0TuH9hTDYy5nk-tQNejZ2OHyDXzoBmTNJOefPIvDWgdrGZCwkUtdpacqKhiz7Qz4vkSgnEzDBdrQvQ_PDRzl0eR2SH_vLzIMFL_ZLbWzkoTsf_iRElPuA21fTx286vvC5YM83bXfBGAQuQ_q1gjmlkI-oip8onwg5exYkDlpJC0sO1ky5mKQFPnoBOpFr3owHRHi0RycnHCH7hDApjLlmvU6LkUpyAzHS-muOVdWSJO0SwlyoqW6HSF_JpmnEuD4wzS8Q-zDNcdr0VCkDks3AEflhWt6BksOi4QttTycDvsTNWBOfiDTkEFBFVsJH1aUuBJyHUw3t_S1faCPu3PdfJeQTsY2EGKuFBt_Gi5A_bf8_uRj2rqegu7WlPpg9o169ddHYMMzu2PVWf2NED92sjuckN6lf71fOAINrYU0Yf5PMpL1MFEl1TteAt-bhzUiLQdO3z9SFrzTmJ9Qq67dqza7pM6nHOBoN-KrmfGb3sm0rafvKJuSmvx2dIIiRApEqr9lZswdheCc8_O4VRpa4jW9eyeKY3m1WDj6oxZKGeJ_Kev5TxEXkGiIYoPDMsL4ED3p6Dl32BvcFK9uPIYVIaWNllBPZTyuDEYwFgDOFvNTR_dWEmv7VWrGLjp5rX30nu75Z-xeGfnj-_m7X5XD2FN4EKIe-cI6aZDuChuPtDct4Df4ks2vuyD35f6O2Tl5DmZyr0jA3lpGwxeefSACpyJMhPYDaeLk-IRc2cwSA2eB-f2ZzutL4UOnhRgb4yRT2_iKScImj1LOF_l7ICHD09Nh_zWzY3FlJoPrLB2IEU5oUKP25jFaEm0vI7MwnKCg4GooyYJrJDk3RLh6mmiF62z1roSITG1rAnv-Trba2GiagwcbZeRE8VKM2OvzzsUPEeRdaI0vNSJo_KM2GmrN1mlJZ379LPNtM5pue9Xuq_xndzxaG8t0zVoYMukPfsH0BfxFH_XR34cKr0kox3vOKXk0PzXuHc_ZlgeE85ae6W92GOQixdezQM9IW49DKK9kQI-8kVJfEXcOvgrWzt4fK5192rqqJD-G7MDhJyGzkb3m2e-hTylivZ7r0NQyRJqbcpJdEmHi7DN1QsAsH_iiEo8gnmjGmMglxzxhl-J3AwyBDV4B_jLlQQLbb6J1C9NsCLtX3cPwP1AGRBpUPLCIfEJAQ159b43sXuIxSsUacLjP_FPUF0yquHMBnooklz6Yh17vPwods3aK1LMlC_zJEW4RwsZbaz7Lh5ExnIcwkGsPPBPXgFC4mPoy0K8Yon-gGSjOcQJj7uREhLYuosQAfwN9BKKqqtZmGtTvk0oPTmbJxV2IXjL0AUvffqvCf16nds1d-yfDkPvjmpuQhOygYgaWD0KALcPVA3J9Uy0A2tTzqieZsFlvI8G1tzRUtVdIU0OG4OvKgaclZuaFkBM9OFtFSlEx55sY-B6tniDwTTcfVKhcf7jg&sai=AMfl-YQJlozcyL8L0gsQUACaAZw-UQnjmmcIZ1UFCZVK5TOXRzmviJ2a2rDplPD8UTljX7WkHZZgFKdb7lcW-t9SI1NHyJQT-06hsQl4DpIT__19vyYzF122ArhYDvRlMhXd9gfD_I7Nr0w4gwZlp0gt5VUtPfojgepfwHTOTZLayf9o5B01TuukO2hRcr-hrl_xwnuRyX2IyUCol5n_e-1qoQt0T9Lwa2Qcg7A6zggjUTnl4wQ6J7JoBnnJBMuF1SyAkEYfiMyAApHyotCXwcXhm7s__S66U3eX5UH1grZsiHVgu2L44hrAjfRjTS4JMOaw3u3-MQgGwcSKQ4Lohdxl3hzQXoSyJUWCCEireIQmpZL0lx8x61Pc13CXYS4IVJu9l04NPvkYdc_gK_acgUZQTMq1BORdtuot_Gg9XK0NkBRz5NnKz-VhkCeCMwoPzPYKyAVI4Pbt1SJRS1v6Qse4Qx_qZQo1NnVDHAsK9NSBaQTut7ZStYZcHRW29C990i8-ewXxTMOcZTZIvd86dR3nquxVCajmJb2nI8AX3_6F4uCnJgO5O80Oib73KDQDhSazLBGEtLMMvJyqX8uGwFJ7KeiqmKgnz7FvBfwrNSeCgBjgaRl046IL4f6seNa5NPZisbyPcw3hTM56nwNJNfi7YJyJq2VSdx_Gh6ggIcWgxWmfWkdIZuorRdyFcm7BDtbAUxTfSaZQ7pcjBh-BtuNyeSeVrqMToYnEyt1iT_ol3im7Uc3FyBvZ8R_2D8UBWuy-yrrlKj-Z2K6-RZvC3pwgmHVYhZbUDO35hYCQXfsjtjQiQAVmxjDFBmmb9qonIRmlvhY9wTNyaNu0x5MpUvzCC1S8wnnm7FlE31EmiDX7Z7LKyVMYzT0DqCKPWAiHRi6eGrLbs9-YkAVqYJc&sig=Cg0ArKJSzA1iddFJO9De&pr=9:AAABnNDCNPIaFpTOkYj0Xd7_ru32LSVCu6w9hw&cry=1&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://viously-d.openx.net/w/1.0/rc%3Fts%3D2DAABBgABAAECAAIBAAsAAgAAAY4cGApmTFpjY3U1a3ZoHBad16WNvpL4mCkWmYXzt9671NGsAQAcFqqPgqX4252oUBadwvyQxJWX-oEBABbkmPKaDRUGeQwALBwVBAAcFQIAHBUIAHwcFQQAHBUCABgMMS4xNjA4ODA2NDQxABwcFQgAHBUCABgMMS4zNDA0NDQ4NDAwAAAcJqbq_JUEFQQ2oOr8lQQWnur8lQQlAhUCpu4BFs4BFpQCFgIWAhYCFgIWwAIW7gEWlAIAHBwsFoCxiqS77IOtKhbrsrXZ5-KA56UBAAAWvNmYgAQWxL6bgAQW8NmkgAQWgIiggAQVGBwUZBSABQAVBCb2Ahb2AhbAAhE1Dib2AjQCACwsFrS_koecsJ2MigEW6-XIjKuszP2XAQAW5Jjymg0GKLzZmIAEFsS-m4AEFoCIoIAEFvDZpIAEGAk2NzkxMTQyNzQW3uk1FsACJQQWYhgKNzQ5NDQzMzg1MLERGAVPWC1HQgx6FAEUAQAWAhgDcnRiAAw8OAtoYW5vdmVyLmVkdTgCMTAAAAA%26r%3Dhttps://dpt.hanover.edu/%3Futm_source%3Ddisplay%26utm_medium%3Dbanner%26utm_campaign%3Dawareness_reg_d_hanover_dpt%26utm_content%3Ddefault%26dclid%3D%25edclid!%26gad_source%3D7%26gad_campaignid%3D23002288940
+                    - img "Advertisement" [ref=f77e7]
+                  - generic [ref=f77e8]:
+                    - generic:
+                      - img [ref=f77e12] [cursor=pointer]
+                      - button [ref=f77e15] [cursor=pointer]:
+                        - img [ref=f77e16]
+              - iframe [ref=f50e17]:
+                - generic [active] [ref=f160e1]:
+                  - generic:
+                    - generic [ref=f160e3]:
+                      - link "Advertisement" [ref=f160e6] [cursor=pointer]:
+                        - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsvvNJJPc8Fel4567P5uU1cN2ApO7MuTaxWApNOWWx-xQxAxR2ic3R73vwpCItLj38OYNwFf4v58mrV7rg-KwiF0ZDwCo2JHUtoo9en2d8Vv4_nXIwvFkgaAnWv2pDJYZiRforrwLj4H7HmsiSy3Q7VqTiv_BQY7gW2tUaUkQGsSdZYPxcvnz6IiI0trpfxV59OTTH2a-nkYF1HnagGx9Bjfuq1MdpCSzbiaBI8kr_nyALPChGG9aKJNLE9wmmxCmo5XX5wUmpBQ0FvmfH3Q73rD325Yc8k0ZugUDbJ_F1alkU8KpI3GuTev0LsvIOOTNkual5KaK0houdAMSTVMTJq_jIp9I4LTh3Rv5lS2ntrc7ngaNg3w0QmMZTgmeSjxT1Dug-haVRF0JmsdsAqeZ8ETTKhaFm9KKy9d8OFNTdHbF3JiHTbj63BFRDs7XcczgpvhDbj2JNXXBQIVDOZ1qa7v350hh6aTRWLrceCxDjLpb240pJFCTf83Bgq46LiUKmQWOFkDyUNer6XfR-fqlZgZL5AkrL--sUhM7To_XWhu-Z3oxQ04KKHW59hOWsqwEOLoPxTzh08EzqPEyrE6BhlEXqGYF5EYIO0rim812ezEnwM4m7I0OmWD2JGQJorUDGp4wCfySPiWsVLzRJF3JzY6KVCxl8rO2qTqmKoaYLZC-YTp9K8uPH-JubxSgRl8Sc68aUzIS_yajME4X58aA0ehH7d7rBUljiJtHEAEqr_pVrRkRzJ7CdzDg7y0U114uecl6LsrZ7Aea9Wab25PaSEXSbij7QSDu_yd61it-iEvieE97i0Hq6LQugg4ujBlEg-elMHzWST4NybIzDOAuQf7IOMi9inlHbiQOmXsPZimFJWQRmnOAt4M66HVnBAx0hsaVTwQorPQRS5mKjPk29BDYlVhkUsvzwlZRhg4kDALE-uLArSqX2B9GwO2cqsrFvBqQeWXwxeHCApy4ax45ZeRM1CIgd-LaGjCibqZ3d2BGqVnjK2AdS7jjEsvSeQKa188mxdqO3L19QQ70efOhWUrIFc4Rrc6thoJiUS1_IhcOv_ENolKDG9IIulV8JgDEAgY_X1NdfIL6gVewf7jR6AUo4niR32Fj91ugtbeCddQBRSkWkptKGKYuV6w1u944Y7GFBZRk2V9ZzTm5KKR4SIyNx1fuY4E39aVjgULXqQXmSiRyhE07YO1gyAmLf6VdC-H9G7de54SeWWn5thkWvTfXpLa5SzpZOQ7WP7jgCXCKnWrFSdQCsURQbRcpf73oabV8vdLu9aWQFIokqQ9WptfZAmiLKnFZ9ZSQHeO1V5A2c9FU0jwtquS8z8-ZdTYZAmrS-FxlandGM7S1hSvEesUJYOuiqmtf2resyZ4jIObYk8JDv8qryZt7D7mW6Edma0v54l6WF5fMxNSPxyaaPi6X5qYybKMtSFJUcd_IReqnTlymbAiSO0SeDpZeAbZ5nLXd2WFd954nJwht9RddKypVIIV98g33O9NG_mZtHTIdZahkgrE4O11-UAal8BzPm2adVsAzUB3lfqNXbbjPSE0BMT2abCrCnsrAotoGBoTGVJzQNHVt9h2qAdAQU6DLRvWbhR_u5sHucTO2bNNfty-UNkJDuNUED-F9R6hvmXqGYjNov-R8hTlTPFmRjzOM5o0Tv63d1QipKdQmc7_pIrWWIEGTtYZN3hxLpBONoY3YAodbU_PLyVPEvRZQzICuE9MAZobzIIjCOo1ugKtTOPlKdd25aYvTVUh_Xw4oY2Te0qN9BZpeKm1kb1LxFcnNzDRLmxmPctzPl2iN4TaL7DwDUjJw64nXdSzZ0QzlOmCXw_ftQyxq2cvEI4UMpNGEwNxDunWIv7dn8dHrkJBdImFlkPYEqTavjuM7SNIh_MSklid0X_LdreiHX3PybO_qluekMfIp7lX9AHHd6juX4EnNIEgpYir_MiyKl6C_CMeeNzUjW3QiOEx1-20DI6rSolfLSN2T4Nx-KI1JqvX1NYDK6AmdwOsznbtg8Ab3fw31Twis-polny7M9c9VRssVDTq0Fn2U0WwZLNpM0GXAMEEtcymVnHJ_HcDPYvRD3yfHDou0A&sai=AMfl-YTgAmJEfQZYVGUolgQlHWOcczPYtC7v_57_B35yJCuj2mGoWYZbCHYnIOjlw7aT7yuhr4VfgR_g7ECNT2H8o56bF1GbNjpJN4vXhL0TBcazwPgJsAGMSyrGRZYIVeqe_oj9-H0-dyKjbRVdYl3GZrnnVTjGxJtWe7ZzO6Ba3EwUUz6rkzlFGBqQUGnl8-5rwRcLNRnW3ThzSRSPhXwlgBWDhzAk9yiVi-ZFdXZfUMFc9--tiFP2tP7nRWDpMwyBQb95rt6LfWvxG1pGI4PlTI01qpoR_vBThs66P-3ToXUUAn4kYRj-Lqk0YebxqcpSJC0BtRYlnP33z93n0LxLgie5ZCqZziXoj3zq_K3e31pbrnxiKIPxrSXK9d_9C_Nr4fqQgvXICj34ZVJTuqbVPEQIzNhSA2XDaxltoLq8it9pNHTEp2m40tEWzbbw975ZCoOlFPZmF-iadQ28BNwEvCipU5K5_Jq81tS1H_GOm9QfUj7vJznIxBZlMUxK0AQYH6j1aHR6JkgqhgNmCj6HJHuikmwA0xqgjQNehE72Z6j0kST2V31BziixQtnaFBeEvazRs5r-v7qcNOGRr-2vmHut8vT-em4DqWeK0O5tADjNPOml0msU1nQZrCeeVWHqbRsZLGyc4Uz0qMtfrXyOah7-AcAqH7fSsOhM44gTB19zEUzehRZG6G2EXZ4SYrZ9YGSwWIg-V1fzuwscnsOi1JQ6-Xh_ZnwEBLoiJQc7OGDN_idO-C4gu1_5eTXbTA&sig=Cg0ArKJSzGMKrt9Yt5Td&pr=6:0.177969&cry=1&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://clicktrack.pubmatic.com/AdServer/AdDisplayTrackerServlet%3FclickData%3DJnB1YklkPTE2MDEwNyZzaXRlSWQ9MTE0ODUwMCZhZElkPTU1Mzc5Njkma2Fkc2l6ZWlkPTMxJnRsZElkPTAmY2FtcGFpZ25JZD0xNjUxNCZjcmVhdGl2ZUlkPTAmdWNyaWQ9NzgwODc0NDgzNzQ2NjE5MjYyMSZhZFNlcnZlcklkPTI0MyZpbXBpZD04MkI1M0FGMC0zQzNBLTQ2QjgtOUQyQy1ERjEyOTM0NUNDOUMmcGFzc2JhY2s9MA%3D%3D_url%3Dhttps://d.agkn.com/pixel/10691/%3Fche%3D4206605454%26cmid%3D35098758%26sid%3D6031710%26pid%3D441077191%26cgid%3D634628438%26cid%3D250707707%26aid%3D9902108%26gdpr%3D%24%7BGDPR%7D%26gdpr_consent%3D%24%7BGDPR_CONSENT_468%7D%26l1%3Dhttps://www.peacocktv.com/stream-tv/the-real-housewives-of-beverly-hills%3Fcid%3D2601aoalwsonpkpddisp300403%26utm_campaign%3D2601aoalwson%26utm_source%3Dpk_vrs_dv360%26utm_medium%3Dpd_disp_awa_bnr%26utm_term%3D441077191%26utm_content%3D250707707%26dclid%3D%25edclid!%26gad_source%3D7%26gad_campaignid%3D23599193973
+                        - img "Advertisement" [ref=f160e7]
+                      - generic [ref=f160e8]:
+                        - generic:
+                          - img [ref=f160e12] [cursor=pointer]
+                          - button [ref=f160e15] [cursor=pointer]:
+                            - img [ref=f160e16]
+                    - iframe
+                    - iframe
+              - iframe [ref=f50e19]:
+                - generic [active] [ref=f410e1]:
+                  - generic:
+                    - generic [ref=f410e3]:
+                      - link "Advertisement" [ref=f410e6] [cursor=pointer]:
+                        - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsvWLL1hSEa1LzaDBvZQMuklgWOxZbBYhBRROCmT6eopayDwM9-XSHYFzXk5CU5zkUY2ZgKeqsHJ4oLXBoz4uLw44niTX-bnqmmOX2QmjB6x2_gvi1m9r5G2yrxCtTVz40jTgGy96yhyul9dYR7Gut3y5kKuZDPLe7YKNQeNfZzDaT32bbuVtOQ7KjdNpuL5h4VBmi6nI-E7YS5k6U_u2CSofLA0hrOnv7MwujwBgdUh9Q_PNfFkND3wPW4xelwU_HO1PNpS1jR4EmQqHY8OXgF-ewAi8-Z09KlH2udhkGJo6Rg1PTbc50BgsnqouduRCY16DDW6uSFB-36LuUsO5cd6dKaesOdI1bJn_hAmYaT6-pxYic-qvcG7gXu0xCw9K34Y0lJIkUUqkMRW6mary8qIpdHaS2_XFmHrql0PpunD0z__wq2LnvQ8hVP75KF6lLCDV7_vwb7w0Vi-wbi3DEv-peaZAIJ9nAR0PvXz834fDLtUxUS1EdcP9xIg5kI-vzfa9qpLBaQOCXN8QT1AxdjGzYN7dXTMNFyeuKcTVytqQkQ67k6o-9vqpLMnLcDuEEiQ3Eu1_BXdqGBIBRv_SRUGP8iv3rWIlrZtcrzUKkslRKPAxS6gGpd2PZ75Kjac3JMkZxZVqMuyx0KrJCRdaPLW4z9xmVLFCUondMeN9bV0GVQMkmGNvgrAasxcNUv4Hp4QNVokghq6I1xhBPy32XBmJ329kJUTN2O4JZo3zfIo_0xwLbpfxoT71l4eWJRSFHdw4bw3ughYCJEnmkl3J6P5ItoggTOO1OHMwgXTbtiozYHx-etp8MfNFdW33w72xApFLN36qhNCDz-ehw4rm3lFo8eRAwvwj3aV61cwm4nxhPGNAycqWSVrY-eLMsu7Wg-N8U51aGgMlRwMKCV_0t41SFyWCNGGEka5drQVJeB7_98lu5bweSwckyLzODPSvW19W5Bj8A5Gbc7MLMNxrlBLVVj3Jd-OH2XrnYGVfbfVDjZ61Xt8csY2sWSLzehf-xEBjfVgbpUmmsoNn5gn1Qs1C6ZeEElS7s3L-ouR-FZQ6RRYpI8jB94cW_wxDKzOsoX_KvZq0cOZMbBMXePzPKrDwHg0iQW5YITMP6IbqzWTEzbnJHeIW7zETSh5gSQpPElyBiMPYY56fkOO328ByIvP-0rgPKoMpOdA9n-KCq8Sjm1qqkN9xk-ILYMdWdvLvHiVjPBtYAmGcC4Gd9c8eqh5R6Amt6--Izk8CMa8GQC3ZCaccr-Pu4NouOdEDdoUEyOjlRIbmSot6VOA_fla6eyc--FemqMHBPgt3ePOOExnlFYjPEFC0W2PrixWKfniTdxzjeXAM1H06TkReQsmQbhWEwwrF54wNvkk3HpzyOYEhQkzhZ3KfVL3RsO_hz-o3hmS1jSKKDGbhY4qQHijW1f7P-hbJUnXd6VhguLD-M1mkNB6D-1Lpqcj5Zh96vwQ-R_XAguti6Gpkr_fc3nWG3sm19tqcWirJ1MA7vusxAY7DydsLexYDn5blVg-Q3i8u66AWKAtZNCSWxVkNfdk12CEunT7KdEOTEgaKZudmQ7VgGDRr9VpnDp7BDK-pL7CE5sTwXIFhQuurf-iD6hZNiYGOF_l5ZKoJIH2aEkZCoNjGjvbhcIuVLiSpE6k6bFMv-ec2o3UEiMMbRRf3aj3e0ikN2CVM6WEfL2WXnfo-EHaGlG89Jijb0UQ3rJUnUzAgADjPLxLuka_6yDFxk2GsYb9K-v05nHgyLqiiGJl-UHhtq8dTcE7KYT81JA_myRKNjcx9DoOYo9BlqQnLY5vO2WMqXW7gH5LjeXD_tmv-qcS6li26NNplb0g5bgA7KbERBdGeqk2KPDPZcrdsisQSjLE_g51MymxFETNr9AewDq59aDg46Yw6Uls1oBjFRNQQ59FUnknS2SQQdsPaDB1n5o_SJ21EPK9HzKjbOVXMhb0ElBAEksFE1drYp4XEwMQWxA3VyXVNGeEAxEE-rMY4hAXcIA7AVZ5UvDiA2TYYc3dpjmmgFcL2LPi4H3q0fQsBtnpWVC5POHJYJ4YDwMmvqj2NTWZKBSbW0B-wiDX3gvwwnu8fg&sai=AMfl-YSkSJ8VxK4-KttvLSbFgpIEWRpNexA7cLiIq3JbYnk7dHAhISpV4P0PhBQR01xmd6TY4Jj6SEeILBpIyIV97q0q8yAdNKWtHQzCmLy_gcDIt5UJdhjOXNdz7rcnhNBYEzS8fV-oOcyoo87SOYDz_IRHjt6Y5JMKk_jSOKYRXkL8Jmr9xzSov1pTRroFbJXmSecHn0_BFQhKZkr43Towl2U9UEvCVAG6OPF-KQaqbwBJJjgEhfdp6npCv99j-9xTg5MegbHZvM2eEShLTEggP6Y5gAMOip2Wx5Gj-M-T1V9Cp7zywd3hqyxlYAZ6YMMebVvUiycWd_ro4mkFjeWU6HrgkrXt8NCpwJ38mDDhCYxk_4WQ04LIuw7z0flwzkezJGnhGJBxW6eoAtF9bl-gStyCtvzy0pbB5l4mVDZ7soCHVl4u1ZTIpmTOjpOBiNlGYlKPDhoZyjXRJ_v1Bz2jwitNMH7LVZpilEmSNYBkzO-p20np-YL3IhsnPcsPqqmDhereU9P8xjpvWqTDRxURzyu146pqNIM4rF9Ntbx8xa0-D7yxMUavvyl09BH2tB4TkBkr93f6PNKR63YTM-jGJVR2CGkfxKdeISzqlxFkxEWJLgGWKVAXyfJobqWbSN37AcGndGvwJNKAKgLlBEZQ66xNXHHplhSOiLOU9eEI6CGcPO9I3sts0-H9Fx715PZX9lV5dRBBEeVVBl7m2LbxmOYsIowPjQpqTOnmmCXdm-sJKxqqAspo8qHS2gSH_g&sig=Cg0ArKJSzI6xrB_tflNr&pr=6:0.177969&cry=1&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://clicktrack.pubmatic.com/AdServer/AdDisplayTrackerServlet%3FclickData%3DJnB1YklkPTE2MDEwNyZzaXRlSWQ9MTE0ODUwMCZhZElkPTU1Mzc5Njkma2Fkc2l6ZWlkPTMxJnRsZElkPTAmY2FtcGFpZ25JZD0xNjUxNCZjcmVhdGl2ZUlkPTAmdWNyaWQ9NzgwODc0NDgzNzQ2NjE5MjYyMSZhZFNlcnZlcklkPTI0MyZpbXBpZD02NjM3QzMyRS0xODFBLTQ3NUUtOTQzOC1FQTVCRjJEMjYzQjUmcGFzc2JhY2s9MA%3D%3D_url%3Dhttps://d.agkn.com/pixel/10691/%3Fche%3D126943672%26cmid%3D35098758%26sid%3D6031710%26pid%3D441077191%26cgid%3D634628438%26cid%3D250707707%26aid%3D9902108%26gdpr%3D%24%7BGDPR%7D%26gdpr_consent%3D%24%7BGDPR_CONSENT_468%7D%26l1%3Dhttps://www.peacocktv.com/stream-tv/the-real-housewives-of-beverly-hills%3Fcid%3D2601aoalwsonpkpddisp300403%26utm_campaign%3D2601aoalwson%26utm_source%3Dpk_vrs_dv360%26utm_medium%3Dpd_disp_awa_bnr%26utm_term%3D441077191%26utm_content%3D250707707%26dclid%3D%25edclid!%26gad_source%3D7%26gad_campaignid%3D23599193973
+                        - img "Advertisement" [ref=f410e7]
+                      - generic [ref=f410e8]:
+                        - generic:
+                          - img [ref=f410e12] [cursor=pointer]
+                          - button [ref=f410e15] [cursor=pointer]:
+                            - img [ref=f410e16]
+                    - iframe
+                    - iframe
+              - iframe [ref=f50e21]:
+                - generic [ref=f443e3]:
+                  - link "Advertisement" [ref=f443e6] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjstZrq-lE8cuanCJc2BpLriaCMUHx2NIdGa3dw86wQouNqX7t9d9HCvrzrJkWyBL4rsk4HK5CotFShoHcQC-D5DGA5fKFOwIbmGm8P1HiCkKIId-gR0vg72hzrHoZYc-hEKlDbjyqA5JDQmCoyKejAtcSB0rCVtd7woJECInOlYOlnHLM3VNIALUysQp8Vy8P_gGGWZnee8jbL1v0WkVSqur2YbvSNakIAQVn31HfoSvMmeWcE6_zNrZWAJhptCox_s4k48ZRefJMm86tjjxaFVHS7zx7WH_A49LS45hh9kIVPQEDXUEsW0qXmESOqpVMdrzUFc4RQ7jYlUzQdwbF_QYQzURiuy8fXYKosy5LO3u5AroPT7f3ROXE-IgOxu-eHmpZc1-kT1qAGSzBxjsii1cTYx-p0sJOLE6tPfeoH2cJyZdaJPzGxAwqYsw-RwatX0t1ese43GTQbSCsqtaVb-gyqfIgTCvI6x0PFx11pm87ry0acmJdLV2v1O8Rqq9rHzg-vU6W4z2Qg2MqbOiCS0ImabCOiSbrosWZ6E9Dvlf_1rhEMyTw_yQLt_Uvo26FxWwGCg7MEdSmCbCRBATvbL0DOnkVSKrplvyai9JIUQF5i2KSZ8WF4BLd8zuqF2BUuDoAxV6Nhp22IBn36ZXZVsTPgH1C5DBKbgIjOnfd-2Lq7YdSCLLHpaEIOD9lUrOXUjUBMhrzTbijYoLRnZ0ucBbBdrufCqCjBKt_ia5odTfQP1MfBGtceNMT0RmqbUMBeBbxq0_u2L_xUkoiWt6PCHs073HLHMrOyRp512KrCsgoudG-XWZqaINGkCgXeEkUuJP5biOlpzclJvUq3IM4yzUrBNztAxY8ki-q3zGvSu91M-ZXHjjrcxqwYRO8SLfNEMNEyXVC2ofKGv2RTRxJdVpWxnRYGazBxj3WAerrrElJVr29SQ-qXJ-oH5RGoB8FbdXxANkf2PtgMkM23uTX-E9HVImbWlKpgR4QseZ-W3z9CVfluavNya2dkk6dkk6AU86rPBuQmr2dZfZVDBLbxQQTsRIqkExIawpqznIznDqf61mzoWNS6XarDvNy98maNdR8p2luTinmlGXPTBQa41UQYcNQh8xpd5Ho_yu1WQi4-jVJU9rMq7raIyiPNsBncVUcRKApAAATSHOaRH_9yl-2ACbI-m6zmXFEPaoMVhpLEf5mTj3CKoGeZXveu-mA3Se4La4sc9aFmLS-NpEoZxs4lz--trDBiRjjApmY-UA0Vgb_U3b4bacaoQBsRLvJmEeKYx8d1QvyqTgqNH5l08GO4xgfHnhXSwZaMAmRgSUmUYo1evc-a1hsU0emwnGcXmXhPTGMIPpYOI7Uye5dj2_pFB9b5ss4OWB2R_YdKiUpfKoEth48Lj8kDnGbMkdq3aepNcSmHfGWjSHaWG43jKL1jb1dZDOtXGWjlcHt4vngI_jx8MwAYZWNuOB-d_IDJeiI9WgS8nqeCrMR7seVLywK7Nr-NDccUFUW6BPd73RVh2Klr8mk1ixBApzijZsok895mIhBQcllIsm7qA0V_JVuiRxNhufUfj7edbBYNsC-43RxDCfQ5po9d0t8YHGS47pNdne8JxxssENyTJsxDi6DoBFacc9leOMOeJ7wPkJkhg-_K4_p-58aGDy_ltm0gxgxfw5HT4uVMh3KIGAPBrpXb8fSRlB3l3j0HAmBf2bpMOnVH4Po0snrfH4793ClslNkIxTXbEipQqhfnZzX3aX7M4i_FkpSbM7aY_qFCxoAJYIysEHsf6QyKl9zx_O-CmGg2Bokj7Memc7LwGHhTbBKB06qYQoqQkXm624lDfEbdOtwhR2S4FCmB2fyzlpbU88sA9ZstTehuc2ASjP3hXc13ifCmuBb9Po3_zM9d3WBdiocnGSLCaGHApVHXBFAr0tSbq6ojz8w0Gbq975kKI2BvO-oTxgVC4nWQ8k6kexHbFGqPLYloQisGnFLGMcoIJtBVdg2ekyUBzYRSXY1m22yy5XFVz6a5BZIi-Kba7cPqPZveZeaGCWcHMGVsNjhA8UzJz7L8y1G7s4GGZVsIgk7dsu_9GvjxOkbiqsJTiPQnmjNg&sai=AMfl-YSRGpiR8aALRNiNRg1Tf0pFX4NZFrSY9Qi8svprCB5GOYsaQ2QIAWiAL_STlSUJv4PbfjJJtGtl_xrat_rsM1xkGcN-M5NpwU6qh66L2xzjVMw8fjKjdzHavzo-8txP5evspQdw0X0tXAxeNO3Xbrb_JJ_NlyGICLO1UUOVHNCfs5NMzfewA2A1rVX2XvfPEAmkse44kGztDmDbeDbvELUXV6s6Umqfm68CBenua50c1UpbifZGlgKIuSyzYgfGOd4SV2lvZCpR4P2xL1Xw42WsenwLCznxers0W40kL2BHfx-gnImhPbSKmNV6gJChwspzIUu0lCqgyzMu7WtzWyiNwJKCc4fAp9BHttV5vMrTyo1EJ1eBKHsB8iB0wg722pCVZB6l7iRKyAn66E6D4Eb5ZOw79Y9zCmPBvg1mVCrUbEnSLob5YsFTWlt03uPC7mrLc-21lHIH3KQtelU70aDYUf8IBZrm0Y9tJckzihKGeHgA74TM0IItSQkn1kVu159-_yZ03B24XMvpgYyJYAHJR8BgofHiyiU2r22-le9veX3L5pgvdyI7kGcbGHWnQMVU8VSyJGZ03aIJr7AP77r0G5GLufEHADLqiwg4IZM9fA8gOWiPuRCv01Mtm4M19BJSS09amnvgD6iSDdLISDlPoA9IRWdWL2FTxJt3dw2iGlnMqFsMl0dyYP5JYsPAO8HBVfGf8SvdhEQOyM9gdDI_KKnxcy4AJgjvVcP4kPoyHz6kO7i5vgYNM_s1I4I-_XYph7pbAv3N9LUrgu-GzLNnGDmtSgyN-oiIVAk1tGLbhqfvLQ_ldvHkuPJ4hsbfq-e3Ikw6pXZ3j9w0iThOb48F-jvXucFG_9qpHal5I67vkCXNGpbtaLsr8IEwkds-9IJZKMMRVAGa&sig=Cg0ArKJSzOrzEouUNeaV&pr=9:AAABnNDCNPt3NKhg4WOkxIflTIOpM2BaLYlUXQ&cry=1&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://viously-d.openx.net/w/1.0/rc%3Fts%3D2DAABBgABAAECAAIBAAsAAgAAAYwcGApnVHRQa0pEOWNmHBad16WNvpL4mCkWmYXzt9671NGsAQAcFoSE8tuqtpGSrAEW2fvp88Gop8K2AQAW5Jjymg0VBnkMACwcFQQAHBUCABwVCAB8HBUEABwVAgAYDDEuMTYwODgwNjQ0MQAcHBUIABwVAgAYDDEuMzQwNDQ0ODQwMAAAHCam6vyVBBUENqDq_JUEFp7q_JUEJQIVAqbQARa0ARbyARYCFgIWAhYCFp4CFtABFvIBABwcLBaAsYqku-yDrSoW67K12efigOelAQAAFrzZmIAEFsS-m4AEFvDZpIAEFoCIoIAEFRgcFGQUgAUAFQQmzgIWzgIWmgIRNQ4myAI0AgAsLBb5wv2VtoTkm1gW0d7Bk7yflf2YAQAW5Jjymg0GKLzZmIAEFsS-m4AEFoCIoIAEFvDZpIAEGAk3MTEyNDYzMDUWjh0WmgIlBBZWGAc1NjI3MTM0sREYBU9YLUdCDHoUARQBABYCGANydGIADDw4DXBlYWNvY2t0di5jb204AjEwAAAA%26r%3Dhttps://d.agkn.com/pixel/10691/%3Fche%3D2788549491%26cmid%3D35098758%26sid%3D6031710%26pid%3D441077191%26cgid%3D634628438%26cid%3D250707707%26aid%3D9902108%26gdpr%3D%24%7BGDPR%7D%26gdpr_consent%3D%24%7BGDPR_CONSENT_468%7D%26l1%3Dhttps://www.peacocktv.com/stream-tv/the-real-housewives-of-beverly-hills%3Fcid%3D2601aoalwsonpkpddisp300403%26utm_campaign%3D2601aoalwson%26utm_source%3Dpk_vrs_dv360%26utm_medium%3Dpd_disp_awa_bnr%26utm_term%3D441077191%26utm_content%3D250707707%26dclid%3D%25edclid!%26gad_source%3D7%26gad_campaignid%3D23599193973
+                    - img "Advertisement" [ref=f443e7]
+                  - generic [ref=f443e8]:
+                    - generic:
+                      - img [ref=f443e12] [cursor=pointer]
+                      - button [ref=f443e15] [cursor=pointer]:
+                        - img [ref=f443e16]
+        - iframe [ref=e1122]:
+          - iframe [ref=f51e1]:
+            - generic [ref=f52e4]:
+              - iframe [ref=f52e5]:
+                - generic [active]:
+                  - generic:
+                    - generic [ref=f56e2]:
+                      - generic [ref=f56e3]:
+                        - generic:
+                          - img [ref=f56e7] [cursor=pointer]
+                          - button [ref=f56e10] [cursor=pointer]:
+                            - img [ref=f56e11]
+                      - link "DAUGHTER DISCOVERS why her mother went astray after long 52 years wait Learn More" [ref=f56e19] [cursor=pointer]:
+                        - /url: https://article.writeswonder.com/daughter-discovers-why-her-mother-went-astray-after-long-52-years-wait/
+                        - img [ref=f56e20]
+                        - paragraph [ref=f56e21]: DAUGHTER DISCOVERS why her mother went astray after long 52 years wait
+                        - button "Learn More" [ref=f56e22]
+                    - iframe
+                    - iframe
+              - iframe [ref=f52e6]:
+                - generic [ref=f143e2]:
+                  - generic [ref=f143e3]:
+                    - generic:
+                      - img [ref=f143e7] [cursor=pointer]
+                      - button [ref=f143e10] [cursor=pointer]:
+                        - img [ref=f143e11]
+                  - link "Janitor opens a Mysterious Box Left Outside The School on a wintry evening and is left speechless Learn More" [ref=f143e19] [cursor=pointer]:
+                    - /url: https://article.writeswonder.com/janitor-opens-a-mysterious-box-left-outside-the-school-on-a-wintry-evening-and-is-left-speechless/
+                    - img [ref=f143e20]
+                    - paragraph [ref=f143e21]: Janitor opens a Mysterious Box Left Outside The School on a wintry evening and is left speechless
+                    - button "Learn More" [ref=f143e22]
+              - iframe [ref=f52e7]:
+                - generic [ref=f429e2]:
+                  - generic [ref=f429e3]:
+                    - generic:
+                      - img [ref=f429e7] [cursor=pointer]
+                      - button [ref=f429e10] [cursor=pointer]:
+                        - img [ref=f429e11]
+                  - generic [ref=f429e18]:
+                    - link "60 most mysterious places on the earth that you should visit Learn More" [ref=f429e19] [cursor=pointer]:
+                      - /url: https://article.writeswonder.com/60-most-mysterious-places-on-the-earth-that-you-should-visit/
+                      - img [ref=f429e20]
+                      - paragraph [ref=f429e21]: 60 most mysterious places on the earth that you should visit
+                      - button "Learn More" [ref=f429e22]
+                    - iframe [ref=f429e24]:
+                      
+              - iframe [ref=f52e8]:
+                - generic [ref=f460e2]:
+                  - generic [ref=f460e3]:
+                    - generic:
+                      - img [ref=f460e7] [cursor=pointer]
+                      - button [ref=f460e10] [cursor=pointer]:
+                        - img [ref=f460e11]
+                  - generic [ref=f460e18]:
+                    - link "Pomeranian Dog Gets The Last Laugh After Owner Decides To Abandon It In A Shelter Learn More" [ref=f460e19] [cursor=pointer]:
+                      - /url: https://article.writeswonder.com/pomeranian-dog-gets-the-last-laugh-after-owner-decides-to-abandon-it-in-a-shelter/
+                      - img [ref=f460e20]
+                      - paragraph [ref=f460e21]: Pomeranian Dog Gets The Last Laugh After Owner Decides To Abandon It In A Shelter
+                      - button "Learn More" [ref=f460e22]
+                    - iframe [ref=f460e24]:
+                      
+              - iframe [ref=f52e10]:
+                - generic [ref=f470e2]:
+                  - generic [ref=f470e3]:
+                    - generic:
+                      - img [ref=f470e7] [cursor=pointer]
+                      - button [ref=f470e10] [cursor=pointer]:
+                        - img [ref=f470e11]
+                  - generic [ref=f470e18]:
+                    - link "woman's beach vacation comes to an end when an unexpected calamity befalls her Learn More" [ref=f470e19] [cursor=pointer]:
+                      - /url: https://article.writeswonder.com/womans-beach-vacation-comes-to-an-end-when-an-unexpected-calamity-befalls-her/
+                      - img [ref=f470e20]
+                      - paragraph [ref=f470e21]: woman's beach vacation comes to an end when an unexpected calamity befalls her
+                      - button "Learn More" [ref=f470e22]
+                    - iframe [ref=f470e24]:
+                      
+  - contentinfo [ref=e1123]:
+    - list [ref=e1124]:
+      - listitem [ref=e1125]:
+        - link "ABOUT US" [ref=e1126] [cursor=pointer]:
+          - /url: /about/index.htm
+        - text: "|"
+      - listitem [ref=e1127]:
+        - link "OUR TEAM" [ref=e1128] [cursor=pointer]:
+          - /url: /about/about_team.htm
+        - text: "|"
+      - listitem [ref=e1129]:
+        - link "CAREERS" [ref=e1130] [cursor=pointer]:
+          - /url: /about/about_careers.htm
+        - text: "|"
+      - listitem [ref=e1131]:
+        - link "JOBS" [ref=e1132] [cursor=pointer]:
+          - /url: /job_search.php
+        - text: "|"
+      - listitem [ref=e1133]:
+        - link "CONTACT US" [ref=e1134] [cursor=pointer]:
+          - /url: /about/contact_us.htm
+        - text: "|"
+      - listitem [ref=e1135]:
+        - link "TERMS OF USE" [ref=e1136] [cursor=pointer]:
+          - /url: /about/about_terms_of_use.htm
+        - text: "|"
+      - listitem [ref=e1137]:
+        - link "PRIVACY POLICY" [ref=e1138] [cursor=pointer]:
+          - /url: /about/about_privacy.htm
+        - text: "|"
+      - listitem [ref=e1139]:
+        - link "REFUND POLICY" [ref=e1140] [cursor=pointer]:
+          - /url: /about/return_refund_policy.htm
+        - text: "|"
+      - listitem [ref=e1141]:
+        - link "COOKIES POLICY" [ref=e1142] [cursor=pointer]:
+          - /url: /about/about_cookies.htm
+        - text: "|"
+      - listitem [ref=e1143]:
+        - link "FAQ'S" [ref=e1144] [cursor=pointer]:
+          - /url: /about/faq.htm
+    - generic [ref=e1145]:
+      - img "tutorials point logo" [ref=e1146]
+      - generic [ref=e1147]:
+        - link [ref=e1148] [cursor=pointer]:
+          - /url: https://www.facebook.com/tutorialspointindia
+          - img [ref=e1149]
+        - link [ref=e1151] [cursor=pointer]:
+          - /url: https://x.com/tutorialspoint
+          - img [ref=e1152]
+        - link [ref=e1154] [cursor=pointer]:
+          - /url: https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg
+          - img [ref=e1155]
+        - link [ref=e1157] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/tutorialspoint/
+          - img [ref=e1158]
+        - link [ref=e1160] [cursor=pointer]:
+          - /url: https://www.instagram.com/tutorialspoint_/
+          - img [ref=e1161]
+      - generic [ref=e1163]:
+        - link "Download Android App" [ref=e1164] [cursor=pointer]:
+          - /url: https://play.google.com/store/apps/details?id=com.tutorialspoint.onlineviewer
+          - img "Download Android App" [ref=e1165]
+        - link "Download IOS App" [ref=e1166] [cursor=pointer]:
+          - /url: https://itunes.apple.com/us/app/tutorials-point/id914891263?ls=1&mt=8
+          - img "Download IOS App" [ref=e1167]
+    - generic [ref=e1169]:
+      - paragraph [ref=e1170]: Tutorials Point is a leading Ed Tech company striving to provide the best learning material on technical and non-technical subjects.
+      - paragraph [ref=e1171]: Copyright 2026. All Rights Reserved.
+```
